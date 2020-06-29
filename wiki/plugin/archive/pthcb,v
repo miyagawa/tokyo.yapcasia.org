@@ -1,0 +1,25 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1;
+comment	@# @;
+
+
+1.1
+date	2007.04.11.20.04.50;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@edit_address:82.131.112.14,edit_by:drikster,edit_by_icon:,edit_time:Wed%20Apr%2011%2020%3A04%3A50%202007,edit_unixtime:1176321890
+@
+text
+@asdasdas
+@

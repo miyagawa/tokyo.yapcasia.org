@@ -1,0 +1,139 @@
+head	1.6;
+access;
+symbols;
+locks
+	root:1.6;
+comment	@# @;
+
+
+1.6
+date	2006.05.11.08.42.20;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.03.30.12.48.41;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.03.26.07.26.26;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.03.26.07.22.55;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.03.26.07.21.36;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.03.26.07.10.05;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@edit_address:82.151.217.29,edit_by:AnonymousGnome,edit_time:Thu%20May%2011%2008%3A42%3A20%202006,edit_unixtime:1147336940
+@
+text
+@<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... Thanks!!! Links: <a href='http://www.dirare.com'>yellow pages main</a> : [http://www.dirare.com business yellowpages] - [HTTP://www.dirare.com business yellowpages] : [international directory|http://www.dirare.com] - [international directory|HTTP://www.dirare.com] : http://www.dirare.com/India/ : [[http://www.dirare.com companies of the world]] : [[http://www.dirare.com | YP national]] : "global directory" http://www.dirare.com : [http://www.dirare.com|online directory] </u>Even though we decided we *WONT* do any live nor sequential translation of YAPC talks, I think we still need interpreters so that you (speakers) can get help when :
+
+* You want to communicate with audiences
+** "How many people here have used Pugs yet?"
+** "Any questions up to this point?"
+* When audiences look confused or too uncomfortable understanding your talk
+** And want to make sure what you're talking makes sense
+
+Here's a list of primary interpreters, whom you can rely on to communicate with audiences. Blank means either 1) the talk is in a smaller room and won't need any interpretation or 2) we've not yet come with good candidate for primary interpreters.
+
+== 3/29
+
+|Introduction to Pugs (Audrey Tang)|Yoshinori Takesako, Dan Kogai|
+|Module::Compile (Ingy dot Net)|Kenichi Ishigaki, Tatsuhiko Miyagawa|
+|mightyv (Leon Brocard)|Tatsuhiko Miyagawa|
+|JSAN and Ajax (Dave Rolsky)|Daisuke Maki|
+|Jifty (Jesse Vincent)|Kenichi Ishigaki|
+|Perl Best Practices (Damian Conway)|Tatsuhiko Miyagawa|
+
+== 3/30
+
+|Marrying perl with other languages (Chia-Liang Kao)||
+|Template-Toolkit for non-web applications (Marty Pauley)||
+|Perl 6 Update (Damian Conway)|Dan Kogai|
+|Kwiki-Kwiki (Kang-Min Liu)|Tatsuhiko Miyagawa|
+|Perl DateTime project (Dave Rolsky)|Daisuke Maki|
+|Learning Haskell(Audrey Tang)|Dan Kogai,Yoshinori Takesako|
+|SVK: Version Control without Headaches (Chia-Liang Kao)|Yoshinori Takesako|
+|混合語(Kongougo) (Marty Pauley)||
+|Sufficiently Advanced Techniques (Damian Conway)||
+|Wikiwyg (Ingy dot Net)|Tatsuhiko Miyagawa|
+|Keynote (Larry Wall)|Dan Kogai|
+@
+
+
+1.5
+log
+@edit_address:138.243.201.10,edit_by:AnonymousGnome,edit_time:Thu%20Mar%2030%2012%3A48%3A40%202006,edit_unixtime:1143722920
+@
+text
+@d1 1
+a1 1
+Even though we decided we *WONT* do any live nor sequential translation of YAPC talks, I think we still need interpreters so that you (speakers) can get help when :
+@
+
+
+1.4
+log
+@edit_address:203.112.11.45,edit_by:TatsuhikoMiyagawa,edit_time:Sun%20Mar%2026%2007%3A26%3A26%202006,edit_unixtime:1143357986
+@
+text
+@d27 2
+a28 2
+|Learning Haskell(Audrey Tang)||
+|SVK: Version Control without Headaches (Chia-Liang Kao)||
+@
+
+
+1.3
+log
+@edit_address:203.112.11.45,edit_by:TatsuhikoMiyagawa,edit_time:Sun%20Mar%2026%2007%3A22%3A55%202006,edit_unixtime:1143357775
+@
+text
+@d9 1
+a9 1
+Here's a list of primary interpreters, whom you can rely on to communicate with audiences.
+@
+
+
+1.2
+log
+@edit_address:203.112.11.45,edit_by:TatsuhikoMiyagawa,edit_time:Sun%20Mar%2026%2007%3A21%3A36%202006,edit_unixtime:1143357696
+@
+text
+@d22 2
+a23 2
+|Marrying perl with other languages (Chia-Liang Kao)|Daisuke Maki|
+|Template-Toolkit for non-web applications (Marty Pauley)|Tatsuhiko Miyagawa|
+@
+
+
+1.1
+log
+@edit_address:203.112.11.45,edit_by:TatsuhikoMiyagawa,edit_time:Sun%20Mar%2026%2007%3A10%3A05%202006,edit_unixtime:1143357005
+@
+text
+@d7 1
+a7 1
+** And want to confirm what you're talking makes sense
+d10 23
+@

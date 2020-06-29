@@ -1,0 +1,797 @@
+head	1.43;
+access;
+symbols;
+locks
+	root:1.43;
+comment	@# @;
+
+
+1.43
+date	2008.11.18.11.03.23;	author root;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2008.09.30.22.16.28;	author root;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2008.08.05.05.59.56;	author root;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2008.08.05.05.58.25;	author root;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2008.03.30.18.01.21;	author root;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2008.03.20.19.44.28;	author root;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2008.03.09.06.19.38;	author root;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2008.03.08.12.59.54;	author root;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2007.12.20.07.08.09;	author root;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2007.12.19.11.26.06;	author root;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2007.12.14.18.34.43;	author root;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2007.12.05.16.04.40;	author root;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2007.10.01.22.01.07;	author root;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2007.07.04.10.54.24;	author root;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2007.04.16.16.55.51;	author root;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2007.03.09.21.44.33;	author root;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2006.07.10.00.13.16;	author root;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2006.07.10.00.12.54;	author root;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2006.05.25.03.59.49;	author root;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2006.05.24.21.22.52;	author root;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2006.05.24.20.42.28;	author root;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2006.05.23.22.20.21;	author root;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2006.05.23.20.58.20;	author root;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2006.05.23.20.24.15;	author root;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2006.05.23.19.26.02;	author root;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2006.05.23.15.01.33;	author root;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2006.05.23.10.43.00;	author root;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2006.05.23.10.17.53;	author root;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2006.05.23.09.14.00;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2006.05.23.08.39.49;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2006.05.23.07.51.46;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2006.05.22.14.45.34;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2006.05.22.06.15.16;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2006.05.22.04.48.10;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2006.05.22.03.20.30;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2006.05.19.20.26.01;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.03.29.02.57.41;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.03.26.07.06.17;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.03.25.15.04.37;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.03.25.14.55.45;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.03.25.14.55.15;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.03.25.14.53.41;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.03.25.14.48.43;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.43
+log
+@edit_address:93.84.108.156,edit_by:revpaul,edit_by_icon:,edit_time:Tue%20Nov%2018%2011%3A03%3A23%202008,edit_unixtime:1227006203
+@
+text
+@This is a wiki for YAPC::Asia 2006 Tokyo. Feel free to use here for whatever communication and/or announcement purposes. 
+Contents might be deleted after the conference.
+== [http://fdapharmacy.org fda pharmacy] ==
+== [http://online.fdapharmacy.org fda approved] ==
+== [http://www.pharmacyrx.org online rx-pharmacy] ==
+== [http://order.pharmacyrx.org fda drug review] ==
+== [http://www.provacylonline.com buy provacyl online] ==
+== [http://www.fdatablets.com Buy tablets online] ==
+== [http://www.pills-tablets-online.com buy cheap pills online] ==
+== Shortcuts
+* [http://tokyo.yapcasia.org/ YAPC::Asia official page]
+* Timetable [http://tokyo.yapcasia.org/calendar/day.php?getdate=20060329 3/29] [http://tokyo.yapcasia.org/calendar/day.php?getdate=20060330 3/30]
+* [http://yapc.g.hatena.ne.jp/jkondo/ Audio Files] [http://odeo.com/channel/328063/view/ (Odeo)]
+
+== Contents
+
+* ConferenceParty
+* IrcChannels
+* SlidesList
+* HackathonersList
+* SessionInterpreters
+
+== Kwiki Help
+
+For help on Kwiki syntax and other Kwiki issues, visit http://www.kwiki.org/?KwikiHelpIndex.
+and more [http://sunpillrx.com/online/ levitra online] [http://www.youpharmaguide.biz cialis Online]
+[http://www.us-edrugstore.com/ USA Drugs]
+[http://www.youpharmaguide.biz/pharmacy/cialis.html buy cialis Online]
+[http://www.youpharmaguide.biz/pharmacy/cialis_soft_tabs.html cialis soft tabs Online]
+[http://www.fda-drugs-online.org/ FDA Drugs]
+[http://www.divadrugs.com/review/ FDA Drugs]
+
+[http://www.netscape.com/member/justspecialist buy cialis] *
+[http://www.netscape.com/member/jennyacomplia acomplia] *[http://www.netscape.com/member/genericguy generic viagra]
+== [http://www.us-edrugstore.com UK USA DRUG STORE] ==
+@
+
+
+1.42
+log
+@edit_address:93.84.7.219,edit_by:maxidrom11,edit_by_icon:,edit_time:Tue%20Sep%2030%2022%3A16%3A28%202008,edit_unixtime:1222812988
+@
+text
+@d8 2
+@
+
+
+1.41
+log
+@edit_address:86.57.162.238,edit_by:RobertPulmer123,edit_by_icon:,edit_time:Tue%20Aug%20%205%2005%3A59%3A56%202008,edit_unixtime:1217915996
+@
+text
+@d28 1
+a29 1
+
+@
+
+
+1.40
+log
+@edit_address:86.57.162.238,edit_by:RobertPulmer123,edit_by_icon:,edit_time:Tue%20Aug%20%205%2005%3A58%3A25%202008,edit_unixtime:1217915905
+@
+text
+@d25 1
+@
+
+
+1.39
+log
+@edit_address:86.57.213.67,edit_by:Publer,edit_by_icon:,edit_time:Sun%20Mar%2030%2018%3A01%3A21%202008,edit_unixtime:1206900081
+@
+text
+@d32 1
+@
+
+
+1.38
+log
+@edit_address:82.209.228.128,edit_by:sergeantpro13,edit_by_icon:,edit_time:Thu%20Mar%2020%2019%3A44%3A28%202008,edit_unixtime:1206042268
+@
+text
+@d7 1
+@
+
+
+1.37
+log
+@edit_address:41.241.148.157,edit_by:Justf,edit_by_icon:,edit_time:Sun%20Mar%20%209%2006%3A19%3A38%202008,edit_unixtime:1205043578
+@
+text
+@d5 2
+@
+
+
+1.36
+log
+@edit_address:89.109.2.99,edit_by:asder12,edit_by_icon:,edit_time:Sat%20Mar%20%208%2012%3A59%3A54%202008,edit_unixtime:1204981194
+@
+text
+@d25 4
+@
+
+
+1.35
+log
+@edit_address:79.126.22.110,edit_by:Dioos,edit_by_icon:,edit_time:Thu%20Dec%2020%2007%3A08%3A09%202007,edit_unixtime:1198134489
+@
+text
+@d21 3
+a23 1
+and more [http://sunpillrx.com/online/ levitra online] [http://www.pharmalinerx.com/news/ Drugs Online]
+@
+
+
+1.34
+log
+@edit_address:86.57.210.201,edit_by:maxidrom11,edit_by_icon:,edit_time:Wed%20Dec%2019%2011%3A26%3A06%202007,edit_unixtime:1198063566
+@
+text
+@d21 2
+@
+
+
+1.33
+log
+@edit_address:89.109.46.114,edit_by:Dioos,edit_by_icon:,edit_time:Fri%20Dec%2014%2018%3A34%3A43%202007,edit_unixtime:1197657283
+@
+text
+@a1 4
+[http://nikamovie.com/ download movie]
+[http://sunpillrx.com/ levitra online]
+[http://dionpills.org/blog/ cialis review]
+[http://dionpills.org/ generic cialis]
+a20 2
+http://gelpen.110mb.com [http://www.pharmalinerx.com/ Drugs Online]
+[http://www.divadrugs.com FDA Drugs]
+@
+
+
+1.32
+log
+@edit_address:79.126.34.134,edit_by:Dioos,edit_by_icon:,edit_time:Wed%20Dec%20%205%2016%3A04%3A40%202007,edit_unixtime:1196870680
+@
+text
+@d25 2
+a26 1
+http://gelpen.110mb.com
+@
+
+
+1.31
+log
+@edit_address:86.57.209.67,edit_by:maxidrom11,edit_by_icon:,edit_time:Mon%20Oct%20%201%2022%3A01%3A07%202007,edit_unixtime:1191276067
+@
+text
+@d1 6
+a6 1
+This is a wiki for YAPC::Asia 2006 Tokyo. Feel free to use here for whatever communication and/or announcement purposes. Contents might be deleted after the conference.
+@
+
+
+1.30
+log
+@edit_address:10.171.0.2,edit_by:piter322,edit_by_icon:,edit_time:Wed%20Jul%20%204%2010%3A54%3A24%202007,edit_unixtime:1183546464
+@
+text
+@d2 2
+a3 1
+== [http://buying-propecia.110mb.com buying propecia] ==
+@
+
+
+1.29
+log
+@edit_address:10.171.0.2,edit_by:piter322,edit_by_icon:,edit_time:Mon%20Apr%2016%2016%3A55%3A51%202007,edit_unixtime:1176742551
+@
+text
+@d2 1
+a2 1
+
+@
+
+
+1.28
+log
+@edit_address:204.14.154.180,edit_by:miyagawa,edit_by_icon:http%3A%2F%2Fbulknews.typepad.com%2FP506iC0003735833.jpg,edit_time:Fri%20Mar%20%209%2021%3A44%3A33%202007,edit_unixtime:1173476673
+@
+text
+@d19 1
+@
+
+
+1.27
+log
+@edit_address:89.34.173.87,edit_by:skuba,edit_by_icon:,edit_time:Mon%20Jul%2010%2000%3A13%3A16%202006,edit_unixtime:1152490396
+@
+text
+@d6 1
+a6 1
+* [http://yapc.g.hatena.ne.jp/jkondo/ Audio Files]
+@
+
+
+1.26
+log
+@edit_address:89.34.173.87,edit_by:skuba,edit_by_icon:,edit_time:Mon%20Jul%2010%2000%3A12%3A53%202006,edit_unixtime:1152490373
+@
+text
+@a3 1
+https://wigle.net/gps/1152489429_buy-cheap-valium.html
+@
+
+
+1.25
+log
+@edit_address:222.148.31.151,edit_by:miyagawa,edit_by_icon:http%3A%2F%2Fbulknews.typepad.com%2FP506iC0003735833.jpg,edit_time:Thu%20May%2025%2003%3A59%3A49%202006,edit_unixtime:1148529589
+@
+text
+@d4 1
+a4 1
+
+@
+
+
+1.24
+log
+@edit_address:217.73.166.56,edit_by:AnonymousGnome,edit_time:Wed%20May%2024%2021%3A22%3A51%202006,edit_unixtime:1148505771
+@
+text
+@a19 103
+209835578322336930529224_test_num_
+ <br><br><div id="kbektt12511" style="overflow:auto;height:1px;">
+[http://genericlevitra.Rmcinfo.fr buy levitra online]
+[http://celebrexonline.Rmcinfo.fr buy generic celebrex]
+[http://lipitor-online.Rmcinfo.fr generic lipitor Atorvastatin]
+[http://online-paxil.Rmcinfo.fr online paxil buy]
+[http://meridia.rmcinfo.fr  meridia reductil online]
+[http://softtabs.Rmcinfo.fr viagra soft tabs]
+[http://generic-valium.Rmcinfo.fr generic valium online]
+
+</div>
+ <br><br><div id="kbektt12511" style="overflow:auto;height:1px;">
+[http://herbal.Rmcinfo.fr Herbal Pharmacy]
+</div>
+ <br><br><div id="gdfhghgfj" style="overflow:auto;height:1px;">
+[http://buyallegra.Rmcinfo.fr buy allegra]
+[http://augmentin.Rmcinfo.fr Augmentin]
+[http://buspar-online.Rmcinfo.fr buspar-online]
+[http://cipro-buy.Rmcinfo.fr cipro antibiotic]
+[http://danazol.Rmcinfo.fr danazol side effects]
+[http://desyrel.Rmcinfo.fr buy desyrel]
+[http://famvir.Rmcinfo.fr buy famvir]
+[http://fosamax.rmcinfo.fr fosamax buy online]
+[http://imitrex.rmcinfo.fr buy imitrex]
+
+</div>
+ <br><br>[http://vesna.streamlinenettrial.co.uk/Cialis-generic-viagra.html cialis generic viagra]
+ <br><br>
+ <br><br><div id="qp7ghd" style="overflow:auto;height:1px;">
+[http://swiki.cdegroot.com/lineups/3 buy viagra]
+[http://swiki.cdegroot.com/lineups/3 buy generic viagra]
+[http://swiki.cdegroot.com/lineups/2 buy cialis]
+[http://swiki.cdegroot.com/lineups/5 buy levitra]
+</div>
+ <br><br><div id="6fg53" style="overflow:auto;height:1px;">
+[http://genericlevitra.Rmcinfo.fr buy levitra online]
+[http://celebrexonline.Rmcinfo.fr buy generic celebrex]
+[http://lipitor-online.Rmcinfo.fr generic lipitor Atorvastatin]
+[http://online-paxil.Rmcinfo.fr online paxil buy]
+[http://meridia.rmcinfo.fr  meridia reductil online]
+[http://softtabs.Rmcinfo.fr viagra soft tabs]
+[http://generic-valium.Rmcinfo.fr generic valium online]
+[http://herbal.Rmcinfo.fr Herbal Pharmacy]
+[http://buyallegra.Rmcinfo.fr buy allegra]
+[http://augmentin.Rmcinfo.fr Augmentin]
+[http://buspar-online.Rmcinfo.fr buspar-online]
+[http://cipro-buy.Rmcinfo.fr cipro antibiotic]
+[http://danazol.Rmcinfo.fr danazol side effects]
+[http://desyrel.Rmcinfo.fr buy desyrel]
+[http://famvir.Rmcinfo.fr buy famvir]
+[http://fosamax.rmcinfo.fr fosamax buy online]
+[http://imitrex.rmcinfo.fr buy imitrex]
+</div>
+ <br><br><div id="6fg53" style="overflow:auto;height:1px;">
+[http://vesna.kick.ws/zovirax/generic-zovirax.html generic zovirax]
+[http://vesna.kick.ws/zovirax/index.html  zovirax pharmacy]
+[http://vesna.kick.ws/zovirax/ointment-zovirax.html ointment zovirax]
+[http://vesna.kick.ws/zovirax/online-zovirax.html online zovirax]
+[http://vesna.kick.ws/zovirax/sale-zovirax.html sale zovirax]
+[http://vesna.kick.ws/zovirax/order-zovirax.html order zovirax]
+[http://vesna.kick.ws/zovirax/acyclovir-zovirax.html acyclovir zovirax]
+[http://vesna.kick.ws/zovirax/buy-zovirax.html buy zovirax]
+[http://vesna.kick.ws/zovirax/cream-zovirax.html cream zovirax]
+</div>
+ <br><br><div id="6fg53" style="overflow:auto;height:1px;">
+[http://vesna.kick.ws/zovirax/generic-zovirax.html generic zovirax]
+[http://vesna.kick.ws/zovirax/index.html  zovirax pharmacy]
+[http://vesna.kick.ws/zovirax/ointment-zovirax.html ointment zovirax]
+[http://vesna.kick.ws/zovirax/online-zovirax.html online zovirax]
+[http://vesna.kick.ws/zovirax/sale-zovirax.html sale zovirax]
+[http://vesna.kick.ws/zovirax/order-zovirax.html order zovirax]
+[http://vesna.kick.ws/zovirax/acyclovir-zovirax.html acyclovir zovirax]
+[http://vesna.kick.ws/zovirax/buy-zovirax.html buy zovirax]
+[http://vesna.kick.ws/zovirax/cream-zovirax.html cream zovirax]
+</div>
+ <br><br>_julia_forever_this_is_best_girl_but_i_not_love_))
+[http://www.google.com buy viagra]
+ <br><br><u style="display:none;">[http://blog.co.tz/vesna/219/Buy+generic+celebrex.html Buy generic celebrex]
+[http://blog.co.tz/vesna/220/Buy+celebrex+online.html Buy celebrex online]
+[http://blog.co.tz/vesna/222/Buy+celebrex+drug.html Buy celebrex drug]
+[[http://blog.co.tz/vesna/221/Buy+cheap+celebrex.html buy cheap celebrex]</u>
+ <br><br><u style="display:none;">[http://blog.co.tz/cialis/ Buy cialis, buy generic cialis online, cheap cialis online]
+[http://blog.co.tz/cialis/224/Buy+cialis+uk.html Buy cialis uk]
+[http://blog.co.tz/cialis/225/Buy+tadalafil+cialis.html Buy tadalafil cialis]
+[http://blog.co.tz/cialis/226/Buy+cialis+online.html Buy cialis online]
+[http://blog.co.tz/cialis/227/Buy+cialis+generic.html Buy cialis generic]</u>
+ <br><br><u style="display:none;">[http://blog.co.tz/paxil/ Buy paxil, Buy generic paxil, Buy online paxil, Buy cr paxil]
+[http://blog.co.tz/paxil/229/Buy+generic+paxil.html Buy generic paxil]
+[http://blog.co.tz/paxil/230/+Buy+online+paxil.html Buy online paxil]
+[http://blog.co.tz/paxil/231/Buy+Cr+paxil.html Buy Cr Paxil]</u>
+ <br><br><u style="display:none;">[http://blog.co.tz/nexium/237/Buy+nexium%2C+Buy+nexium+online%2C+Buy+generic+nexium.html Buy nexium, Buy nexium online, Buy generic nexium  ]
+[http://blog.co.tz/nexium/238/Buy+nexium+online.html Buy Nexium Online]
+[http://blog.co.tz/nexium/239/Buy+generic+nexium.html Buy generic nexium]
+</u>
+ <br><br><u style="display:none;">[http://swiki.cdegroot.com/lineups/3 buy viagra]
+[http://swiki.cdegroot.com/lineups/3 buy generic viagra]
+[http://swiki.cdegroot.com/lineups/2 buy cialis]
+[http://swiki.cdegroot.com/lineups/5 buy levitra]</u>
+ <br><br><u style="display:none;">[http://blog.co.tz/phentermine/ buy phentermine online]
+[http://blog.co.tz/phentermine/ phentermine]
+[http://blog.co.tz/phentermine/ buy phentermine]
+[http://blog.co.tz/phentermine/ cheap phentermine]
+[http://blog.co.tz/phentermine/ cheap phentermine online]</u>
+@
+
+
+1.23
+log
+@edit_address:202.58.85.8,edit_by:AnonymousGnome,edit_time:Wed%20May%2024%2020%3A42%3A27%202006,edit_unixtime:1148503347
+@
+text
+@d118 5
+@
+
+
+1.22
+log
+@edit_address:211.192.132.153,edit_by:AnonymousGnome,edit_time:Tue%20May%2023%2022%3A20%3A20%202006,edit_unixtime:1148422820
+@
+text
+@d114 4
+@
+
+
+1.21
+log
+@edit_address:210.101.30.44,edit_by:AnonymousGnome,edit_time:Tue%20May%2023%2020%3A58%3A19%202006,edit_unixtime:1148417899
+@
+text
+@d110 4
+@
+
+
+1.20
+log
+@edit_address:202.58.85.2,edit_by:AnonymousGnome,edit_time:Tue%20May%2023%2020%3A24%3A15%202006,edit_unixtime:1148415855
+@
+text
+@d106 4
+@
+
+
+1.19
+log
+@edit_address:202.58.85.2,edit_by:AnonymousGnome,edit_time:Tue%20May%2023%2019%3A26%3A02%202006,edit_unixtime:1148412362
+@
+text
+@d101 5
+@
+
+
+1.18
+log
+@edit_address:202.58.85.2,edit_by:AnonymousGnome,edit_time:Tue%20May%2023%2015%3A01%3A33%202006,edit_unixtime:1148396493
+@
+text
+@d97 4
+@
+
+
+1.17
+log
+@edit_address:210.223.135.202,edit_by:AnonymousGnome,edit_time:Tue%20May%2023%2010%3A43%3A00%202006,edit_unixtime:1148380980
+@
+text
+@d95 2
+@
+
+
+1.16
+log
+@edit_address:202.58.85.2,edit_by:AnonymousGnome,edit_time:Tue%20May%2023%2010%3A17%3A53%202006,edit_unixtime:1148379473
+@
+text
+@d84 11
+@
+
+
+1.15
+log
+@edit_address:202.58.85.2,edit_by:AnonymousGnome,edit_time:Tue%20May%2023%2009%3A13%3A59%202006,edit_unixtime:1148375639
+@
+text
+@d73 11
+@
+
+
+1.14
+log
+@edit_address:59.6.41.172,edit_by:AnonymousGnome,edit_time:Tue%20May%2023%2008%3A39%3A49%202006,edit_unixtime:1148373589
+@
+text
+@d54 19
+@
+
+
+1.13
+log
+@edit_address:210.121.218.117,edit_by:AnonymousGnome,edit_time:Tue%20May%2023%2007%3A51%3A46%202006,edit_unixtime:1148370706
+@
+text
+@d48 6
+@
+
+
+1.12
+log
+@edit_address:202.58.85.2,edit_by:AnonymousGnome,edit_time:Mon%20May%2022%2014%3A45%3A34%202006,edit_unixtime:1148309134
+@
+text
+@d47 1
+@
+
+
+1.11
+log
+@edit_address:202.58.85.8,edit_by:AnonymousGnome,edit_time:Mon%20May%2022%2006%3A15%3A16%202006,edit_unixtime:1148278516
+@
+text
+@d46 1
+@
+
+
+1.10
+log
+@edit_address:202.58.85.2,edit_by:AnonymousGnome,edit_time:Mon%20May%2022%2004%3A48%3A10%202006,edit_unixtime:1148273290
+@
+text
+@d34 12
+@
+
+
+1.9
+log
+@edit_address:202.58.85.8,edit_by:AnonymousGnome,edit_time:Mon%20May%2022%2003%3A20%3A25%202006,edit_unixtime:1148268025
+@
+text
+@d31 3
+@
+
+
+1.8
+log
+@edit_address:70.88.188.14,edit_by:AnonymousGnome,edit_time:Fri%20May%2019%2020%3A26%3A01%202006,edit_unixtime:1148070361
+@
+text
+@d21 10
+@
+
+
+1.7
+log
+@edit_address:221.242.144.74,edit_by:TatsuhikoMiyagawa,edit_time:Wed%20Mar%2029%2002%3A57%3A41%202006,edit_unixtime:1143601061
+@
+text
+@d20 1
+@
+
+
+1.6
+log
+@edit_address:203.112.11.45,edit_by:AnonymousGnome,edit_time:Sun%20Mar%2026%2007%3A06%3A17%202006,edit_unixtime:1143356777
+@
+text
+@d7 1
+@
+
+
+1.5
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2015%3A04%3A37%202006,edit_unixtime:1143299077
+@
+text
+@d14 1
+@
+
+
+1.4
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2014%3A55%3A45%202006,edit_unixtime:1143298545
+@
+text
+@d1 1
+a1 1
+This is a wiki for YAPC::Asia 2006 Tokyo.
+@
+
+
+1.3
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2014%3A55%3A15%202006,edit_unixtime:1143298515
+@
+text
+@d12 1
+@
+
+
+1.2
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2014%3A53%3A41%202006,edit_unixtime:1143298421
+@
+text
+@d8 6
+@
+
+
+1.1
+log
+@edit_address:,edit_by:,edit_time:Sat%20Mar%2025%2014%3A48%3A43%202006,edit_unixtime:1143298123
+@
+text
+@d1 1
+a1 1
+=== Welcome to Your New Kwiki!
+d3 1
+a3 1
+You have successfully installed a new Kwiki. Now you should /edit this page/ and start adding NewPages. For help on Kwiki syntax and other Kwiki issues, visit http://www.kwiki.org/?KwikiHelpIndex.
+d5 2
+a6 1
+If this installation looks more mundane than you had expected after visiting Kwiki sites like http://www.kwiki.org, you need to install some *Kwiki plugins*. Some of the basic plugins you might want are:
+d8 1
+a8 6
+* Kwiki::!RecentChanges
+* Kwiki::Search
+* Kwiki::!UserPreferences
+* Kwiki::!UserName
+* Kwiki::Archive::Rcs
+* Kwiki::Revisions
+d10 1
+a10 3
+These plugin modules are available on [CPAN http://search.cpan.org/search?query=kwiki&mode=dist]. Visit http://www.kwiki.org/?KwikiPluginInstallation to learn more about installing plugins.
+
+--[http://www.kwiki.org/?BrianIngerson Brian Ingerson]
+@

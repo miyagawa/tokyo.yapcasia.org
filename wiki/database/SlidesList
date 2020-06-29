@@ -1,0 +1,38 @@
+Put links to slides of YAPC::Asia talks.
+
+== 3/29
+
+* [IntroductionToPugs http://perlcabal.org/~autrijus/tokyo/pugs.xul] by AudreyTang (also in [english http://perlcabal.org/~autrijus/osdc/pugs.xul])
+* [Module::Compile http://www.kwiki.org/Sporx/pmc.xul] by IngyDotNet
+* [JSAN, Ajax, and Perl http://www.houseabsolute.com/presentations/jsan-ajax-perl-ja/start.html] by DaveRolsky
+* [mighTyV.com http://www.astray.com/static/tmp/mightyv.pdf] by Leon Brocard (acme)
+* [Ruby on Perl(s) http://www.rubyist.net/~matz/slides/yapc2006/] by Matz
+* {file:Plagger.pdf Plagger - RSS/Atom remixing platform} by TatsuhikoMiyagawa
+* [Jifty! http://fsck.com/~jesse/talks/yapc.asia.2006.xul] by Jesse Vincent
+* [http://www.allwebhostingresources.com cheap web hosting]
+* [Babel 17 computer language http://www.rubycolor.org/takahashi/yapc2006/] by MasayoshiTakahashi
+
+== 3/30
+
+* [Marry perl and other languages http://perlcabal.org/~clkao/languages/yapc.asia.2006.xul] by CLKao
+* [Glue - Separate Application Logic from Code http://perl-glue.sourceforge.net/slides/yapc-aisa-2006/start.html] by Kato Atsushi
+* [http://www.cert-world.com Testking]
+* [KwikiKwiki http://svn.kwiki.org/gugod/talks/KwikiKwiki/slides/start.html] by KangMinLiu
+* [LearningHaskell http://perlcabal.org/~autrijus/tokyo/haskell.xul] by AudreyTang
+* [http://www.topwirelessinternet.com wireless internet]
+* [Perl DateTime Project http://www.houseabsolute.com/presentations/perl-datetime-project-tokyo/start.html] by DaveRolsky
+* [http://kasei.com/talks/TemplateToolkitNonWeb.pdf Template Toolkit for non-web applications] by MartyPauley
+* [http://users.endeworks.jp/~daisuke/GettingYourFeetWetWithXS.ppt Getting Your Feet Wet With XS] by Daisuke Maki
+* [http://bloghackers.net/~naoya/pdf/050404inside_hatena_bookmark.pdf Inside Hatena Bookmark's Backend] by [http://d.hatena.ne.jp/naoya/ Naoya Ito]
+* [http://unknownplace.org/slides/catalyst_inside_dry/start.html Catalyst Inside - DRY] by Daisuke Murase (typester)
+* [http://www.tcool.org/yapc/On_Debug_Screens.pdf On Debug Screens] by Kenichi Ishigaki
+* [http://www.dan.co.jp/~dankogai/yapcasia2006/slide.html Perl 5.8 and Unicode - Myths, Facts and Changes] by [http://www.dan.co.jp/~dankogai/ Dan Kogai]
+
+=== Lightning Talks
+
+* [http://perlcabal.org/~autrijus/tokyo/vb.xul Visual Basic Saiko] by AudreyTang
+* [What is a Data Model?; The Relational Model; SQL is not Relational http://www.houseabsolute.com/presentations/sql-is-not-relational/start.html] (longer 20 minute version) by DaveRolsky
+* [PERL5WEBDB http://labs.cybozu.co.jp/blog/kazuho/archives/perl/PERL5WEBDB.ppt] by [Kazuho Oku http://labs.cybozu.co.jp/blog/kazuho/archives/2006/03/perl5webdb.php]
+* [http://unknownplace.org/slides/cpanrecentchanges/start.html CPAN Recent Changes] by Daisuke Murase (typester)
+* [http://namazu.org/~takesako/ppencode/yapc-ppencode.ppt ppencode for Perl lover] by [Takesako Yoshinori http://labs.cybozu.co.jp/blog/takesako/]
+* [http://www.tcool.org/yapc/Lets_play_Sudoku.pdf Let's play Sudoku] by Kenichi Ishigaki

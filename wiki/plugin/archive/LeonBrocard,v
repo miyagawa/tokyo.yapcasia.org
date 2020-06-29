@@ -1,0 +1,27 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1;
+comment	@# @;
+
+
+1.1
+date	2006.03.26.05.27.47;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@edit_address:61.115.195.1,edit_by:AnonymousGnome,edit_time:Sun%20Mar%2026%2005%3A27%3A47%202006,edit_unixtime:1143350867
+@
+text
+@Perl eurohacker, staying at the Shinagawa Prince Hotel Room 3726.
+My phone does not work here, arrgggh.
+Anyway, going to Tsukiji Market Monday Morning when we get up, around 6-7am Monday Morning when we get up, around 6-7am...
+@

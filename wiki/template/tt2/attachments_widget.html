@@ -1,0 +1,14 @@
+<!-- BEGIN attachments_widget -->
+[% count = hub.attachments.get_attachments( page_uri ) -%]
+[% IF count %]
+<table class="attachments_widget">
+<tr><th colspan="2" style="text-align: left">Attachments</th></td>
+[% FOR file = hub.attachments.files %]
+<tr>
+<td><a href="[% file.href %]" title="[% file.size %] - [% file.name %]">[% file.name %]</a></td>
+<td>[% file.size %]</td>
+</tr>
+[% END -%]
+</table>
+[% END -%]
+<!-- END attachments_widget -->

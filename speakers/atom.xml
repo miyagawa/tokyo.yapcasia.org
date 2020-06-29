@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>YAPC::Asia 2006 Tokyo Speakers</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/" />
+    <link rel="self" type="application/atom+xml" href="http://tokyo.yapcasia.org/speakers/atom.xml" />
+   <id>tag:tokyo.yapcasia.org,2006:/speakers//12</id>
+    <link rel="service.post" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12" title="YAPC::Asia 2006 Tokyo Speakers" />
+    <updated>2006-03-22T12:00:54Z</updated>
+    
+    <generator uri="http://www.sixapart.com/movabletype/">Movable Type 3.2</generator>
+ 
+<entry>
+    <title>Daisuke Maki</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/daisuke_maki.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1951" title="Daisuke Maki" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1951</id>
+    
+    <published>2006-03-22T08:54:25Z</published>
+    <updated>2006-03-22T12:00:54Z</updated>
+    
+    <summary>有限会社endeworks代表。ブラジル、アメリカを流浪した後アメリカに飽きて２００４年に帰国。 高速クローラーXango、PerlモジュールSenna、XML::RSS::LibXML等の作者。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>有限会社endeworks代表。ブラジル、アメリカを流浪した後アメリカに飽きて２００４年に帰国。 高速クローラーXango、PerlモジュールSenna、XML::RSS::LibXML等の作者。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Yukihiro Matsumoto</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/yukihiro_matsumoto.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1950" title="Yukihiro Matsumoto" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1950</id>
+    
+    <published>2006-03-22T07:46:55Z</published>
+    <updated>2006-03-22T07:50:23Z</updated>
+    
+    <summary>Yukihiro Matsumoto (&quot;Matz&quot;), the creator of Ruby, is a professional programmer who worked for the Japanese open source company, netlab.jp. &quot;Matz&quot; is also known as one of the open source evangelists in Japan. He&apos;s released several open source products, including...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>Yukihiro Matsumoto ("Matz"), the creator of Ruby, is a professional programmer who worked for the Japanese open source company, netlab.jp. "Matz" is also known as one of the open source evangelists in Japan. He's released several open source products, including cmail, the emacs-based mail user agent, written entirely in emacs lisp.</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Masayuki Moriyama</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/masayuki_moriyama.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1949" title="Masayuki Moriyama" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1949</id>
+    
+    <published>2006-03-22T07:44:12Z</published>
+    <updated>2006-03-22T10:40:59Z</updated>
+    
+    <summary>Perl 5.8.0 の Encode モジュールの CP932 での変換問題に取り組んだのがきっかけで、いろいろな所に出没。圧倒的なシェアを誇る Windows との日本語情報交換をスムースに行えるようにするには、どうしたら良いかを模索している。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>Perl 5.8.0 の Encode モジュールの CP932 での変換問題に取り組んだのがきっかけで、いろいろな所に出没。圧倒的なシェアを誇る Windows との日本語情報交換をスムースに行えるようにするには、どうしたら良いかを模索している。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Shinya Hayakawa</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/shinya_hayakawa.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1948" title="Shinya Hayakawa" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1948</id>
+    
+    <published>2006-03-22T07:42:58Z</published>
+    <updated>2006-03-22T07:43:11Z</updated>
+    
+    <summary></summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        
+        
+    </content>
+</entry>
+<entry>
+    <title>Tatsuhiko Miyagawa</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/tatsuhiko_miyagawa.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1947" title="Tatsuhiko Miyagawa" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1947</id>
+    
+    <published>2006-03-22T07:36:55Z</published>
+    <updated>2006-03-22T07:37:54Z</updated>
+    
+    <summary>Shibuya.pm リーダーにして、CPAN モジュール制作数 で世界3本の指に入る Perl Hacker。著書に Blog Hacks など。現在は Six Apart にて VP of Partner Engineering。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>Shibuya.pm リーダーにして、CPAN モジュール制作数 で世界3本の指に入る Perl Hacker。著書に Blog Hacks など。現在は Six Apart にて VP of Partner Engineering。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Larry Wall</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/larry_wall.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1946" title="Larry Wall" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1946</id>
+    
+    <published>2006-03-22T07:34:36Z</published>
+    <updated>2006-03-22T07:36:40Z</updated>
+    
+    <summary>Writer, Author and Creator of Perl....</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>Writer, Author and Creator of Perl.<br />
+</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Jesse Vincent</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/jesse_vincent.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1945" title="Jesse Vincent" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1945</id>
+    
+    <published>2006-03-22T07:34:03Z</published>
+    <updated>2006-03-23T02:18:15Z</updated>
+    
+    <summary>Jesse is the creator of RT and the founder of Best Practical Solutions. He spends an awful lot of time on airplanes....</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>Jesse is the creator of RT and the founder of Best Practical Solutions. He spends an awful lot of time on airplanes.<br />
+</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Dan Kogai</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/dan_kogai.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1944" title="Dan Kogai" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1944</id>
+    
+    <published>2006-03-22T07:33:06Z</published>
+    <updated>2006-03-22T11:14:57Z</updated>
+    
+    <summary>オープンソース・プログラマー、 元オン・ザ・エッヂ取締役最高技術責任者（CTO） PerlにおけるJcode.pm、そして現在はEncode.pmの開発を手がけている。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>オープンソース・プログラマー、 元オン・ザ・エッヂ取締役最高技術責任者（CTO） PerlにおけるJcode.pm、そして現在はEncode.pmの開発を手がけている。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Masayoshi Takahashi</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/masayoshi_takahashi.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1943" title="Masayoshi Takahashi" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1943</id>
+    
+    <published>2006-03-22T07:32:03Z</published>
+    <updated>2006-03-22T07:32:30Z</updated>
+    
+    <summary>株式会社ツインスパークにてWebアプリケーション開発等に従事するかたわら、日本Rubyの会の代表を務める。Perlはほとんど素人なのにYAPCのスピーカーになってしまってひそかに動揺している。大学時代はSF研究会と推理小説研究会と天文同好会に所属。 好きなCPANモジュールはLWP。好きなメソッドはattr_accessorと綾瀬メソッド。好きな作家は新井素子。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>株式会社ツインスパークにてWebアプリケーション開発等に従事するかたわら、日本Rubyの会の代表を務める。Perlはほとんど素人なのにYAPCのスピーカーになってしまってひそかに動揺している。大学時代はSF研究会と推理小説研究会と天文同好会に所属。</p>
+
+<p>好きなCPANモジュールはLWP。好きなメソッドはattr_accessorと綾瀬メソッド。好きな作家は新井素子。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Kazuho Oku</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/kazuho_oku.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1942" title="Kazuho Oku" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1942</id>
+    
+    <published>2006-03-22T07:31:28Z</published>
+    <updated>2006-03-22T07:31:55Z</updated>
+    
+    <summary>1997年に開発開始したPalm OS用ウェブブラウザ「Palmscape」が評価され、Technology Review 誌 (マサチューセッツ工科大学) より「TR100/2002」を受賞。ＩＰＡ2004年度第１回未踏ソフトウェア創造事業において「ウェブアプリケーション統合開発環境の開発」により「天才プログラマー／スーパークリエータ」認定。2005年8月、サイボウズ・ラボ入社。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>1997年に開発開始したPalm OS用ウェブブラウザ「Palmscape」が評価され、Technology Review 誌 (マサチューセッツ工科大学) より「TR100/2002」を受賞。ＩＰＡ2004年度第１回未踏ソフトウェア創造事業において「ウェブアプリケーション統合開発環境の開発」により「天才プログラマー／スーパークリエータ」認定。2005年8月、サイボウズ・ラボ入社。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Masayoshi Sekimura</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/masayoshi_sekimura.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1941" title="Masayoshi Sekimura" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1941</id>
+    
+    <published>2006-03-22T07:30:43Z</published>
+    <updated>2006-03-22T07:31:19Z</updated>
+    
+    <summary>2005年6月くらいから Six Apart の TypePad engineer。 風呂は結構時間をかけて入る長風呂派。 長風呂で何をしてるかって？もちろんチャンピオンズリーグ観戦ですよ。 ロケフリ＋PSP で Lifehack の申し子っす。 風呂につかりながら見るロナウジーニョの変態フェイントは格別。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>2005年6月くらいから Six Apart の TypePad engineer。<br />
+風呂は結構時間をかけて入る長風呂派。<br />
+長風呂で何をしてるかって？もちろんチャンピオンズリーグ観戦ですよ。<br />
+ロケフリ＋PSP で Lifehack の申し子っす。<br />
+風呂につかりながら見るロナウジーニョの変態フェイントは格別。<br />
+</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Hiroyuki Oyama</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/hiroyuki_oyama.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1940" title="Hiroyuki Oyama" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1940</id>
+    
+    <published>2006-03-22T07:24:17Z</published>
+    <updated>2006-03-22T07:24:54Z</updated>
+    
+    <summary>フリーランスのプログラマで一児の父。DBD::mysqlPP, DBD::PgPP, Net::YahooMessengerなどビミョーなモジュールをCPANに送りつけるものの、その後は「patch待ってます」で放置するダメCPAN Author。著書 Apacheモジュールプログラミングガイド。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>フリーランスのプログラマで一児の父。DBD::mysqlPP, DBD::PgPP, Net::YahooMessengerなどビミョーなモジュールをCPANに送りつけるものの、その後は「patch待ってます」で放置するダメCPAN Author。著書 Apacheモジュールプログラミングガイド。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Atsushi Kato</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/atsushi_kato.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1939" title="Atsushi Kato" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1939</id>
+    
+    <published>2006-03-22T07:23:31Z</published>
+    <updated>2006-03-22T07:24:04Z</updated>
+    
+    <summary>文学部哲学及倫理学専攻出身な文系プログラマ。Perldoc.jp にて、perltoot, perltooc, perluniintro 他いろいろ翻訳してたり、Sumibi.org の Ajax 作ったりしてます。が、最近は、どちらもサボり気味。 アフィリエイト広告配信会社、株式会社アドウェイズに勤務。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>文学部哲学及倫理学専攻出身な文系プログラマ。Perldoc.jp にて、perltoot, perltooc, perluniintro 他いろいろ翻訳してたり、Sumibi.org の Ajax 作ったりしてます。が、最近は、どちらもサボり気味。</p>
+
+<p>アフィリエイト広告配信会社、株式会社アドウェイズに勤務。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Yoshinori Takesako</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/yoshinori_takesako.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1938" title="Yoshinori Takesako" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1938</id>
+    
+    <published>2006-03-22T07:22:26Z</published>
+    <updated>2006-03-22T07:23:13Z</updated>
+    
+    <summary>サイボウズ・ラボ株式会社 所属。 LLDNにてPerlで予約語プログラミングを提唱。 Namazu for Win32 のメンテナでもある。 会社では50%ルールでまったりと仕事してます。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>サイボウズ・ラボ株式会社 所属。<br />
+LLDNにてPerlで予約語プログラミングを提唱。<br />
+Namazu for Win32 のメンテナでもある。<br />
+会社では50%ルールでまったりと仕事してます。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Marty Pauley</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/speakers/marty_pauley.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=12/entry_id=1937" title="Marty Pauley" />
+    <id>tag:tokyo.yapcasia.org,2006:/speakers//12.1937</id>
+    
+    <published>2006-03-22T07:21:17Z</published>
+    <updated>2006-03-22T07:22:15Z</updated>
+    
+    <summary>Marty Pauley is a Hacker and GNU Guerilla from 火星, in Northern Ireland. He codes in many languages, including Perl, to build data manipulation programs and web applications. He manages the network and GNU/Linux systems for a small ISP, and...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/speakers/">
+        <![CDATA[<p>Marty Pauley is a Hacker and GNU Guerilla from 火星, in Northern Ireland.  He codes in many languages, including Perl, to build data manipulation programs and web applications.  He manages the network and GNU/Linux systems for a small ISP, and helps to organise the Belfast Linux User Group.</p>]]>
+        
+    </content>
+</entry>
+
+</feed> 
+

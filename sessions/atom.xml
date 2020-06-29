@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>YAPC::Asia 2006 Tokyo Sessions</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/" />
+    <link rel="self" type="application/atom+xml" href="http://tokyo.yapcasia.org/sessions/atom.xml" />
+   <id>tag:tokyo.yapcasia.org,2006:/sessions//11</id>
+    <link rel="service.post" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11" title="YAPC::Asia 2006 Tokyo Sessions" />
+    <updated>2006-03-22T11:09:38Z</updated>
+    
+    <generator uri="http://www.sixapart.com/movabletype/">Movable Type 3.2</generator>
+ 
+<entry>
+    <title>(TBA)</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/tba.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2016" title="(TBA)" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2016</id>
+    
+    <published>2006-03-22T09:39:19Z</published>
+    <updated>2006-03-22T11:09:38Z</updated>
+    
+    <summary>(TBA)...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>(TBA)</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>What is a Data Model? The Relational Model; SQL is not Relational</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/what_is_a_data_model_the_relat.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2015" title="What is a Data Model? The Relational Model; SQL is not Relational" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2015</id>
+    
+    <published>2006-03-22T09:36:17Z</published>
+    <updated>2006-03-25T12:22:46Z</updated>
+    
+    <summary>A talk about what a data model is, what the relational model describes, and where SQL falls short of the mark. The goal here is to explain some of theory behind the relational model, and the pitfalls that SQL introduces....</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>A talk about what a data model is, what the relational model describes, and where SQL falls short of the mark. The goal here is to explain some of theory behind the relational model, and the pitfalls that SQL introduces.</p>
+
+<p>データモデルとは何か、リレーショナルモデルにより記述されるものとは、また SQL がうまく腑に落ちないケースは何かについて語ります。リレーショナルモデルについての理論や SQL による落とし穴をいくつか解説できればと思います。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>DebugScreen meets PadWalker</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/debugscreen_meets_padwalker.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2014" title="DebugScreen meets PadWalker" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2014</id>
+    
+    <published>2006-03-22T09:35:38Z</published>
+    <updated>2006-03-22T11:09:38Z</updated>
+    
+    <summary>今 Perl Framework 界で騒然のブームとなっている DebugScreen ハック。日本発の Web Application Framework Sledge では PadWalker を用いて、更なる高みを目指します。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>今 Perl Framework 界で騒然のブームとなっている DebugScreen ハック。日本発の Web Application Framework Sledge では PadWalker を用いて、更なる高みを目指します。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Wikiwyg</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/wikiwyg.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2013" title="Wikiwyg" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2013</id>
+    
+    <published>2006-03-22T09:34:39Z</published>
+    <updated>2006-03-25T12:23:29Z</updated>
+    
+    <summary> Wikiwyg is the simple way to add Wysiwyg editing to your existing social software project. Wikiwyg を利用すると、 WYSIWYG エディタを既存のソフトウェアにカンタンに導入することができます。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p> Wikiwyg is the simple way to add Wysiwyg editing to your existing social software project.</p>
+
+<p>Wikiwyg を利用すると、 WYSIWYG エディタを既存のソフトウェアにカンタンに導入することができます。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>続my変数マニアックス(仮)</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/my.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2012" title="続my変数マニアックス(仮)" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2012</id>
+    
+    <published>2006-03-22T09:34:07Z</published>
+    <updated>2006-03-22T11:09:38Z</updated>
+    
+    <summary>my変数とサブルーチンの使い方あれこれ。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>my変数とサブルーチンの使い方あれこれ。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>できる Perl debugger</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/_perl_debugger.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2011" title="できる Perl debugger" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2011</id>
+    
+    <published>2006-03-22T09:33:37Z</published>
+    <updated>2006-03-22T12:40:16Z</updated>
+    
+    <summary>Perl debugger の使い方の初歩の初歩。今まで遣ったことが無い人向けに簡単な例を交えて紹介。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>Perl debugger の使い方の初歩の初歩。今まで遣ったことが無い人向けに簡単な例を交えて紹介。<br />
+</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>CPAN Recent Changes</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/cpan_recent_changes.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2010" title="CPAN Recent Changes" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2010</id>
+    
+    <published>2006-03-22T09:32:58Z</published>
+    <updated>2006-03-22T11:09:38Z</updated>
+    
+    <summary>CPANの更新情報をChangelog付きで購読できるCatalystアプリケーション、CPAN Recent Changesの紹介。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>CPANの更新情報をChangelog付きで購読できるCatalystアプリケーション、CPAN Recent Changesの紹介。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>曜日判定における言語の壁問題</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/post_1.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2009" title="曜日判定における言語の壁問題" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2009</id>
+    
+    <published>2006-03-22T09:32:05Z</published>
+    <updated>2006-03-22T12:39:31Z</updated>
+    
+    <summary>日本人は日本語を使うべきである!日本万歳!日本万歳!...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>日本人は日本語を使うべきである!日本万歳!日本万歳!</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>rapide - Remote Apache IDE</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/rapide_remote_apache_ide.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2008" title="rapide - Remote Apache IDE" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2008</id>
+    
+    <published>2006-03-22T09:30:40Z</published>
+    <updated>2006-03-22T11:09:38Z</updated>
+    
+    <summary>Perl CGI の統合開発環境「rapide」の公開。rapide は、IPA未踏ソフトウェアプロジェクトの支援を受けて開発された、ウェブブラウザ上で動作する統合開発環境であり、 サービス運用中のサーバ上で、CGI の GUI デバッグやバージョン管理等が可能となっている。http://www.ipa.go.jp/jinzai/esp/2004mito1/mdata/9-5.html...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>Perl CGI の統合開発環境「rapide」の公開。rapide は、IPA未踏ソフトウェアプロジェクトの支援を受けて開発された、ウェブブラウザ上で動作する統合開発環境であり、 サービス運用中のサーバ上で、CGI の GUI デバッグやバージョン管理等が可能となっている。http://www.ipa.go.jp/jinzai/esp/2004mito1/mdata/9-5.html</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Let&apos;s play Sudoku</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/lets_play_sudoku.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2007" title="Let's play Sudoku" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2007</id>
+    
+    <published>2006-03-22T09:29:27Z</published>
+    <updated>2006-03-24T11:53:14Z</updated>
+    
+    <summary>Do you know Sudoku or Numberplace, a kind of cross-&apos;number&apos; puzzle. The name &apos;Sudoku&apos; is born in Japan around 1988 (in fact, it&apos;s a trademark), but it seems to have far long history. Anyway, I&apos;ll try to implement Sudoku player...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>Do you know Sudoku or Numberplace, a kind of cross-'number' puzzle. The name 'Sudoku' is born in Japan around 1988 (in fact, it's a trademark), but it seems to have far long history. Anyway, I'll try to implement Sudoku player (solver and generator) with Perl/Tk -- yes, needlessly :-). Let's play!</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>ppencode for Perl6</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/ppencode_for_perl6.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2005" title="ppencode for Perl6" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2005</id>
+    
+    <published>2006-03-22T09:25:55Z</published>
+    <updated>2006-03-22T11:09:38Z</updated>
+    
+    <summary>Lightweight Language Day and Night のラストを飾った伝説のセッション復活。Perlの予約語だけで &quot;&quot;just another perl hacker&quot;&quot; を出力するPerlプログラム。それを拡張して、任意の文字列を出力できるようにした ppencode の紹介です。さらに パワーアップした Perl6 バージョンを(まだ作ってないけど…)頑張って英語で紹介したいと思います。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>Lightweight Language Day and Night のラストを飾った伝説のセッション復活。Perlの予約語だけで ""just another perl hacker"" を出力するPerlプログラム。それを拡張して、任意の文字列を出力できるようにした ppencode の紹介です。さらに<br />
+パワーアップした Perl6 バージョンを(まだ作ってないけど…)頑張って英語で紹介したいと思います。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>SVK: Version Control without the Headaches</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/svk_version_control_without_th.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2004" title="SVK: Version Control without the Headaches" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2004</id>
+    
+    <published>2006-03-22T09:13:30Z</published>
+    <updated>2006-03-25T13:13:49Z</updated>
+    
+    <summary>svk is quickly becoming the version control system of choice for many people who need to work without a constant connection to a master repository, to track and painlessly merge between multiple lines of development, and to transparently branch others&apos;...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>svk is quickly becoming the version control system of choice for many people who need to work without a constant connection to a master repository, to track and painlessly merge between multiple lines of development, and to transparently branch others' projects.</p>
+
+<p>svk は、多くの人にとってベストなバージョン管理システムとして受け入れられています。マスターレポジトリに常につながってる必要がなく、複数の開発ラインをトラックしたりうまいことマージしたり、他人のプロジェクトレポジトリを透過的にブランチしたりといったメリットがあります。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>Marrying perl with other languages</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/marrying_perl_with_other_langu.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2003" title="Marrying perl with other languages" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2003</id>
+    
+    <published>2006-03-22T09:12:31Z</published>
+    <updated>2006-03-25T12:27:36Z</updated>
+    
+    <summary>Chia-liang Kao has been mixing different languages together for fun, writing perl5 in perl6, using CPAN modules in JavaScript. Come to learn the secret recipes and XS-fu, so whenever you are in love with a programming language, they can get...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>Chia-liang Kao has been mixing different languages together for fun, writing perl5 in perl6, using CPAN modules in JavaScript. Come to learn the secret recipes and XS-fu, so whenever you are in love with a programming language, they can get the power of CPAN as well!</p>
+
+<p>Chia-liang Kao は異なるプログラミング言語をまぜこぜにするのが大好きです。perl5 を perl6 で書いたり、JavaScript の中から CPAN モジュールを利用したり。このトークでその秘密のレシピと、ちょっとした XS の魔術を学んで、自分の好きなプログラミング言語に CPAN のパワーを融合させてみましょう！</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>オープンソースソフトウェアにおける統一したレガシーエンコーディングの変換機能の開発について</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/post.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2002" title="オープンソースソフトウェアにおける統一したレガシーエンコーディングの変換機能の開発について" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2002</id>
+    
+    <published>2006-03-22T09:10:06Z</published>
+    <updated>2006-03-22T11:09:38Z</updated>
+    
+    <summary>Perl 5.8.0 から標準サポートされた Encode モジュールでは、Windows 機種依存文字対応のシフトJIS符号化方式の文字コードとして cp932 がサポートされている。しかし、cp932 を日本語EUC符号化方式 や 7ビットJISコード符号化方式に変換する事が出来ないため適切な文字コード変換できないケースが生じている。今回、cp932 を他の符号化方式に変換できるようにするための文字コードの追加を行う。また、他のソフトとのデータ交換が出来るようにする為、libiconv, glibc, Ruby, Python, PHP, PostgreSQL, MySQL, nkf などにも同様の追加・修正を行う予定である。...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>Perl 5.8.0 から標準サポートされた Encode モジュールでは、Windows 機種依存文字対応のシフトJIS符号化方式の文字コードとして cp932 がサポートされている。しかし、cp932 を日本語EUC符号化方式 や 7ビットJISコード符号化方式に変換する事が出来ないため適切な文字コード変換できないケースが生じている。今回、cp932 を他の符号化方式に変換できるようにするための文字コードの追加を行う。また、他のソフトとのデータ交換が出来るようにする為、libiconv, glibc, Ruby, Python, PHP, PostgreSQL, MySQL, nkf などにも同様の追加・修正を行う予定である。</p>]]>
+        
+    </content>
+</entry>
+<entry>
+    <title>混合語 (Kongougo)</title>
+    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/sessions/_kongougo.html" />
+    <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=11/entry_id=2001" title="混合語 (Kongougo)" />
+    <id>tag:tokyo.yapcasia.org,2006:/sessions//11.2001</id>
+    
+    <published>2006-03-22T09:08:07Z</published>
+    <updated>2006-03-25T12:34:24Z</updated>
+    
+    <summary>It is well known that Larry Wall stole lots of good bits from other programming languages to create and then extend Perl. But Perl&apos;s position as the most eclectic Programming language has been threatened by Ruby, created by Matsumoto Yukihiro...</summary>
+    <author>
+        <name>miyagawa</name>
+        <uri>http://blog.bulknews.net/mt/</uri>
+    </author>
+    
+    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/sessions/">
+        <![CDATA[<p>It is well known that Larry Wall stole lots of good bits from other programming languages to create and then extend Perl. But Perl's position as the most eclectic Programming language has been threatened by Ruby, created by Matsumoto Yukihiro by stealing all the best bits from Perl. Larry responded by stealing all the good bits from Ruby to use in Perl6, but he soon realised that this would not be enough. To defeat Ruby, Larry will use his impressive linguistic skills to steal from Matz's native language:Japanese.</p>
+
+<p>This talk starts by examining the existing similarities between Perl5 and Japanese, then looks at some of the new Perl6 features that Larry stole from Japanese.</p>
+
+<p>Larry Wall は、他のプログラミング言語から多くのものを盗み、Perl を拡張してきたことはよく知られています。ですが、もっとも折衷的なプログラミング言語としての地位は、 Ruby の作者であるまつもとゆきひろ氏が Perl から多くのものを盗んだことにより、脅かされてきています。</p>
+
+<p>それに対して Larry は、Ruby のいいところを盗んで Perl6 にとりこんでいますが、それでは足りないということに気づきました。Ruby を打ち負かすには、Larry は自身のすばらしい言語学の才能をもって、Matz の母国語である「日本語」から盗む必要があったのです。</p>
+
+<p>このトークでは、Perl5 と日本語の類似性から始まり、Perl6 の新機能のうち日本語から盗んだと思われるものを、いくつか解説します。</p>]]>
+        
+    </content>
+</entry>
+
+</feed> 
+

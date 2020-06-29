@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="generator" content="Movable Type 3.2" />
+
+   <link rel="stylesheet" href="http://tokyo.yapcasia.org/sessions/styles-site.css" type="text/css" />
+   <link rel="alternate" type="application/atom+xml" title="Atom" href="http://tokyo.yapcasia.org/sessions/atom.xml" />
+   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://tokyo.yapcasia.org/sessions/index.xml" />
+
+   <title>YAPC::Asia 2006 Tokyo Sessions: オープンソースソフトウェアにおける統一したレガシーエンコーディングの変換機能の開発について</title>
+
+   <link rel="start" href="http://tokyo.yapcasia.org/sessions/" title="Home" />
+   <link rel="prev" href="http://tokyo.yapcasia.org/sessions/2006/03/_kongougo.html" title="混合語 (Kongougo)" />
+   <link rel="next" href="http://tokyo.yapcasia.org/sessions/2006/03/marrying_perl_with_other_langu.html" title="Marrying perl with other languages" />
+
+   <!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://tokyo.yapcasia.org/sessions/2006/03/post.html"
+    trackback:ping="http://blog.bulknews.net/mt3/mt-tb.cgi/1953"
+    dc:title="オープンソースソフトウェアにおける統一したレガシーエンコーディングの変換機能の開発について"
+    dc:identifier="http://tokyo.yapcasia.org/sessions/2006/03/post.html"
+    dc:subject=""
+    dc:description="Perl 5.8.0 から標準サポートされた Encode モジュールでは、Windows 機種依存文字対応のシフトJIS符号化方式の文字コードとして cp932 がサポートされている。しかし、cp932 を日本語EUC符号化方式 や 7ビットJISコード符号化方式に変換する事が出来ないため適切な文字コード変換できないケースが生じている。今回、cp932 を他の符号化方式に変換できるようにするための文字コードの追加を行う。また、他のソフトとのデータ交換が出来るようにする為、libiconv, glibc, Ruby, Python, PHP, PostgreSQL, MySQL, nkf などにも同様の追加・修正を行う予定である。..."
+    dc:creator="miyagawa"
+    dc:date="2006-03-22T18:10:06+09:00" />
+</rdf:RDF>
+-->
+
+
+   
+
+   <script type="text/javascript" src="http://tokyo.yapcasia.org/sessions/mt-site.js"></script>
+</head>
+<body class="layout-one-column" onload="individualArchivesOnLoad(commenter_name)">
+   <div id="container">
+      <div id="container-inner" class="pkg">
+
+         <div id="banner">
+            <div id="banner-inner" class="pkg">
+               <h1 id="banner-header"><a href="http://tokyo.yapcasia.org/sessions/" accesskey="1">YAPC::Asia 2006 Tokyo Sessions</a></h1>
+               <h2 id="banner-description"></h2>
+            </div>
+         </div>
+
+         <div id="pagebody">
+            <div id="pagebody-inner" class="pkg">
+               <div id="alpha">
+                  <div id="alpha-inner" class="pkg">
+
+                     <p class="content-nav">
+                        <a href="http://tokyo.yapcasia.org/sessions/2006/03/_kongougo.html">&laquo; 混合語 (Kongougo)</a> |
+                        <a href="http://tokyo.yapcasia.org/sessions/">Main</a>
+                        | <a href="http://tokyo.yapcasia.org/sessions/2006/03/marrying_perl_with_other_langu.html">Marrying perl with other languages &raquo;</a>
+                     </p>
+
+                     <a id="a002002"></a>
+                     <div class="entry" id="entry-2002">
+                        <h3 class="entry-header">オープンソースソフトウェアにおける統一したレガシーエンコーディングの変換機能の開発について</h3>
+                        <div class="entry-content">
+                           <div class="entry-body">
+                              <p>Perl 5.8.0 から標準サポートされた Encode モジュールでは、Windows 機種依存文字対応のシフトJIS符号化方式の文字コードとして cp932 がサポートされている。しかし、cp932 を日本語EUC符号化方式 や 7ビットJISコード符号化方式に変換する事が出来ないため適切な文字コード変換できないケースが生じている。今回、cp932 を他の符号化方式に変換できるようにするための文字コードの追加を行う。また、他のソフトとのデータ交換が出来るようにする為、libiconv, glibc, Ruby, Python, PHP, PostgreSQL, MySQL, nkf などにも同様の追加・修正を行う予定である。</p>
+                           </div>
+                           <div id="more" class="entry-more">
+                              
+                           </div>
+                        </div>
+                        <p class="entry-footer">
+                           <span class="post-footers">Posted by miyagawa on 2006&#24180;03&#26376;22&#26085; 18:10</span> <span class="separator">|</span> <a class="permalink" href="http://tokyo.yapcasia.org/sessions/2006/03/post.html">Permalink</a>
+                        </p>
+                     </div>
+
+                                          <div class="trackbacks">
+                        <h3 id="trackback" class="trackbacks-header">TrackBack</h3>
+                        <div id="trackbacks-info">
+                           <p>TrackBack URL for this entry:<br />http://blog.bulknews.net/mt3/mt-tb.cgi/1953</p>
+                        </div>
+                        <div class="trackbacks-content">
+                           
+                        </div>
+                     </div>
+                     
+
+                                          <div id="comments" class="comments">
+                        <div class="comments-content">
+                           
+                        </div>
+
+                         
+                        <form method="post" action="http://blog.bulknews.net/mt3/mt-comments.cgi" name="comments_form" onsubmit="if (this.bakecookie.checked) rememberMe(this)">
+                           <input type="hidden" name="static" value="1" />
+                           <input type="hidden" name="entry_id" value="2002" />
+                           
+                           <div class="comments-open" id="comments-open">
+                              <h2 class="comments-open-header">Post a comment</h2>
+                              
+                              <div class="comments-open-content">
+                                 <script type="text/javascript">
+                                 <!--
+                                 writeTypeKeyGreeting(commenter_name, 2002);
+                                 //-->
+                                 </script>
+                              
+                                                                  <p class="comments-open-moderated">
+                                    (If you haven't left a comment here before, you may need to be approved by the site owner before your comment will appear. Until then, it won't appear on the entry. Thanks for waiting.)
+                                 </p>
+                                 
+
+                                 <div id="comments-open-data">
+                                    <div id="name-email">
+                                       <p>
+                                          <label for="comment-author">Name:</label>
+                                          <input id="comment-author" name="author" size="30" />
+                                       </p>
+                                       <p>
+                                          <label for="comment-email">Email Address:</label>
+                                          <input id="comment-email" name="email" size="30" />
+                                       </p>
+                                    </div>
+
+                                    <p>
+                                       <label for="comment-url">URL:</label>
+                                       <input id="comment-url" name="url" size="30" />
+                                    </p>
+                                    <p>
+                                       <label for="comment-bake-cookie"><input type="checkbox"
+                                          id="comment-bake-cookie" name="bakecookie" onclick="if (!this.checked) forgetMe(document.comments_form)" value="1" />
+                                          Remember personal info?</label>
+                                    </p>
+                                 </div>
+
+                                 <p id="comments-open-text">
+                                    <label for="comment-text">Comments: (you may use HTML tags for style)</label>
+                                    <textarea id="comment-text" name="text" rows="10" cols="30"></textarea>
+                                 </p>
+                                 <div id="comments-open-footer" class="comments-open-footer">
+                                    <input type="submit" accesskey="v" name="preview" id="comment-preview" value="Preview" />
+                                    <input type="submit" accesskey="s" name="post" id="comment-post" value="Post" />
+                                 </div>
+                              </div>
+                           </div>
+                        </form>
+                        
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>

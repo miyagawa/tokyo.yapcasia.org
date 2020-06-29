@@ -1,0 +1,300 @@
+@charset "UTF-8";
+
+/*
+このスタイルシートは全てのページで読み込まれます 。
+*/
+
+/* -- default setting -- */
+* {
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  margin: 0;
+  padding: 0;
+  /* line-height: 1.5; */
+  text-decoration: none;
+/*  word-break: break-all ; */
+  /* word-wrap: break-word; */
+}
+
+hr { display: none; }
+
+html * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* --- ブロック要素 --- */
+
+div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, address {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+blockquote {
+  margin:0 0 1em 2em;
+  padding: 0 1em;
+}
+
+blockquote p {
+  padding: 0;
+  margin: 1em 0 1em 0;
+}
+
+blockquote blockquote {
+  margin: 0.2em 0 0.2em 0;
+  padding: 0.2em 0 0.2em 0.2em;
+}
+
+pre {
+  padding: 0.5em 0.8em;
+  margin: 0 0 1em 2em;
+  white-space: pre;
+  line-height: 1.2;
+  overflow: visible;
+  /* Mac IE \*/
+  overflow: auto;
+  /* END */
+}
+
+del {
+  text-decoration: line-through;
+  font-weight: normal;
+  color: #CCC;
+}
+
+ins {
+  display: block;
+  margin: 0;
+  padding: 2px 0 0 8px;
+  color: #333;
+}
+
+del ins {
+  text-decoration: line-through;
+}
+
+ins h1, ins h2, ins h3, ins h4, ins h5, ins h6, ins div, ins p, ins pre, ins address, ins blockquote, ins ul, ins ol, ins dl, ins form, ins fieldset, ins table{
+  margin: 0.5em 0 0.5em 0;
+  padding: 0;
+}
+
+h1 ins, h2 ins, h3 ins, h4 ins, h5 ins, h6 ins, p ins, pre ins, address ins, li ins, dt ins, dd ins {
+  display: inline;
+  margin: 0;
+  padding: 2px 5px;
+  text-decoration: none;
+}
+
+pre ins, code ins, samp ins, var ins, kbd ins {
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+/* --- インライン要素 --- */
+a, abbr, acronym, bdo, big, cite, code, dfn, em, img, kbd, object, q, ruby, samp, small, span, strong, sub, sup, var {
+  display: inline;
+}
+
+abbr, abbr, acronym, dfn {
+  border: none ! important;
+  cursor: help;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+img {
+  vertical-align: text-bottom;
+  margin: 0;
+  padding: 0;
+}
+
+a img {
+  border: none;
+  text-decoration: none;
+}
+
+ruby {
+  ruby-align: auto;
+  ruby-overhang: auto;
+}
+
+rt, rp {
+  font-size: 70%;
+  font-weight: normal !important;
+}
+
+sub, sup {
+  font-size: 50%;
+}
+
+q {
+  margin: 0 0.5em;
+  padding: 0;
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+  margin: 0 0.5em;
+  padding: 0;
+}
+
+em {
+  font-weight: normal;
+  text-decoration: underline;
+  margin: 0 0.5em;
+  padding: 0;
+}
+
+code, pre code {
+  font-family: "Courier New", "Osaka－等幅", "ＭＳ Ｐゴシック", monospace;
+}
+
+/* --- 箇条書き---*/
+
+ul, ol {
+  display: block;
+  margin: 1em 0 1em 3em;
+}
+
+dl {
+  display: block;
+  margin: 0 0 0 1em;
+}
+
+li {
+  display: list-item;
+  margin:0 0 0.2em 0;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul ul,
+ol ol,
+ol ul {
+  margin: 0.2em 0 0.5em 1.2em;
+  list-style-type: square;
+}
+
+ul ul li,
+ol ol li,
+ol ul li {
+  margin: 0;
+}
+
+dl {
+  line-height: 1.2;
+}
+
+dt {
+  margin: 1em 0 0.5em 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 0 2em 0;
+  padding-left: 1.5em;
+}
+
+
+/* --- フォーム --- */
+
+form {
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  }
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  -moz-border-radius: 0.7em;
+  }
+
+fieldset dt {
+  border: none;
+}
+
+fieldset ul,
+fieldset ol,
+fieldset dl {
+  display: block;
+  margin: 1em 0 1em 0.5em;
+}
+
+legend {
+  display: none;
+}
+
+label {
+  padding: 0;
+  vertical-align: baseline;
+}
+
+input { font-family: "Lucida Grande", sans-selif !important; }
+
+
+/* --- テーブル --- */
+
+table, th, td {
+  border-style: solid;
+  border-collapse: collapse;
+}
+
+table {
+  margin: 1em 0 0 1em;
+  border-width: 1px 0 0 1px;
+  border-color: black;
+  border-spacing: 0;
+  border-style: dotted;
+}
+
+table a {
+  font-weight: normal !important;
+}
+
+caption {
+  display: none;
+}
+
+tr {
+  border: none;
+}
+
+th, td {
+  border-width: 0 1px 1px 0;
+  border-color: black;
+  border-style: dotted;
+  padding: 0.5em 4px;
+  text-align: center;
+}
+
+/* -- default setting -- */

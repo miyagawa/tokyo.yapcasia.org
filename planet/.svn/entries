@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="315"
+   name=""
+   committed-date="2006-03-05T01:57:13.821211Z"
+   url="http://svn.bulknews.net/repos/plagger/trunk/plagger/assets/plugins/publish-planet/default/static"
+   last-author="cwest"
+   kind="dir"
+   uuid="9e658b99-cc0b-0410-98f7-b440a16a7064"
+   revision="540"/>
+<entry
+   name="css"
+   kind="dir"/>
+</wc-entries>

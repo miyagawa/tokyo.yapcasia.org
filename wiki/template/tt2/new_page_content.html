@@ -1,0 +1,16 @@
+<!-- BEGIN new_page_content -->
+[% screen_title = 'Create New Page' %]
+<form method="post">
+<p>Enter a new page name:</p>
+<input type="text" size="20" maxlength="30" name="new_page_name" value="[% new_page_name %]" />
+<input type="submit" name="button" value="CREATE" />
+<br />
+<br />
+<span class="error">[% error_msg %]</span>
+<input type="hidden" name="action" value="new_page">
+</form>
+<pre>
+
+
+</pre>
+<!-- END new_page_content -->

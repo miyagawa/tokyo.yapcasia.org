@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://purl.org/atom/ns#">
+  <title xmlns="http://purl.org/atom/ns#">BlogPulse Search Results for: Plagger</title>
+  <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://www.blogpulse.com/rss?query=Plagger"/>
+  <modified xmlns="http://purl.org/atom/ns#">2006-04-19T16:27:03+09:00</modified>
+  <generator xmlns="http://purl.org/atom/ns#">Plagger/0.6.3</generator>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">pageone</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/tokuhirom/20060417/1145264231"/>
+    <summary xmlns="http://purl.org/atom/ns#">はじめに 
+pageone(http://www. pagesupli. com/search/blog. html)と{</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">はじめに 
+pageone(http://www. pagesupli. com/search/blog. html)と&amp;#123</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-17T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#"> Win32にEncode::Detectを入れる</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/charsbar/20060417/1145230665"/>
+    <summary xmlns="http://purl.org/atom/ns#">先日Plaggerの推奨モジュールと{</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">先日Plaggerの推奨モジュールと&amp;#123</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-17T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">[雑感]はてブのお気に入り基準なんて考えない</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/kurimax/20060415/1145065836"/>
+    <summary xmlns="http://purl.org/atom/ns#">はてブお気に入りユーザを$</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">はてブお気に入りユーザを&amp;#36</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-15T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">Google Calendar</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://as-is.net/blog/archives/001120.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">Google Calendar、北ー！ 
+
+ Google Calendar 
+
+  
+
+ サイボ&amp;#</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">Google Calendar、北ー！ 
+
+ Google Calendar 
+
+  
+
+ サイボ&amp;#</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-13T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Gmail</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/vkgtaro/20060412/1144816072"/>
+    <summary xmlns="http://purl.org/atom/ns#">plagger を使うようになってから Gma</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">plagger を使うようになってから Gma</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-12T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">Plagger と Catalyst の rpm を作ってみる</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://blog.woremacx.com/2006/04/woremacx_rpm_rawhide.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">Plagger の fedora-develpment i386 用 rpm のメンテ&amp;...#23450;すれば、yum install perl-Plagger なり yum install perl-Task-Catalyst な&amp;...</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">Plagger の fedora-develpment i386 用 rpm のメンテ&amp;...#23450;すれば、yum install perl-Plagger なり yum install perl-Task-Catalyst な&amp;...</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-10T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">例えばもしも明日ボクシングのやりすぎで網膜剥離で失明した時にはてなダイアリのデフォルトが要約配信だったら残りの人生をどう過ごせばいいのだ</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://la.ma.la/blog/diary_200604110056.htm"/>
+    <summary xmlns="http://purl.org/atom/ns#">いや別に知ったこっちゃな</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">いや別に知ったこっちゃな&amp;#12</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-10T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">[etc]ホームディレクトリで ls</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/dnsystem/20060410/1144661933"/>
+    <summary xmlns="http://purl.org/atom/ns#">■
+                [etc]ホームディレクトリ</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">■
+                [etc]ホームディレクト&amp;#12522</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-10T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">[PLAGGER]daily_sports.yamlへの追加とCoreへのパッチ</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/s_nobu/20060409/1144563930"/>
+    <summary xmlns="http://purl.org/atom/ns#">先日追加されたデイリース</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">先日追加されたデイリース&amp;#12</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-09T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Balham Blogs</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://blog.dave.org.uk/archives/000975.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">I was going to use the Planet software, but last week someone mentioned Plagger to me and as it's a Perl toolkit I used that instead....Plagger is still under heavy development and the documentation leaves a little to be desired....</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">I was going to use the Planet software, but last week someone mentioned Plagger to me and as it's a Perl toolkit I used that instead....Plagger is still under heavy development and the documentation leaves a little to be desired....</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-09T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">[PLAGGER]Trac用FeedUpgrader#3</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/s_nobu/20060408/1144506048"/>
+    <summary xmlns="http://purl.org/atom/ns#">３回目になりますが、. plベー</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">３回目になりますが、. plベー</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-08T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">[PLAGGER][TRAC]Trac用FeedUpgrader#2</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/s_nobu/20060407/1144373317"/>
+    <summary xmlns="http://purl.org/atom/ns#"> ... package Plagger::Plugin::Filter::StripEntryBody; use strict; use base qw( Plagger::... ... sub update {     my($self, $context, $args) = @_;     my $cfg = $self-&gt;conf;     Plagger-&gt;c...</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml"> ... package Plagger::Plugin::Filter::StripEntryBody; use strict; use base qw( Plagger::... ... sub update {     my($self, $context, $args) = @_;     my $cfg = $self-&gt;conf;     Plagger-&gt;c...</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-07T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">[PLAGGER]japan.linux.com用FeedUpgrader</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/s_nobu/20060407/1144384123"/>
+    <summary xmlns="http://purl.org/atom/ns#">japan. linux. com用 
+
+ 
+ メインセクション : ht</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">japan. linux. com用 
+
+ 
+ メインセクション : ht</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-07T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">Plagger::Plugin::CustomFeed::SVNLog</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/vkgtaro/20060405/1144253191"/>
+    <summary xmlns="http://purl.org/atom/ns#">公式に取り込まれてますねA</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">公式に取り込まれてますね&amp;#65</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-06T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">[PLAGGER]GoogleNewsのFeed開始</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/s_nobu/20060406/1144302500"/>
+    <summary xmlns="http://purl.org/atom/ns#">ここで知りましたが、GoogleNews日&amp;#</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">ここで知りましたが、GoogleNews日&amp;#</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-06T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">[PLAGGER]PCWEB用EntryFullText</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/s_nobu/20060406/1144295674"/>
+    <summary xmlns="http://purl.org/atom/ns#">調子にのってもう一つ作っ</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">調子にのってもう一つ作っ&amp;#12</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-06T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">[PLAGGER]filter-entryfulltext/sportsnavi.yamlで野球のみを取得</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/s_nobu/20060406/1144283773"/>
+    <summary xmlns="http://purl.org/atom/ns#">plaggerにデフォルトでついてく|</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">plaggerにデフォルトでついてく&amp;#124</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-06T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">[PLAGGER]大阪日刊スポーツ用EntryFullText</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/s_nobu/20060406/1144286969"/>
+    <summary xmlns="http://purl.org/atom/ns#">大変便利なEntryFullTextですが、ひと</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">大変便利なEntryFullTextですが、ひ&amp;#12392</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-06T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">[PLAGGER][TRAC]Trac用FeedUpgrader</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/s_nobu/20060406/1144315971"/>
+    <summary xmlns="http://purl.org/atom/ns#">勢いに乗ってもうひとつ。Trac</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">勢いに乗ってもうひとつ。Trac</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-06T00:00:00-05:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">AccPlus 1.2 (Demo)</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://www.softpedia.com/get/System/System-Miscellaneous/AccPlus.shtml"/>
+    <summary xmlns="http://purl.org/atom/ns#">Latest Windows Software
+                    
+                    
+                        
+         </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">Latest Windows Software
+                    
+                    
+                        
+         </div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-05T00:00:00-05:00</issued>
+  </entry>
+</feed>

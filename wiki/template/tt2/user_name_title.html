@@ -1,0 +1,11 @@
+<!-- BEGIN user_name_title -->
+<div id="user_name_title">
+<em>[% IF hub.users.current.name -%]
+(You are <a href="http://profile.typekey.com/[% hub.users.current.name %]/">[% hub.users.current.nick | html %]</a>: <a href="[% script_name %]?action=logout_typekey">Logout</a>)
+[%- ELSE -%]
+[%- USE tk = url("https://www.typekey.com/t/typekey/login") -%]
+(Not Logged In: <a href="[% back = script_name _ "?action=return_typekey&page=" _ hub.cgi.page_name; tk(t=tk_token, v="1.1", _return=back, need_email=0) %]">Login via TypeKey</a>)
+[%- END %]
+</em>
+</div>
+<!-- END user_name_title -->

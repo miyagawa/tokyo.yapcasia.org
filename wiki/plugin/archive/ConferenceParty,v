@@ -1,0 +1,114 @@
+head	1.6;
+access;
+symbols;
+locks
+	root:1.6;
+comment	@# @;
+
+
+1.6
+date	2006.03.25.15.23.52;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.03.25.14.58.26;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.03.25.14.58.20;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.03.25.14.57.50;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.03.25.14.57.19;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.03.25.14.56.55;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2015%3A23%3A52%202006,edit_unixtime:1143300232
+@
+text
+@You have to register via http://shibuya.pm.org/register/yapc-party2/ to attend to the party. (Note that if you're a speaker or a guest, you don't have to)
+
+|Date|2006/03/29 19:00-|
+|Location|Ni-hao, Kamata (Chinese food)|
+|Price|5,000 Yen|
+|Map|http://www.nihao.co.jp/map.htm|
+@
+
+
+1.5
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2014%3A58%3A26%202006,edit_unixtime:1143298706
+@
+text
+@d1 2
+@
+
+
+1.4
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2014%3A58%3A20%202006,edit_unixtime:1143298700
+@
+text
+@d4 1
+a4 1
+|Map|http://www.nihao.co.jp/map.htm
+@
+
+
+1.3
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2014%3A57%3A50%202006,edit_unixtime:1143298670
+@
+text
+@d4 1
+a4 1
+|Map|http://www.nihao.co.jp/intr.htm|
+@
+
+
+1.2
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2014%3A57%3A18%202006,edit_unixtime:1143298638
+@
+text
+@d1 4
+a4 4
+  Date: 2006/03/29 19:00-
+  Location: Ni-hao, Kamata (Chinese food)
+  Price: 5,000 Yen
+  Map: http://www.nihao.co.jp/intr.htm
+@
+
+
+1.1
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2014%3A56%3A54%202006,edit_unixtime:1143298614
+@
+text
+@d1 4
+a4 4
+Date: 2006/03/29 19:00-
+Location: Ni-hao, Kamata (Chinese food)
+Price: 5,000 Yen
+Map: http://www.nihao.co.jp/intr.htm
+@

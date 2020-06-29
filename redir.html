@@ -1,0 +1,65 @@
+<html>
+<head>
+<!--aggregate file paths for utilities.js and yahoo-dom-event.js-->
+<!--NOTE: Do not use both of these files together; utilities.js includes everything that is
+in yahoo-dom-event.js -->
+<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/element/element-beta.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/button/button.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/container/container.js"></script>
+
+<!--aggregate file path for YUI Sam Skin CSS for UI controls-->
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.4.1/build/fonts/fonts-min.css" />
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.4.1/build/button/assets/skins/sam/button.css" />
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.4.1/build/container/assets/skins/sam/container.css" />
+</head>
+<body class="yui-skin-sam">
+<script>
+YAHOO.namespace("example.container");
+
+function init() {
+
+        // Define various event handlers for Dialog
+        var handleYes = function() {
+                alert("You clicked yes!");
+                this.hide();
+        };
+        var handleNo = function() {
+                this.hide();
+        };
+
+        // Instantiate the Dialog
+        YAHOO.example.container.simpledialog1 = new YAHOO.widget.SimpleDialog("simpledialog1",
+                                                                                                                                                         { width: "300px",
+                                                                                                                                                           fixedcenter: true,
+                                                                                                                                                           visible: false,
+                                                                                                                                                           draggable: false,
+                                                                                                                                                           close: true,
+                                                                                                                                                           text: "Do you want to continue?",
+                                                                                                                                                           icon: YAHOO.widget.SimpleDialog.ICON_HELP,
+                                                                                                                                                           constraintoviewport: true,
+                                    modal: true,
+                                                                                                                                                           buttons: [ { text:"Yes", handler:handleYes, isDefault:true },
+                                                                                                                                                                                  { text:"No",  handler:handleNo } ]
+                                                                                                                                                         } );
+        YAHOO.example.container.simpledialog1.setHeader("Are you sure?");
+
+        // Render the Dialog
+        YAHOO.example.container.simpledialog1.render("container");
+
+        YAHOO.util.Event.addListener("show", "click", YAHOO.example.container.simpledialog1.show, YAHOO.example.container.simpledialog1, true);
+        YAHOO.util.Event.addListener("hide", "click", YAHOO.example.container.simpledialog1.hide, YAHOO.example.container.simpledialog1, true);
+
+}
+
+YAHOO.util.Event.addListener(window, "load", init);
+</script>
+
+
+<div id="container">
+<button id="show">Show simpledialog1</button>
+<button id="hide">Hide simpledialog1</button>
+</div>
+
+
+</body>

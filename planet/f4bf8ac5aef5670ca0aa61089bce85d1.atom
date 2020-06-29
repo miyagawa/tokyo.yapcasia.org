@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://purl.org/atom/ns#">
+  <title xmlns="http://purl.org/atom/ns#">Feedster on: Plagger</title>
+  <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://www.feedster.com/search/Plagger"/>
+  <modified xmlns="http://purl.org/atom/ns#">2006-04-19T16:27:47+09:00</modified>
+  <generator xmlns="http://purl.org/atom/ns#">Plagger/0.6.3</generator>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Philosophy or just common sense ?</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://blog.6f2.net/blogs/index.php?blog=5&amp;title=philosophy_or_just_common_sense&amp;more=1&amp;c=1&amp;tb=1&amp;pb=1"/>
+    <summary xmlns="http://purl.org/atom/ns#">Workspace
+	 Reading some Paul Graham notes, I found an interesting comment regarding workspace  : An office environment is supposed to be something that helps you work, not something you work despite. He is right but how many companies ? organization got the same problem ? have such kind of office environment where it's impossible to work or very difficult to work. My home workspace is, at the moment, very messy due to a large workload and various non-related activities. I'm pretty sure (at least for me) that the very near objects (less than 1 meter)  on a desk are affecting the work done or your general ability to focus on a specific work (especially programming). I really don't know why, you know we are a such complex piece of software... we are not all equal in the ability to concentrate. It's time to clean up my desk and better follow the result of the Joel Test...
+	UNIX philosophy and RSS
+	 I just tested Plagger a Perl module working as Pluggable RSS/Atom Aggregator with a bunch of extensions/modules. You have a bunch of filters, ways to get feeds and transform/redistribute them in various ways. The modules depend on a bunch of other Perl modules (too much?) but everything else is very good and useable. If you need a way to gather, consolidate RSS/Atoms feeds, Plagger is very nice.
+	Conference business
+	 A very good blog entry about conference business, very informative and the comments are quite good. The conference business world has to change its habits of the over-priced conference, non-interactive session and commercial only events. This is really true for a large number of computer-related conferences.
+	Current Reading
+	
+	The Art of Computer Programming, volume 4, Fascicle 4.  Very dense (as usual for Donald Knuth) and more used as reference document for trees (the data structure) and generating all the combination.
+	Apoidea: A Decentralized Peer-to-Peer Architecture for Crawling the World Wide Web. A nice paper and clever use of the Bloom filters.
+	</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml"><h3>Workspace</h3>
+	<p> Reading some <a href="http://www.paulgraham.com/gh.html">Paul Graham notes</a>, I found an interesting comment regarding workspace  : <i>An office environment is supposed to be something that helps you work, not something you work despite.</i> He is right but how many companies ? organization got the same problem ? have such kind of office environment where it's impossible to work or very difficult to work. My <b>home workspace</b> is, at the moment, very messy due to a large workload and various non-related activities. I'm pretty sure (at least for me) that the very near objects (less than 1 meter)  on a desk are affecting the work done or your general ability to focus on a specific work (especially programming). I really don't know why, you know we are a such complex piece of software... we are not all equal in the ability to concentrate. It's time to clean up my desk and better follow the result of the <a href="http://www.joelonsoftware.com/printerFriendly/articles/fog0000000043.html">Joel Test</a>...</p>
+	<h3>UNIX philosophy and RSS</h3>
+	<p> I just tested <a href="http://plagger.org">Plagger</a> a Perl module working as Pluggable RSS/Atom Aggregator with a bunch of extensions/modules. You have a bunch of filters, ways to get feeds and transform/redistribute them in various ways. The modules depend on a bunch of other Perl modules (too much?) but everything else is very good and useable. If you need a way to gather, consolidate RSS/Atoms feeds, Plagger is very nice.</p>
+	<h3>Conference business</h3>
+	<p> A <a href="http://www.buzzmachine.com/index.php/2006/01/29/exploding-the-conference-business/">very good blog entry about conference business</a>, very informative and the comments are quite good. The conference business world has to change its habits of the over-priced conference, non-interactive session and commercial only events. This is really true for a large number of computer-related conferences.</p>
+	<h3>Current Reading</h3>
+	<ul>
+	<li>The Art of Computer Programming, volume 4, Fascicle 4.  Very dense (as usual for Donald Knuth) and more used as reference document for trees (the data structure) and generating all the combination.</li>
+	<li><a href="http://citeseer.ist.psu.edu/singh04apoidea.html">Apoidea: A Decentralized Peer-to-Peer Architecture for Crawling the World Wide Web</a>. A nice paper and clever use of the <a href="http://search.cpan.org/~mceglows/Bloom-Filter-0.03/Filter.pm">Bloom filters</a>.</li>
+	</ul></div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-17T16:04:14Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">The "Perl" Conference</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://use.perl.org/~pudge/journal/29314?from=rss"/>
+    <summary xmlns="http://purl.org/atom/ns#">So I am looking at the Perl track for OSCON, and I am wondering where the technical sessions are.No offense to any of the speakers or topics, because I am only speaking personally, but I don't really care about most of the non-meaty topics, like Perl Bliss and so on.  And I don't care about Perl 6.  Feed Aggregation is so 5 years ago.  I never pay extra for the tutorials.Setting aside the standards -- Lightning Talks and The Conway Channel -- that leaves me with What's New in Perl DBI, Devel::Cover, Plagger: Pluggable RSS/Atom Aggregation, Mason Components for Ajax, A Relational Object Driver That Doesn't Suck, and Perl Hacks You Never Knew Existed.I don't care about feed aggregation (well, I do, but not in any new tools to deal with it), I don't use Mason (although maybe I could learn something more about how to deal with Ajax), and I sure as hell don't need another DB abstraction layer (although it might be an interesting talk anyway, at least get me thinking about issues with our own custom layer?).So being very generous with my interest, I could go to all the above sessions, which means four sessions Wednesday, three Thursday, and one Friday.And that's with no options for other possibilities.  So if one was a dud or I decided I really didn't care about a new syndication aggregation toolkit, I'd have nothing to go to.Of course, I might very well find sessions in the Apache and MySQL tracks.  And I will likely go to OSCON and do just that, and not feel like I've wasted my time or money.But I want to go to a Perl conference, and frankly, I don't think OSCON qualifies. Now Playing: John Debney - It Is Done </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">So I am looking at the &lt;a href="http://conferences.oreillynet.com/cs/os2006/print/e_trak/311"&gt;Perl track for OSCON&lt;/a&gt;, and I am wondering where the technical sessions are.&lt;br&gt;&lt;br&gt;No offense to any of the speakers or topics, because I am only speaking personally, but I don't really care about most of the non-meaty topics, like Perl Bliss and so on.  And I don't care about Perl 6.  Feed Aggregation is so 5 years ago.  I never pay extra for the tutorials.&lt;br&gt;&lt;br&gt;Setting aside the standards -- Lightning Talks and The Conway Channel -- that leaves me with What's New in Perl DBI, Devel::Cover, Plagger: Pluggable RSS/Atom Aggregation, Mason Components for Ajax, A Relational Object Driver That Doesn't Suck, and Perl Hacks You Never Knew Existed.&lt;br&gt;&lt;br&gt;I don't care about feed aggregation (well, I do, but not in any new tools to deal with it), I don't use Mason (although maybe I could learn something more about how to deal with Ajax), and I sure as hell don't need another DB abstraction layer (although it might be an interesting talk anyway, at least get me thinking about issues with our own custom layer?).&lt;br&gt;&lt;br&gt;So being very generous with my interest, I could go to all the above sessions, which means four sessions Wednesday, three Thursday, and one Friday.&lt;br&gt;&lt;br&gt;And that's with no options for other possibilities.  So if one was a dud or I decided I really didn't care about a new syndication aggregation toolkit, I'd have nothing to go to.&lt;br&gt;&lt;br&gt;Of course, I might very well find sessions in the Apache and MySQL tracks.  And I will likely go to OSCON and do just that, and not feel like I've wasted my time or money.&lt;br&gt;&lt;br&gt;But I want to go to a &lt;b&gt;Perl&lt;/b&gt; conference, and frankly, I don't think OSCON qualifies.&lt;br&gt;&lt;br&gt; &lt;i&gt;Now Playing&lt;/i&gt;: &lt;a href="http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?artistTerm=John%20Debney"&gt;John Debney&lt;/a&gt; - &lt;a href="http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?artistTerm=John%20Debney&amp;amp;songTerm=It%20Is%20Done"&gt;It Is Done&lt;/a&gt; </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-13T17:15:09Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Some interesting Plagger thingies.</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://marcusramberg.livejournal.com/12956.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">Looks like there will be a Plagger Talk at Oscon this year. Wish I could be there. Plagger seems to be very shiny, I've been playing a little with it lately. It's also going to get RSS Event support, which will be very interesting with the advent of GCal.</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">Looks like there will be a <a href="http://conferences.oreillynet.com/cs/os2006/view/e_sess/8993">Plagger Talk</a> at Oscon this year. Wish I could be there. Plagger seems to be very shiny, I've been playing a little with it lately. It's also going to get <a href="http://plagger.org/trac/ticket/171">RSS Event</a> support, which will be very interesting with the advent of GCal.</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-13T11:32:43Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">O'Reilly Open Source Convention - July, 24-28, 2006 - Portland, OR</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://conferences.oreillynet.com/cs/os2006/view/e_sess/8993"/>
+    <summary xmlns="http://purl.org/atom/ns#">Plagger (http://plagger.org/) is a pluggable RSS/Atom aggregation and syndication tool written in Perl. Plagger comes with various API hooks that external plugins can extend: Subscription, Aggregator, Custom Feed, Filter/Tag Content, Content Widget &amp; Publish. With these plugin hooks, you can do pretty neat stuff like "Get the updates from Bloglines, create rich-text email and forward them all to my Gmail inbox. But if the entry title contains 'OSCON' and is bookmarked by more than 10 users on del.icio.us, ...</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">Plagger (http://plagger.org/) is a pluggable RSS/Atom aggregation and syndication tool written in Perl. Plagger comes with various API hooks that external plugins can extend: Subscription, Aggregator, Custom Feed, Filter/Tag Content, Content Widget &amp; Publish. With these plugin hooks, you can do pretty neat stuff like "Get the updates from Bloglines, create rich-text email and forward them all to my Gmail inbox. But if the entry title contains 'OSCON' and is bookmarked by more than 10 users on del.icio.us, ...</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-13T06:53:06Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Linux pc - freshmeat.net: Welcome to freshmeat.net</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://www.thecape.co.uk/linux-pc/2006/04/linux-pc-freshmeatnet-welcome-to.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+ 
+freshmeat.net: Welcome to freshmeat.net 
+freshmeat maintains the Web's largest index of Unix and cross-platform open source software. Thousands of applications are meticulously cataloged in the freshmeat database, and links to new code are added daily. ... - CacheNav 1.0.1 (Pocket PC) - CacheMate 1.1.0 (Pocket PC ... - Kernel Mode Linux 2.6.16_001 (For Linux 2.6) - Plagger 0.6.1 ...
+Source: freshmeat.net
+
+
+LinuxDevCenter.com -- Building a Linux Media PC 
+John Litter introduces the Linux media PC, a computer that can play CDs, DVDs, TV, and even games. ... going to look at a particular sort of setup of a Linux home theatre PC  one where the primary consideration is space ...
+Source: www.linuxdevcenter.com
+
+
+Opinion Column by PC Magazine: How to Kill Linux 
+Could Microsoft pull it off? ... The immediate usefulness of Linux running under Windows is obvious ... run under Linux. Drivers have always been an issue with Linux as PC users have gotten spoiled with Windows driver ...
+Source: www.pcmag.com
+
+
+Quake Iii Arena [linux] Pc Game 
+Yahoo! Shopping is the best place to comparison shop for Quake Iii Arena [linux] Pc Game. Compare products, compare prices, read reviews and merchant ratings.
+Source: shopping.yahoo.com
+
+
+Linux Automotive - The coolest car ever. 
+Car Telematics - Dashwerks DashPC
+Source: www.dashpc.com
+
+
+PRAXIS/LINUX: Foren, Linux-Tipps, Vorteile von Linux, Bash mit eingebautem Brenner, Ding - das Linuxlexikon, ...  - Translate this page
+... Linux und PC-Neulinge? Das schien bisher so kompatibel wie Glatteis und Sommerreifen. Die SuSE-Linux 7.1 tritt mit dem Anspruch an, diese Quadratur des Kreises zu schaffen ...
+Source: www.pc-magazin.de 
+</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+ 
+<b>freshmeat.net: Welcome to freshmeat.net </b>
+freshmeat maintains the Web's largest index of Unix and cross-platform open source software. Thousands of applications are meticulously cataloged in the freshmeat database, and links to new code are added daily. ... - CacheNav 1.0.1 (Pocket PC) - CacheMate 1.1.0 (Pocket PC ... - Kernel Mode Linux 2.6.16_001 (For Linux 2.6) - Plagger 0.6.1 ...
+<i>Source: freshmeat.net</i>
+
+
+<b>LinuxDevCenter.com -- Building a Linux Media PC </b>
+John Litter introduces the Linux media PC, a computer that can play CDs, DVDs, TV, and even games. ... going to look at a particular sort of setup of a Linux home theatre PC  one where the primary consideration is space ...
+<i>Source: www.linuxdevcenter.com</i>
+
+
+<b>Opinion Column by PC Magazine: How to Kill Linux </b>
+Could Microsoft pull it off? ... The immediate usefulness of Linux running under Windows is obvious ... run under Linux. Drivers have always been an issue with Linux as PC users have gotten spoiled with Windows driver ...
+<i>Source: www.pcmag.com</i>
+
+
+<b>Quake Iii Arena [linux] Pc Game </b>
+Yahoo! Shopping is the best place to comparison shop for Quake Iii Arena [linux] Pc Game. Compare products, compare prices, read reviews and merchant ratings.
+<i>Source: shopping.yahoo.com</i>
+
+
+<b>Linux Automotive - The coolest car ever. </b>
+Car Telematics - Dashwerks DashPC
+<i>Source: www.dashpc.com</i>
+
+
+<b>PRAXIS/LINUX: Foren, Linux-Tipps, Vorteile von Linux, Bash mit eingebautem Brenner, Ding - das Linuxlexikon, ...  - Translate this page</b>
+... Linux und PC-Neulinge? Das schien bisher so kompatibel wie Glatteis und Sommerreifen. Die SuSE-Linux 7.1 tritt mit dem Anspruch an, diese Quadratur des Kreises zu schaffen ...
+<i>Source: www.pc-magazin.de</i> 
+</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-12T08:56:46Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Balham Blogs</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://blog.dave.org.uk/archives/000975.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">Been I while since I did anything really geeky in my spare time so this weekend (whilst watching the UKTV repeats of last year's Doctor Who) I went back to a project that I was thinking about a few months ago.
+
+I've build Balham Blogs. It's a site that aggregates RSS feeds that have some connection with Balham. I was going to use the Planet software, but last week someone mentioned Plagger to me and as it's a Perl toolkit I used that instead.
+
+Plagger is still under heavy development and the documentation leaves a little to be desired. I had to resort to reading code a few times in order to work out what I needed to do. But in the end it only took a few hours to get the site up and running.
+
+If you run a site that produces an RSS (or Atom, I'm not fussy) feed that has somethi ng to do with Balham, then please let me know and I'll be happy to add it.</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>Been I while since I did anything really geeky in my spare time so this weekend (whilst watching the UKTV repeats of last year's <i>Doctor Who</i>) I went back to a project that I was thinking about a few months ago.</p>
+
+<p>I've build <a href="http://balhamblogs.org.uk/">Balham Blogs</a>. It's a site that aggregates RSS feeds that have some connection with Balham. I was going to use the <a href="http://www.planetplanet.org/">Planet</a> software, but last week someone mentioned <a href="http://plagger.org/">Plagger</a> to me and as it's a Perl toolkit I used that instead.</p>
+
+<p>Plagger is still under heavy development and the documentation leaves a little to be desired. I had to resort to reading code a few times in order to work out what I needed to do. But in the end it only took a few hours to get the site up and running.</p>
+
+<p>If you run a site that produces an RSS (or Atom, I'm not fussy) feed that has somethi ng to do with Balham, then please let me know and I'll be happy to add it.</p></div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-09T16:32:18Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Plagger.org</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://plagger.org/"/>
+    <summary xmlns="http://purl.org/atom/ns#">Planet-a-like written in Perl</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">Planet-a-like written in Perl</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-07T10:00:33Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Plagger</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://plagger.org/trac"/>
+    <summary xmlns="http://purl.org/atom/ns#">Plagger is a pluggable RSS/Atom feed aggregator written in Perl. Everything is implemented as a small plugin and you can mash them up together using Plagger core API and plugin hooks. You can think of Plagger as a blosxom or qpsmtpd for RSS aggregator.</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">Plagger is a pluggable RSS/Atom feed aggregator written in Perl. Everything is implemented as a small plugin and you can mash them up together using Plagger core API and plugin hooks. You can think of Plagger as a blosxom or qpsmtpd for RSS aggregator.</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-07T10:00:27Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">Plagger 0.6.1 (Default branch)</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://opensourcepimp.com/node/7170"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+Plagger is a pluggable RSS/Atom aggregation andsyndication software. All the features areimplemented as small plugins.License: Perl LicenseChanges:Adds a new feed upgrade framework called CustomFeed::Simple and Filter::EntryFullText. Improves HTML encoding auto-detection.
+
+
+</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">
+&lt;p&gt;Plagger is a pluggable RSS/Atom aggregation andsyndication software. All the features areimplemented as small plugins.&lt;strong&gt;License:&lt;/strong&gt; Perl License&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;Adds a new feed upgrade framework called CustomFeed::Simple and Filter::EntryFullText. Improves HTML encoding auto-detection.&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=drr7cZ"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=drr7cZ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-05T17:55:57Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Plagger 0.6.1 (Default branch)</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-unix?m=17125"/>
+    <summary xmlns="http://purl.org/atom/ns#">Plagger is a pluggable RSS/Atom aggregation and
+syndication software. All the features are
+implemented as small plugins.
+
+
+License: Perl License
+
+Changes:
+Adds a new feed upgrade framework called CustomFeed::Simple and Filter::EntryFullText. Improves HTML encoding auto-detection.</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">Plagger is a pluggable RSS/Atom aggregation and
+syndication software. All the features are
+implemented as small plugins.
+
+
+<strong>License:</strong> Perl License
+
+<strong>Changes:</strong><br/>
+Adds a new feed upgrade framework called CustomFeed::Simple and Filter::EntryFullText. Improves HTML encoding auto-detection.<img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-unix?g=17125"/></div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-05T17:55:18Z</issued>
+  </entry>
+</feed>

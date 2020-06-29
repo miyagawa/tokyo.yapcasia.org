@@ -1,0 +1,6 @@
+DirectoryIndex index.php
+AuthType basic
+AuthName YAPC
+Require valid-user
+AuthUserFile /vh/tokyo.yapcasia.org/htdocs/calendar/.htpasswd
+

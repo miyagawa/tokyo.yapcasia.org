@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <generator>Plagger/0.6.3</generator>
+    <title>Planet Plagger</title>
+    <pubDate>Wed, 19 Apr 2006 17:00:30 +0900</pubDate>
+    <item>
+      <author>
+  plagger-dev@googlegroups.com
+  </author>
+      <dc:creator>
+  plagger-dev@googlegroups.com
+  </dc:creator>
+      <link>http://groups.google.com/group/plagger-dev/msg/ef8f8a1f6b43b1f3</link>
+      <description>
+  I setup Planet Plagger on [link]  This planet is of course powered by Plagger, using  * Casey's Publish::Planet  * youpy's Subscription::Planet  * My CustomFeed::BloglinesCitations  to gather entries discussing Plagger from various sources. Updated  every hour using crontab.  Obvious todo is to apply more branding to the output HTML. Maybe tidy
+  </description>
+      <dc:date>2006-04-19T07:50:55Z</dc:date>
+      <title>Planet Plagger</title>
+      <pubDate>Wed, 19 Apr 2006 07:50:55 -0000</pubDate>
+    </item>
+    <item>
+      <author>kohaku</author>
+      <dc:creator>kohaku</dc:creator>
+      <link>http://aoiro-blog.com/archives/511</link>
+      <description>しげふみメモ:PlaggerでAmazonアソシエイトレポートをGmailへ送る. (tags: gmail amazon Plagger). Drag And Drop Upload field. Webフォームへのファイルのドラッグ でパス入力できる. (tags: firefox extension)</description>
+      <dc:date>2006-04-19T06:21:51Z</dc:date>
+      <title>links for 2006-04-19</title>
+      <pubDate>Wed, 19 Apr 2006 06:21:51 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/lapis25/20060419/1145417905</link>
+      <description>■ Plagger やっぱり動いてない 昨日の夜以降送られてきてない．</description>
+      <dc:date>2006-04-19T12:38:00+09:00</dc:date>
+      <title>Plaggerやっぱり動いてない</title>
+      <pubDate>Wed, 19 Apr 2006 12:38:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/a666666/20060419/1145413565</link>
+      <description>... ■[漫画]高橋慶太郎氏の新連載『ヨルムンガンド』がスタート  今日発売日のサンデーGX5月号で、Ordinary±などで有名な高橋慶太郎氏の新連載が始まります！ 30boxes や Google Calendar がアツイらしい今日この頃ですが「埋めるほど予定ないしなぁ。真っ白じゃリッチな UI が泣くし、リマインダでメール送ってくれりゃ十分だよ」ということで使い続けている livedoor カレンダーから（事前に自分で入れておいた）アラートメールが届いて思い出した。帰りに買って帰らないと！  楽しみにしているのは自分だけではなかったようで、 Wikipedia  ...刺身☆ブーメランのはてなダイアリー   </description>
+      <dc:date>2006-04-19T02:26:05Z</dc:date>
+      <title>[漫画]高橋慶太郎氏の新連載『ヨルムンガンド』がスタート</title>
+      <pubDate>Wed, 19 Apr 2006 02:26:05 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://www5d.biglobe.ne.jp/~y0ka/2006-04.html#2006-04-19-1</link>
+      <description>Plagger
+メール送信に使われてるんだけど，時々失敗してる．
+フィードのタイトルが悪いのか何が悪いのか． 
+Plagger::Plugin::Publish::Gmail [info] Sening (なんか文字化けしてる)
+  to hoge@gmail.com</description>
+      <dc:date>2006-04-19T07:59:00+09:00</dc:date>
+      <title>MIME::Lite で can't extract address なエラー出まくり</title>
+      <pubDate>Wed, 19 Apr 2006 07:59:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/fuba/20060419/1145393683</link>
+      <description>/perl5とかが@INCに入ってない。LWPはFinkからインストールしたのでこれが無いと困る。PERL5LIBはちゃんと設定してるのになんでよ?とりあえず./plaggerに、use lib ("/sw/lib/perl5", "/sw/lib/perl5/darwin</description>
+      <dc:date>2006-04-19T05:54:43+09:00</dc:date>
+      <title>うごかない</title>
+      <pubDate>Wed, 19 Apr 2006 05:54:43 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/fuba/20060419/1145383281</link>
+      <description>簡単なコンパイルに異様に時間がかかる…。DualUSBなので帰って来たらこいつはサーバとしても引退かなぁ。*BSDでもインストールすれば使えるんだろうか。しかしMacでもVineでもcpantestPlaggerが素直に通ったためしがないな。かならずどこかでnot okが出る。もうちょっと現代的なディス</description>
+      <dc:date>2006-04-19T03:01:21+09:00</dc:date>
+      <title>中使う用のPlaggerをiBook</title>
+      <pubDate>Wed, 19 Apr 2006 03:01:21 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://onexone.sakura.ne.jp/archives/2006/04/19_013201.php</link>
+      <description>とにかくもっとperlスクリプトを  読み慣れないとなあ。 投稿者 taizo | 2006年04月19日 01:32 |    | トラックバック このエントリーのトラックバックURL:  http://onexone.sakura.ne.jp/mt-tb.cgi/192 コメント 名前: メールアドレス: URL:  保存しますか ... </description>
+      <dc:date>2006-04-19T01:32:00+09:00</dc:date>
+      <title>カテゴリーつけて、plaggerで投稿して失敗</title>
+      <pubDate>Wed, 19 Apr 2006 01:32:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/lapis25/20060418/1145377844</link>
+      <description>■ plagger 動かした インストール はしてたんだけど使い道が思いつかなかったので 放置 してた．んが，使ってみないとと思いほとんどフレのいない Mixi と未読が溜まりすぎそうな bloglines を GMail に送信するようにした．PBG4に入れたので ... </description>
+      <dc:date>2006-04-19T01:30:00+09:00</dc:date>
+      <title>plagger動かした</title>
+      <pubDate>Wed, 19 Apr 2006 01:30:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://onexone.sakura.ne.jp/archives/2006/04/19_011917.php</link>
+      <description>こういう認識違いって、わかる人には 「はぁ？そんなのも知らないの？」 なんだろうけど  わからない人にとっては、ホントわからないんだよなあ。  こういうのって経験でしか埋められない気がしてならない。  精進しないと。 ... </description>
+      <dc:date>2006-04-19T01:19:00+09:00</dc:date>
+      <title>plagger -c conf.aaa.yaml</title>
+      <pubDate>Wed, 19 Apr 2006 01:19:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://onexone.sakura.ne.jp/archives/2006/04/19_003558.php</link>
+      <description>コメント:</description>
+      <dc:date>2006-04-19T00:35:00+09:00</dc:date>
+      <title>del.icio.us/tag/plagger</title>
+      <pubDate>Wed, 19 Apr 2006 00:35:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://onexone.sakura.ne.jp/archives/2006/04/19_003508.php</link>
+      <description>コメント:</description>
+      <dc:date>2006-04-19T00:35:00+09:00</dc:date>
+      <title>はてなブックマーク - タグ「plagger」を含む注目エントリー</title>
+      <pubDate>Wed, 19 Apr 2006 00:35:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/charsbar/20060419/1145373655</link>
+      <description> ... package Plagger::Plugin::Filter::POPFile; use strict; use base qw( Plagger::Plugin ); our $VERSION = '0.01'; use XMLRPC::Lite; use File::Temp (); use File::Path (); use Encode; sub register { my($self, $context) = @_; $context-&gt;register ... </description>
+      <dc:date>2006-04-19T00:20:00+09:00</dc:date>
+      <title> Plagger::Plugin::Filter::POPFile</title>
+      <pubDate>Wed, 19 Apr 2006 00:20:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/lapis25/20060419</link>
+      <dc:date>2006-04-19T00:00:00</dc:date>
+      <title>LAPISLAZULI HILL#Hatena</title>
+      <pubDate>Wed, 19 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/charsbar/20060419</link>
+      <dc:date>2006-04-19T00:00:00</dc:date>
+      <title>Charsbar::Note</title>
+      <pubDate>Wed, 19 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/fuba/20060419</link>
+      <dc:date>2006-04-19T00:00:00</dc:date>
+      <title>fubaはてな</title>
+      <pubDate>Wed, 19 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://www5d.biglobe.ne.jp/~y0ka/cat_2006-04-19t003a063a192b0900.html</link>
+      <description>... 2006-04-19T00:06:19+0900]    Plagger  メール送信に使われてるんだけど，時々失敗してる．  フィードのタイトルが悪いのか何が悪いのか．   Plagger::Plugin::Publish::Gmail [info] Sening (なんか文字化けしてる) to hoge@gmail.com can' extract address at &lt;"=?UTF-8?.........?=" &lt;hoge@ fuga.com&gt;&gt; in &lt;"=?UTF-8?.........?=" &lt;hoge@ fuga.com&gt;&gt;    とりあえずエラーメッセージで検索．  したらこんなのを見つけることができました．  ... いろいろ memo   </description>
+      <dc:date>2006-04-18T15:18:17Z</dc:date>
+      <title>2006-04-19T00:06:19+0900</title>
+      <pubDate>Tue, 18 Apr 2006 15:18:17 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://qouop.dyndns.org/alchu/20060419.html</link>
+      <description> ... the Mapping Services(2) / Winnyの金子氏も開発に参画したコンテンツ配信システム「SkeedCast」(2) / しげふみメモ:PlaggerでAmazonアソシエイトレポートをGmailへ送る(2) / Flash(12) はてな(8) Apple(7) Javascript(7) Perl(4) Map/GoogleMaps(3) Google ... </description>
+      <dc:date>2006-04-19T00:00:00+09:00</dc:date>
+      <title>20060419</title>
+      <pubDate>Wed, 19 Apr 2006 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/manabou/20060418/1145371208</link>
+      <description>Knoppix  for  Plagger とかんがえてみたけど、そこまでしなくてもよさそなんで ノート PC で実行すると考える 1. VMware  Player Download  |  VMware  Player ... install  かな？ 10.動作確認 CookbookBloglinesGmail -  Plagger  -  Trac  で、どうでしょう ... </description>
+      <dc:date>2006-04-18T23:40:00+09:00</dc:date>
+      <title>plagger をdebian on VMware playerで</title>
+      <pubDate>Tue, 18 Apr 2006 23:40:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://blog.livedoor.jp/hakin/archives/50553463.html</link>
+      <description> ... C:\&gt;plagger -c C:\shigefumi\config-amazon.yaml Plagger [info] plugin  loaded. Plagger [info] plugin Plagger::Plugin::Publish::Gmail loaded. Plagger [info] plugin Plagger::Plugin::Aggregator::Simple loaded. Plagger::Plugin::Publish::Gmail ... </description>
+      <dc:date>2006-04-18T22:30:00+09:00</dc:date>
+      <title>PlaggerでAmazonアソシエイトレポートをGmailへ送る</title>
+      <pubDate>Tue, 18 Apr 2006 22:30:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/s_nobu/20060418/1145363351</link>
+      <description>... ■[PLAGGER]google_adsense2改  Engadgetのgoogle広告がまた若干変わった模様。以下でストリップ。  cat assets/plugins/Filter-StripRSSAd/google_adsense3  &lt;table [^&gt;]*&gt;\n\s*(?:&lt;tr&gt;\n\s*&lt;td&gt;&lt;(?:defanged-)?span[^&gt;]*&gt; &lt;br[^&gt;]*&gt;&lt;/(?:defanged-)?span&gt;&lt;/td&gt;\n\s*&lt;/tr&gt;\s*\n\s*)?&lt;tr&gt;\n\s*&lt;td&gt;&lt;a  ...s_nobuの日記   </description>
+      <dc:date>2006-04-18T12:29:11Z</dc:date>
+      <title>[PLAGGER]google_adsense2改</title>
+      <pubDate>Tue, 18 Apr 2006 12:29:11 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/jazzanova/20060418/1145338540</link>
+      <description>... ■Web2.0な日  今日は良い天気ですね！ぽっかぽかです。  このまま会社近くにある新宿御苑で寝たい気分です。    ところで、先ほどランチを食べに近くのお店に行ってきました。  そこで20代前半と思われるサラリーマン風な2人組みがWeb2.0が云々とか話し合ってました。  身近にWeb2.0の話しが出来る人がいるなんて良いですね！    飯も食べてお腹一杯になり、紀伊国屋本店で何か面白そうな本でも買おうって事で店に向かいました。  すると、入り口の所に見慣れた名前がドドーンと。    「梅田望夫 ウェブ進化論 本当の大変化はこれから始まる」    こんな感じで何やら書いてあり、あの小さい本が無数に並べられていた。  凄いな、もっちー。  ...新宿御苑前日記   </description>
+      <dc:date>2006-04-18T05:35:40Z</dc:date>
+      <title>Web2.0な日</title>
+      <pubDate>Tue, 18 Apr 2006 05:35:40 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/s_nobu/20060418</link>
+      <dc:date>2006-04-18T00:00:00</dc:date>
+      <title>s_nobuの日記</title>
+      <pubDate>Tue, 18 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/lapis25/20060418</link>
+      <dc:date>2006-04-18T00:00:00</dc:date>
+      <title>LAPISLAZULI HILL#Hatena</title>
+      <pubDate>Tue, 18 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/manabou/20060418</link>
+      <dc:date>2006-04-18T00:00:00</dc:date>
+      <title>manabouのログ</title>
+      <pubDate>Tue, 18 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/jazzanova/20060418</link>
+      <dc:date>2006-04-18T00:00:00</dc:date>
+      <title>新宿御苑前日記</title>
+      <pubDate>Tue, 18 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://blog.koshigoe.jp/archives/2006/04/my_hatenabookma_8.html</link>
+      <description>... 2006年04月18日   My Hatena::Bookmark on 2006-04-17      cyano: 2006年4月のActiveXパッチがあたったIEでFlashなどを従来通り表示させるためのJavaScript（Flashのバージョン検出機能付き）    [2006-04-17] [ie]    PHPでメッセージカタログはgettextしかありえないでしょ - よくきたblog    [2006-04-17] [php] [gettext]    Plagger － Pluggable RSS/Atom Aggrigator －    [2006-04-17] [plagger] プレゼン資料    ひげぽん OSとか作っちゃうかMona- - SICPを読もう  ...KoshigoeBLOG   </description>
+      <dc:date>2006-04-17T15:05:10Z</dc:date>
+      <title>My Hatena::Bookmark on 2006-04-17</title>
+      <pubDate>Mon, 17 Apr 2006 15:05:10 -0000</pubDate>
+    </item>
+    <item>
+      <description>[link] is a huge change, especially for users who writes your own fulltext pattern files and/or customize templates. Now, the directory assets/plugins/filter-entryful ltext is renamed to assets/plugins/Filter-EntryFul lText, to keep the cases in the original module name.</description>
+      <dc:date>2006-04-17T22:55:00+09:00</dc:date>
+      <title>assets directory reorganized</title>
+      <pubDate>Mon, 17 Apr 2006 22:55:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/manabou/20060417/1145281960</link>
+      <description>... ■plaggerでbloglinesのNYTimes全文フィードできね。。 20:58  どうもpermalinkを上書きしてログインページにとばされるようだ。。。  configからURLで指定したときはいけるんだがなぁ。。。  どうやったら書き換えないでいけるんだろ。  ...manabouのログ   </description>
+      <dc:date>2006-04-17T13:52:40Z</dc:date>
+      <title>plaggerでcyclingnews.com</title>
+      <pubDate>Mon, 17 Apr 2006 13:52:40 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/manabou/20060417/1145275094</link>
+      <description>... ■plaggerでNewsIsFreeからのサイト 06:31  EntryFullTextを雛型にかいたから、いらないのもよみこんでるかも。。。  （何行か削れそうなきがするけど、これでとりあえず動いてる)  permalinkをみるべきなのか、linkをみるべきなのか？？？？  package Plagger::Plugin::Filter::NewsIsFree; use strict; use base qw( Plagger::Plugin ); use DirHandle; use Encode; use File::Spec; use List::Util qw(first); use HTML::ResolveLink; use Plagger::Date; # for  ...manabouのログ   </description>
+      <dc:date>2006-04-17T11:58:14Z</dc:date>
+      <title>plaggerのEntryFullTextを書いてみる、いろいろ</title>
+      <pubDate>Mon, 17 Apr 2006 11:58:14 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/fuba/20060414/1144956764</link>
+      <description>... The elephant vanishes 社内ブログを導入するメリット、例えば4つの使い方 ベルゼの雑記帳: 極左ブログに(略)　Ver.5？ Lounge Programmers Killer - アニメにおける文化の断絶。 Lounge Programmers Killer - 疑似科学という単語の恣意的な運用。 Uêba - F-35 Joint Strike Fighter   戦闘機F-35の組み立て写真 アニメとイラク戦争、舞-乙HiMEの海外反響他 一九五六年の日ソ共同宣言などに関する質問主意書   鈴木宗男の質問。日露戦争の時にモンテネグロ王国も日本に宣戦布告をしたけど、ポーツマス講和会議に呼ばなかったので終戦していない説。つまりセルビア・モンテネグロと日本は国際法  ...void GraphicWizardsLair( void ); //   </description>
+      <dc:date>2006-04-17T09:58:07Z</dc:date>
+      <title>void GraphicWizardsLair( void ); //</title>
+      <pubDate>Mon, 17 Apr 2006 09:58:07 -0000</pubDate>
+    </item>
+    <item>
+      <author>Yappo</author>
+      <dc:creator>Yappo</dc:creator>
+      <link>http://blog.yappo.jp/yappo/archives/000417.html</link>
+      <description>... にならぬようにURLフィルタリングするのもよいでしょう。 とにかく、このipアドレス との通信を今すぐ遮断するべきです。 もしも、このサイトの利用者数が増えたらどんな 事になるかわかりますよね？ もしくはPlaggerでpageone対策すればよくね？ ...</description>
+      <dc:date>2006-04-17T06:51:24Z</dc:date>
+      <title>【注意勧告】pageoneというspam撒き散らし検索エンジンの件(!yahoo &lt;b&gt;...&lt;/b&gt;</title>
+      <pubDate>Mon, 17 Apr 2006 06:51:24 -0000</pubDate>
+    </item>
+    <item>
+      <author>hakin</author>
+      <dc:creator>hakin</dc:creator>
+      <link>http://blog.livedoor.jp/hakin/archives/50551352.html</link>
+      <description>
+perlをよく知らない私でも、WindowsにPlaggerをインストールするところまでできました。
+今回は、Bloglinesの未読をGmailに送るように設定してみました。
+</description>
+      <dc:date>2006-04-17T01:50:53</dc:date>
+      <title>Windowsで Plagger インストール#2 Gmailで読めた</title>
+      <pubDate>Mon, 17 Apr 2006 01:50:53 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/tokuhirom/20060417/1145264231</link>
+      <description>はじめに 
+pageone(http://www. pagesupli. com/search/blog. html)と{</description>
+      <dc:date>2006-04-17T00:00:00-05:00</dc:date>
+      <title>pageone</title>
+      <pubDate>Mon, 17 Apr 2006 00:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/charsbar/20060417/1145230665</link>
+      <description>先日Plaggerの推奨モジュールと{</description>
+      <dc:date>2006-04-17T00:00:00-05:00</dc:date>
+      <title> Win32にEncode::Detectを入れる</title>
+      <pubDate>Mon, 17 Apr 2006 00:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <link>http://blog.6f2.net/blogs/index.php?blog=5&amp;title=philosophy_or_just_common_sense&amp;more=1&amp;c=1&amp;tb=1&amp;pb=1</link>
+      <description>to concentrate. It's time to clean up my desk and better follow the result of the Joel Test ...
+	 UNIX philosophy and RSS
+	 I just testedPlaggera Perl module working as Pluggable RSS/Atom Aggregator with a bunch of extensions/modules. You have a bunch of filters, ways to get feeds and</description>
+      <dc:date>2006-04-17T09:04:00+09:00</dc:date>
+      <title>Philosophy or just common sense ?</title>
+      <pubDate>Mon, 17 Apr 2006 09:04:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://plagger.org/trac/changeset/612</link>
+      <description>Added new Filter:: PermalinkNormalize? module and its sub-plugins.
+Fixes #153
+based on http://subtech.g.hatena.ne.jp/youpy/20060417/p2 
+ </description>
+      <dc:date>2006-04-17T05:21:00+09:00</dc:date>
+      <title>Changeset [612]: Added new Filter::PermalinkNormalize module and its sub-plugins. ...</title>
+      <pubDate>Mon, 17 Apr 2006 05:21:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://plagger.org/trac/changeset/611</link>
+      <description>update Google AdSense? pattern. Fixes #181
+ </description>
+      <dc:date>2006-04-17T04:26:00+09:00</dc:date>
+      <title>Changeset [611]: update Google AdSense pattern. Fixes #181</title>
+      <pubDate>Mon, 17 Apr 2006 04:26:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://plagger.org/trac/changeset/610</link>
+      <description>bump up XML::RSS::LibXML requirement. Fixes #180
+ </description>
+      <dc:date>2006-04-17T00:47:00+09:00</dc:date>
+      <title>Changeset [610]: bump up XML::RSS::LibXML requirement. Fixes #180</title>
+      <pubDate>Mon, 17 Apr 2006 00:47:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/manabou/20060417</link>
+      <dc:date>2006-04-17T00:00:00</dc:date>
+      <title>manabouのログ</title>
+      <pubDate>Mon, 17 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/tokuhirom/20060417</link>
+      <dc:date>2006-04-17T00:00:00</dc:date>
+      <title>NamingSense::TokuLog!</title>
+      <pubDate>Mon, 17 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/charsbar/20060417</link>
+      <dc:date>2006-04-17T00:00:00</dc:date>
+      <title>Charsbar::Note</title>
+      <pubDate>Mon, 17 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/manabou/20060417/1145223096</link>
+      <description>... ■plaggerでNewsIsFreeからのサイト 06:31  EntryFullTextを雛型にかいたから、いらないのもよみこんでるかも。。。  （何行か削れそうなきがするけど、これでとりあえず動いてる)  package Plagger::Plugin::Filter::NewsIsFree; use strict; use base qw( Plagger::Plugin ); use DirHandle; use Encode; use File::Spec; use List::Util qw(first); use HTML::ResolveLink; use Plagger::Date; # for metadata in plugins use Plagger::Util  ...manabouのログ   </description>
+      <dc:date>2006-04-16T21:31:36Z</dc:date>
+      <title>plaggerでNewsIsFreeからのサイト</title>
+      <pubDate>Sun, 16 Apr 2006 21:31:36 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://www5d.biglobe.ne.jp/~y0ka/cat_plagger.html</link>
+      <description>... plagger  ... いろいろ memo   </description>
+      <dc:date>2006-04-16T14:26:48Z</dc:date>
+      <title>plagger</title>
+      <pubDate>Sun, 16 Apr 2006 14:26:48 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://www5d.biglobe.ne.jp/~y0ka/cat_2006-04-16t223a033a542b0900.html</link>
+      <description>... 2006-04-16T22:03:54+0900]    Gmail.pm に SMTP-AUTH を仕込んでみました．  config の via に smtp-auth と書いて使います．   - module: Publish::Gmail config: mailto: hoge@fuga.com mailfrom: foo@bar.com mailroute: via: smtp-auth host: smtp.bar.com username: foo password: burabura  オリジナル Gmail.pm との diff です．コピペばかり．   *** Gmail.pm.org 2006-04-15 00:11:04.000000000 +0900 ---  ... いろいろ memo   </description>
+      <dc:date>2006-04-16T14:26:48Z</dc:date>
+      <title>2006-04-16T22:03:54+0900</title>
+      <pubDate>Sun, 16 Apr 2006 14:26:48 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://blog.livedoor.jp/hakin/archives/50551053.html</link>
+      <description>
+Windowsで Plaggerを使うために、前回で
+ActivePerlをインストール
+しました。
+PlaggerはperlでCPANからインストールしますが、
+perlになじみの無い私はCPANを使うのも初めてでした。
+やったことをメモしておきます。
+</description>
+      <dc:date>2006-04-16T22:59:37+09:00</dc:date>
+      <title>Windowsで Plagger 準備#2 初めてCPANを使う</title>
+      <pubDate>Sun, 16 Apr 2006 22:59:37 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/secondlife/20060416/1145170755</link>
+      <description>... ■ パソコン周りとか  オオヒダさんが書いてたので自分もそれとなく書いてみます！  ハードウェア  モニター  DELL UltraSharp 2405FPW   以前は 17inch x 2 のデュアルディスプレイだったのですが今はこれ一台。PS2 とか HDDビデオレコーダ繋いでテレビ見たりとか。AV入力にバグがあることで有名ですがあんま気になりません。欲を言えば コンポーネント端子の他にD端子がもう一個ついてたらなぁ。  キーボード Happy Hacking Keyboard Professional2 墨   の一個前のモデル。最初 HHK Pro を手にしたときは感動した物ですが今は HHK2 (lite2 じゃないよ) のほうが打鍵感好きだったり。でも机の上の色の関係で  ...川o・-・）＜2nd life   </description>
+      <dc:date>2006-04-16T06:59:15Z</dc:date>
+      <title>パソコン周りとか</title>
+      <pubDate>Sun, 16 Apr 2006 06:59:15 -0000</pubDate>
+    </item>
+    <item>
+      <author>
+  plagger-dev@googlegroups.com
+  </author>
+      <dc:creator>
+  plagger-dev@googlegroups.com
+  </dc:creator>
+      <link>http://groups.google.com/group/plagger-dev/msg/a023217793a05ba8</link>
+      <description>
+  At 9:37 AM +0900 on 4/16/06, Tatsuhiko Miyagawa typed:  That's all the errors i got in cpan. Assuming you mean to run make  directly from the command line, i'm not very familliar with it, but  tried. I went to "~/.cpan/build/HTML-Tagset-3.1 0" and typed "make"  and got:  cp Tagset.pm blib/lib/HTML/Tagset.pm
+  </description>
+      <dc:date>2006-04-16T01:57:40Z</dc:date>
+      <title>Re: Plagger install</title>
+      <pubDate>Sun, 16 Apr 2006 01:57:40 -0000</pubDate>
+    </item>
+    <item>
+      <author>
+  plagger-dev@googlegroups.com
+  </author>
+      <dc:creator>
+  plagger-dev@googlegroups.com
+  </dc:creator>
+      <link>http://groups.google.com/group/plagger-dev/msg/6b5a79942340b457</link>
+      <description>
+  Paste the full errors during make. which perl version and which  operating system?  Anyway that's not a Plagger's problem ... maybe you want to try  package install system like apt, rpm or ports.
+  </description>
+      <dc:date>2006-04-16T00:37:23Z</dc:date>
+      <title>Re: Plagger install</title>
+      <pubDate>Sun, 16 Apr 2006 00:37:23 -0000</pubDate>
+    </item>
+    <item>
+      <author>
+  plagger-dev@googlegroups.com
+  </author>
+      <dc:creator>
+  plagger-dev@googlegroups.com
+  </dc:creator>
+      <link>http://groups.google.com/group/plagger-dev/msg/612b07a9a4675ec4</link>
+      <description>
+  Thanks for your quick reply. I tried "force install HTML::Parser" and  it hung up on HTML::Tagset, so i tried force installing that and got:  Same result with UNIVERSAL::require and LWP.  Any other ideas?  Life,  John
+  </description>
+      <dc:date>2006-04-16T00:01:36Z</dc:date>
+      <title>Re: Plagger install</title>
+      <pubDate>Sun, 16 Apr 2006 00:01:36 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/secondlife/20060416</link>
+      <dc:date>2006-04-16T00:00:00</dc:date>
+      <title>川o・-・）＜2nd life</title>
+      <pubDate>Sun, 16 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <author>Yappo</author>
+      <dc:creator>Yappo</dc:creator>
+      <link>http://blog.yappo.jp/yappo/archives/000416.html</link>
+      <description>他にはPEAN(Plagger EntryFullText Archive Network)のアイディアを出してみたり ... 利点はPlaggerのコミッターでなくても気軽に登録できるから、全文取得の対応 ... クライアント側のインストールもplagger -PEAN 'install module'みたいなかんじで簡単 ...</description>
+      <dc:date>2006-04-15T23:02:35Z</dc:date>
+      <title>サイボウズラボでたい！Hackathon</title>
+      <pubDate>Sat, 15 Apr 2006 23:02:35 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://www5d.biglobe.ne.jp/~y0ka/2006-04.html#2006-04-16-3</link>
+      <description>メソッドを呼ぶようにする
+で，実際にやってみたところ，そのまま動きました．よかったよかった．
+ 
+Plagger はなんでもフィードアグリゲータです．
+SMTP + TLS はたぶん SMTP over SSL と同じものです．
+ SMTP-AUTH は SMTP でユーザ認証するための</description>
+      <dc:date>2006-04-16T07:59:00+09:00</dc:date>
+      <title>Plagger::Plugin::Publish::Gmail.pm で SMTP-AUTH</title>
+      <pubDate>Sun, 16 Apr 2006 07:59:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://blog.livedoor.jp/hakin/archives/50551152.html</link>
+      <description>Windowsで
+Plagger
+を使うために、perlになじみの無い私が、
+ Windowsで Plagger 準備#1 ActivePerlインストール
+ Windowsで Plagger 準備#2 初めてCPANを使う
+と準備しました。
+やっと Plaggerをインストールします。
+</description>
+      <dc:date>2006-04-16T07:49:00+09:00</dc:date>
+      <title>Windowsで Plagger インストール#1</title>
+      <pubDate>Sun, 16 Apr 2006 07:49:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://blog.livedoor.jp/hakin/archives/50551036.html</link>
+      <description>少し前から興味があった
+Plagger
+をWindows XPで使ってみました。
+私はperlについてはほとんど知らないのですが、いろいろなBlogなどを参考に、&#13;
+なんとかインストールしてBloglinesの未読をGmailに送るところまでできました。 </description>
+      <dc:date>2006-04-16T06:50:00+09:00</dc:date>
+      <title>Windowsで Plagger 準備#1 ActivePerlインストール</title>
+      <pubDate>Sun, 16 Apr 2006 06:50:00 +0900</pubDate>
+    </item>
+    <item>
+      <author>ニックネーム</author>
+      <dc:creator>ニックネーム</dc:creator>
+      <link>http://blog4job.seesaa.net/article/16608624.html</link>
+      <description>Plagger-0.6.3 http://bulknews.net/go.cgi?id=1067655 【Freshmeat】 (http://freshmeat. net/) ＿＿＿＿ ■ Myrinix - Digital Home Edition 2006-04-15 (KDE: GR, UK, IT branch) http://bulknews.net/go.cgi?id=1067656 ...</description>
+      <dc:date>2006-04-15T10:02:12Z</dc:date>
+      <title>Bulknews (Sat Apr 15 19:00:10 2006)</title>
+      <pubDate>Sat, 15 Apr 2006 10:02:12 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://feeds.feedburner.com/mizzyorg?m=123</link>
+      <description>
+
+
+
+
+
+...</description>
+      <dc:date>2006-04-15T18:00:00+09:00</dc:date>
+      <title>コトノハ と Plagger</title>
+      <pubDate>Sat, 15 Apr 2006 18:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <author>kohaku</author>
+      <dc:creator>kohaku</dc:creator>
+      <link>http://aoiro-blog.com/archives/504</link>
+      <description>某所でPlaggerのプレゼンをしてきた. (tags: Plagger). ITmedia +D モバイル：音楽 ケータイと使いたいBluetoothヘッドセット「PULSAR 590A」 (1/3). (tags: Bluetooth Mobile music HeadSet). 窓の杜 - 【NEWS】デスクトップ端の細長い棒グラフでメモリ ...</description>
+      <dc:date>2006-04-15T06:20:51Z</dc:date>
+      <title>links for 2006-04-15</title>
+      <pubDate>Sat, 15 Apr 2006 06:20:51 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/kurimax/20060415/1145065836</link>
+      <description>はてブお気に入りユーザを$</description>
+      <dc:date>2006-04-15T00:00:00-05:00</dc:date>
+      <title>[雑感]はてブのお気に入り基準なんて考えない</title>
+      <pubDate>Sat, 15 Apr 2006 00:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <author>
+  plagger-dev@googlegroups.com
+  </author>
+      <dc:creator>
+  plagger-dev@googlegroups.com
+  </dc:creator>
+      <link>http://groups.google.com/group/plagger-dev/msg/235d0379ead509ed</link>
+      <description>
+  Okay, you'd better use "force install" cpan command to install all of  them. Test failure really doesn't matter. So like,  cpan&gt; force install HTML::Parser  cpan&gt; force install UNIVERSAL::require  cpan&gt; force install LWP
+  </description>
+      <dc:date>2006-04-15T03:26:19Z</dc:date>
+      <title>Re: Plagger install</title>
+      <pubDate>Sat, 15 Apr 2006 03:26:19 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://subtech.g.hatena.ne.jp/miyagawa/20060415/1145107360</link>
+      <description>		http://plagger.org/trac/browser/trunk/plagger/assets/plugins/Filter-StripRSSAd
+		Filter::StripRSSAd のパターンをディレクトリから読むようにしたのでパターンの追加が簡単に。 
+</description>
+      <dc:date>2006-04-15T06:22:00+09:00</dc:date>
+      <title>[Plagger] StripRSSAd のパターンファイル化</title>
+      <pubDate>Sat, 15 Apr 2006 06:22:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://plagger.org/trac/changeset/603</link>
+      <description>fetch_item cache longer; Fixes #177
+ </description>
+      <dc:date>2006-04-15T05:47:00+09:00</dc:date>
+      <title>Changeset [603]: fetch_item cache longer; Fixes #177</title>
+      <pubDate>Sat, 15 Apr 2006 05:47:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://www.rssmix.com/8aa34e76464421d98fffcfe9b6d60c10</link>
+      <description>   </description>
+      <dc:date>2006-04-15T03:16:00+09:00</dc:date>
+      <title>Plagger - Trac</title>
+      <pubDate>Sat, 15 Apr 2006 03:16:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://plagger.org/trac/changeset/595</link>
+      <description>StripRSSAd now loads pattern files from assets dir. No need to update code anymore!
+Fixes #179
+ </description>
+      <dc:date>2006-04-15T01:34:00+09:00</dc:date>
+      <title>Changeset [595]: StripRSSAd now loads pattern files from assets dir. No need to update code ...</title>
+      <pubDate>Sat, 15 Apr 2006 01:34:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://plagger.org/trac/changeset/594</link>
+      <description>  Add BloglinesLinkAttrStripper? filter. Fixes #178
+  Autoload BloglinesLinkAttrStripper? in StripRSSAd
+  Added autoload_plugin() method in Plagger.pm
+  Added valueclick ads, seen in NPR.org feeds. Fixes #174
+  </description>
+      <dc:date>2006-04-15T01:07:00+09:00</dc:date>
+      <title>Changeset [594]: * Add BloglinesLinkAttrStripper filter. Fixes #178 ...</title>
+      <pubDate>Sat, 15 Apr 2006 01:07:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://subtech.g.hatena.ne.jp/miyagawa/20060415/1145086348</link>
+      <description>		プラグインディレクトリ構成リネーム。http://plagger.org/trac/changeset/593
+		お手数おかけします。
+		ついでにいうと EntryFullText と CustomFeed-Simple の unification もしないとだからまたディレクトリ名変わるかもorz
+</description>
+      <dc:date>2006-04-15T00:32:00+09:00</dc:date>
+      <title>[Plagger] assets directory revamp</title>
+      <pubDate>Sat, 15 Apr 2006 00:32:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://groups.google.com/group/plagger-dev/browse_thread/thread/412142adb22c9e72</link>
+      <description>[link] is a huge change, especially for users who writes your own fulltext pattern files and/or customize templates. Now, the directory assets/plugins/filter-entryful ltext is renamed to assets/plugins/Filter-EntryFul lText, to keep the cases in the original module name.</description>
+      <dc:date>2006-04-15T00:29:00+09:00</dc:date>
+      <title>assets directory reorganized</title>
+      <pubDate>Sat, 15 Apr 2006 00:29:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://groups.google.com/group/plagger-dev/msg/7380d3ece1c101c7</link>
+      <description>[link] is a huge change, especially for users who writes your own fulltext pattern files and/or customize templates. Now, the directory assets/plugins/filter-entryful ltext is renamed to assets/plugins/Filter-EntryFul lText, to keep the cases in the original module name.</description>
+      <dc:date>2006-04-15T00:29:00+09:00</dc:date>
+      <title>assets directory reorganized</title>
+      <pubDate>Sat, 15 Apr 2006 00:29:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://plagger.org/trac/changeset/593</link>
+      <description>WARNING: big directory organize revamp. Keep cases in plugin id and assets directory
+Fixes #106
+ </description>
+      <dc:date>2006-04-15T00:22:00+09:00</dc:date>
+      <title>Changeset [593]: WARNING: big directory organize revamp. Keep cases in plugin id and assets ...</title>
+      <pubDate>Sat, 15 Apr 2006 00:22:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/kurimax/20060415</link>
+      <dc:date>2006-04-15T00:00:00</dc:date>
+      <title>「俺」のターン</title>
+      <pubDate>Sat, 15 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <author>miyagawa</author>
+      <dc:creator>miyagawa</dc:creator>
+      <link>http://bulknews.typepad.com/blog/2006/04/ill_talk_in_osc.html</link>
+      <description>I'll give a brief 50 minutes talk about Plagger in OSCON 2006. ... I made a submission of Plagger talk to YAPC::NA 2006 in Chicago as well, and YAPC will suit better ... Also, I have to clarify a bit about 5 years ago thing for Plagger. ...</description>
+      <dc:date>2006-04-14T05:58:27Z</dc:date>
+      <title>I&amp;#39;ll talk in OSCON 2006</title>
+      <pubDate>Fri, 14 Apr 2006 05:58:27 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/magicalfactory/20060414</link>
+      <dc:date>2006-04-14T00:00:00</dc:date>
+      <title>MagicalFactory Annex</title>
+      <pubDate>Fri, 14 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/manabou/20060414</link>
+      <dc:date>2006-04-14T00:00:00</dc:date>
+      <title>manabouのログ</title>
+      <pubDate>Fri, 14 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/babie/20060414</link>
+      <dc:date>2006-04-14T00:00:00</dc:date>
+      <title>ξ；゜〓゜)ξ { 遅レス。)</title>
+      <pubDate>Fri, 14 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/walf443/20060414</link>
+      <dc:date>2006-04-14T00:00:00</dc:date>
+      <title>I sort my thought...</title>
+      <pubDate>Fri, 14 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/koyachi/20060414</link>
+      <dc:date>2006-04-14T00:00:00</dc:date>
+      <title>koyachiの日記</title>
+      <pubDate>Fri, 14 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/fuba/20060414</link>
+      <dc:date>2006-04-14T00:00:00</dc:date>
+      <title>fubaはてな</title>
+      <pubDate>Fri, 14 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/walf443/20060414/1144980203</link>
+      <description>■[event][plagger]某所でPlaggerのプレゼンをしてきた 某所でPlaggerに関してちょろっとプレゼンしてきました。とはいっても自分はち プレゼン資料は http://walf443.raindrop.jp/xul_presen/?d...</description>
+      <dc:date>2006-04-13T19:04:39Z</dc:date>
+      <title>[event][plagger]某所でPlaggerのプレゼンをしてきた</title>
+      <pubDate>Thu, 13 Apr 2006 19:04:39 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://use.perl.org/~pudge/journal/29314</link>
+      <description>So I am looking at the Perl track for OSCON, and I am wondering where the technical sessions are.No offense to any of the speakers or topics, because I am only speaking personally, but I don't really care about most of the non-meaty topics, like Perl Bliss and so on.  And I don't care about Perl 6.  Feed Aggregation is so 5 years ago.  I never pay extra for the tutorials.Setting aside the standards -- Lightning Talks and The Conway Channel -- that leaves me with What's New in Perl DBI, Devel::Cover, Plagger: Pluggable RSS/Atom Aggregation, Mason Components for Ajax, A Relational Object Driver That Doesn't Suck, and Perl Hacks You Never Knew Existed.I don't care about feed aggregation (well, I do, but not in any new tools to deal with it), I don't use Mason (although maybe I could learn something more about how to deal with Ajax), and I sure as hell don't need another DB abstraction layer (although it might be an interesting talk anyway, at least get me thinking about issues with our own custom layer?).So being very generous with my interest, I could go to all the above sessions, which means four sessions Wednesday, three Thursday, and one Friday.And that's with no options for other possibilities.  So if one was a dud or I decided I really didn't care about a new syndication aggregation toolkit, I'd have nothing to go to.Of course, I might very well find sessions in the Apache and MySQL tracks.  And I will likely go to OSCON and do just that, and not feel like I've wasted my time or money.But I want to go to a Perl conference, and frankly, I don't think OSCON qualifies. Now Playing: John Debney - It Is Done </description>
+      <dc:date>2006-04-13T17:15:09Z</dc:date>
+      <title>The "Perl" Conference</title>
+      <pubDate>Thu, 13 Apr 2006 17:15:09 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/babie/20060414/p4</link>
+      <description>
+		
+			Plagger って Gmail を便利に使うためのライブラリだと思ってた……。盛り上がってるなぁみんなメール好きだなぁ、と……
+		
+</description>
+      <dc:date>2006-04-14T00:00:00+09:00</dc:date>
+      <title>[perl] Plagger</title>
+      <pubDate>Fri, 14 Apr 2006 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <author>mrstx</author>
+      <dc:creator>mrstx</dc:creator>
+      <link>http://d.hatena.ne.jp/mrstx/20060413/1144926798</link>
+      <description> ...ービス自体が不安定なのか、RSSが取得できていないので、まとめて取得されることになるんでしょうか） 個人的には、Plaggerで新着カレンダーグループ、イベント、コメントを分割してRSSでパックして、メールなりRSSなりでプッシュしてもらうと取りこぼしが減りそうです。</description>
+      <dc:date>2006-04-13T20:13:18+09:00</dc:date>
+      <title>Google Calendar</title>
+      <pubDate>Thu, 13 Apr 2006 20:13:18 +0900</pubDate>
+    </item>
+    <item>
+      <author>miyagawa</author>
+      <dc:creator>miyagawa</dc:creator>
+      <link>http://blog.bulknews.net/mt/archives/002031.html</link>
+      <description>Plagger でカレンダーデータを扱うというのはかなり楽しいですね。 ... Plagger のRSS/Atom な entry には日付しかついてないので、より詳細なメタデータ形式としては RDF ... これは Plagger Enclosure 対応のときに Media RSS に対応するのと同じ感じ。 ...</description>
+      <dc:date>2006-04-13T09:10:46Z</dc:date>
+      <title>Google Calendar vs. 30 boxes</title>
+      <pubDate>Thu, 13 Apr 2006 09:10:46 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://feeds.feedburner.com/bulknews?m=351</link>
+      <description>Google Calendar
+
+Simplify. Organize. (And relax.) Organizing your schedule shouldn't be a burden. That's why we've created Google Calendar – our free online shareable calendar service. With Google Calendar, it's easy to keep track of all your life's important events – birthdays, reunions, little league games, doctor's appointments – all in one place.
+
+Google Calendar がようやっとローンチ。ここしばらく 30boxes をかなり気に入って使ってきたので心中複雑ですが、Google Calendar の iCal っぽい UI はたしかにステキですね。色でカレンダーをわけたり、Quick Add も踏襲していてさすがという感じ。Gmail で文中にスケジュールが書いてあると自動で追加する Gmail Integration （試してみたいけどどうやるのかな） とか、GMaps 連携とか面白そう。
+
+ただ、３週間ほど使っている 30boxes のほうがまだ痒いところに手が届く感じ。Flickr のアカウントを追加すると勝手に buddyicon がデフォルトで置き換わるとか、登録時の Email に gmail.com を使うと Check Gmail なリンクがついたり、細かいところが凝っているなあ、と スモールチームのプロダクトという感じが気に入っていました。
+
+Journal of acme (189)
+
+and I import the ICS into Google Calendar and all the times are off by eight hours!. That 2.05pm event is now at 10.05pm. Pesky dates! Pesky software!
+
+たしかに ics インポートするときにはローカルタイムがすべて西海岸時間（GMT-8 ）になってしまうとか、UTF-8 でマルチバイトな文字はちゃんとインポートできないとか、まだまだ Google Calendar も改善の余地がありそうです。Atom への link (Auto-Discovery) もついているけど実際にアクセスしてもフィードはでてこなかった。。。
+
+Google Calendar - Ogawa::Memoranda
+
+サイボウズのスケジュールを読み込んで、Google CalendarにiCal形式でポストできるPlaggerのモジュールがあればなあ。そうすればOutlookは完全に捨てられるのに。
+
+Plagger でカレンダーデータを扱うというのはかなり楽しいですね。CustomFeed::iCal と Publish::iCal をつくってみても面白いかも。Feed のエントリーの中にスケジュールっぽい文字列があったら自動抽出なんてできるとステキだなあ。もちろん王道で hCalendar な microformats にも。
+
+Plagger のRSS/Atom な entry には日付しかついてないので、より詳細なメタデータ形式としては RDF Site Summary 1.0 Modules: Event を使うとよいかも。hCalendar を フィードの xhtml:body, content:encoded, atom:body にそのまま入れるのもありですね。
+
+これは Plagger Enclosure 対応のときに Media RSS に対応するのと同じ感じ。Publish::Feed の大改造が必要だな。</description>
+      <dc:date>2006-04-13T18:10:46+09:00</dc:date>
+      <title>Google Calendar vs. 30 boxes</title>
+      <pubDate>Thu, 13 Apr 2006 18:10:46 +0900</pubDate>
+    </item>
+    <item>
+      <author>miyagawa</author>
+      <dc:creator>miyagawa</dc:creator>
+      <link>http://blog.bulknews.net/mt/archives/002030.html</link>
+      <description>Plagger: Pluggable RSS/Atom Aggregation Tatsuhiko Miyagawa, Six Apart. YAPC::Asia のスライドでも触れましたが、O'Reilly Open Source Convention 2006 @ Portland, OR で Plagger のトーク (50分) をすることになりました。 ...</description>
+      <dc:date>2006-04-13T08:57:12Z</dc:date>
+      <title>OSCON 2006 で &lt;b&gt;Plagger&lt;/b&gt; のプレゼン</title>
+      <pubDate>Thu, 13 Apr 2006 08:57:12 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://feeds.feedburner.com/bulknews?m=350</link>
+      <description>O'Reilly Open Source Convention - July, 24-28, 2006 - Portland, OR
+
+Plagger: Pluggable RSS/Atom Aggregation
+Tatsuhiko Miyagawa, Six Apart
+
+YAPC::Asia のスライドでも触れましたが、O'Reilly Open Source Convention 2006 @ Portland, OR で Plagger のトーク (50分) をすることになりました。英語でのプレゼンはほとんど初めてに近い（YAPC::Taipei も一応英語でしたが）のでちょっと緊張します！ といってもこれが最初ではなくて、ちょうど１ヶ月前の YAPC::NA @ Chicago にも同じトーク（＋Trickter Hacking iTunes &amp; PSP）をサブミットしてあります。
+
+これももうすぐ accept の可否がわかると思いますが、たぶん大丈夫でしょう。いい予行演習になるはず。</description>
+      <dc:date>2006-04-13T17:57:12+09:00</dc:date>
+      <title>OSCON 2006 で Plagger のプレゼン</title>
+      <pubDate>Thu, 13 Apr 2006 17:57:12 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://conferences.oreillynet.com/cs/os2006/view/e_sess/8993</link>
+      <description>Plagger (http://plagger.org/) is a pluggable RSS/Atom aggregation and syndication tool written in Perl. Plagger comes with various API hooks that external plugins can extend: Subscription, Aggregator, Custom Feed, Filter/Tag Content, Content Widget &amp; Publish. With these plugin hooks, you can do pretty neat stuff like "Get the updates from Bloglines, create rich-text email and forward them all to my Gmail inbox. But if the entry title contains 'OSCON' and is bookmarked by more than 10 users on del.icio.us, ...</description>
+      <dc:date>2006-04-13T06:53:06Z</dc:date>
+      <title>O'Reilly Open Source Convention - July, 24-28, 2006 - Portland, OR</title>
+      <pubDate>Thu, 13 Apr 2006 06:53:06 -0000</pubDate>
+    </item>
+    <item>
+      <author>イシジマ ミライ</author>
+      <dc:creator>イシジマ ミライ</dc:creator>
+      <link>http://woopsdez.jp/links_for_20060413.php</link>
+      <description>Plagger - Trac. 最近宮川さんがすごいプラガってるのでどんなもんかと高橋メソッドで拝見 させて ... でもdocumentがほぼないそうなので今のうちperlの勉強から始めます。plagger のdocumentが充 ... Plagger wiki インストールの方法が書いてあるみたい。 ...</description>
+      <dc:date>2006-04-13T06:21:25Z</dc:date>
+      <title>links for 2006-04-13</title>
+      <pubDate>Thu, 13 Apr 2006 06:21:25 -0000</pubDate>
+    </item>
+    <item>
+      <author>ogawa</author>
+      <dc:creator>ogawa</dc:creator>
+      <link>http://as-is.net/blog/archives/001120.html</link>
+      <description>上の方で「Plaggerでほげほげ」と書いたのは、カレンダーシステムで重要なことは、「 入力の簡便さ」もあるけれど、「Syndicationの容易さ・自動化」だと考えているから。 本当は外部からAtomPPでカレンダーアイテムを追加・編集・削除できるような ...</description>
+      <dc:date>2006-04-13T05:33:17Z</dc:date>
+      <title>Google Calendar</title>
+      <pubDate>Thu, 13 Apr 2006 05:33:17 -0000</pubDate>
+    </item>
+    <item>
+      <author>otsune</author>
+      <dc:creator>otsune</dc:creator>
+      <link>http://www.otsune.com/diary/2006/04/13/1.html#200604131</link>
+      <description>subtechグループ - Bulknews::Subtech - atode.cc クローン by Plaggerから。bloglines 巡回をPlaggerを使ってGMailで読んでいるオレだけど。「このURLの内容全文をメールに 送って保存しておきたいな」というときにdel.icio.usに特定のタグを付けて一発 ...</description>
+      <dc:date>2006-04-13T05:26:26Z</dc:date>
+      <title>ソーシャルブックマークサービスと&lt;b&gt;Plagger&lt;/b&gt;（Perlスクリプト）とGMailを &lt;b&gt;...&lt;/b&gt;</title>
+      <pubDate>Thu, 13 Apr 2006 05:26:26 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://marcusramberg.livejournal.com/12956.html</link>
+      <description>Looks like there will be a Plagger Talk at Oscon this year. Wish I could be there. Plagger seems to be very shiny, I've been playing a little with it lately. It's also going to get RSS Event support, which will be very interesting with the advent of GCal.</description>
+      <dc:date>2006-04-13T04:32:00+09:00</dc:date>
+      <title>Some interesting Plagger thingies.</title>
+      <pubDate>Thu, 13 Apr 2006 04:32:00 +0900</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/manabou/20060413</link>
+      <dc:date>2006-04-13T00:00:00</dc:date>
+      <title>manabouのログ</title>
+      <pubDate>Thu, 13 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/overleo/20060413</link>
+      <dc:date>2006-04-13T00:00:00</dc:date>
+      <title>overleoのあんてなとか</title>
+      <pubDate>Thu, 13 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <link>http://d.hatena.ne.jp/mrstx/20060413</link>
+      <dc:date>2006-04-13T00:00:00</dc:date>
+      <title>嗚呼、貝になりたい</title>
+      <pubDate>Thu, 13 Apr 2006 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <author>thecape_1</author>
+      <dc:creator>thecape_1</dc:creator>
+      <link>http://www.thecape.co.uk/linux-pc/2006/04/linux-pc-freshmeatnet-welcome-to.html</link>
+      <description>Kernel Mode Linux 2.6.16_001 (For Linux 2.6) - Plagger 0.6.1 ... Source: freshmeat.net LinuxDevCenter.com -- Building a Linux Media PC John Litter introduces the Linux media PC, a computer that can play CDs, DVDs, TV, and even games. ...</description>
+      <dc:date>2006-04-12T08:56:46Z</dc:date>
+      <title>Linux pc - freshmeat.net: Welcome to freshmeat.net</title>
+      <pubDate>Wed, 12 Apr 2006 08:56:46 -0000</pubDate>
+    </item>
+    <item>
+      <author>nTeTs</author>
+      <dc:creator>nTeTs</dc:creator>
+      <link>http://d.hatena.ne.jp/nTeTs/20060412/1144829812</link>
+      <description>ameblo用EntryFullTextのアレ（未だ名称不明）が本家svnに登録されてたよ。しかも修正されてたよ！ http://plagger.org/trac/changeset/577 巡回ハヤス！</description>
+      <dc:date>2006-04-12T17:16:52+09:00</dc:date>
+      <title>[&lt;B&gt;Plagger&lt;/B&gt;]ameblo用EntryFullTextのアレが本家svnに登録されてた</title>
+      <pubDate>Wed, 12 Apr 2006 17:16:52 +0900</pubDate>
+    </item>
+    <item>
+      <category>plagger</category>
+      <link>http://blog.6f2.net/blogs/index.php?blog=5&amp;amp;title=philosophy_or_just_common_sense&amp;amp;more=1&amp;amp;c=1&amp;amp;tb=1&amp;amp;pb=1</link>
+      <description> For the eastern period, we welcomed a bunch of friends and I made a chicken curry with dry fruits. The recipe is very easy to do and it tasted very good. You have to cook oinions with oil until the oinions look translucid. After that, you add small slice of apple, dry apricot (in very small parts), prunes and small dry grapes. Cook for a period of 10 minutes with average fire. Add 2 or 3 vegetable stock with 50cl of water. Wait for 5 or 10 minutes of average fire. After you can add the saffron, not too muc...</description>
+      <dc:subject>plagger</dc:subject>
+      <title>adulau's messy desk or blog</title>
+    </item>
+    <item>
+      <category>plagger aggregation livedoor</category>
+      <link>http://subtech.g.hatena.ne.jp/otsune/20060419/livedoorfinance</link>
+      <description> livedoor ファイナンス WWW::Mechanizeで自動化する勇気をください。 （Rule:で一定の金額を超えているデータはmiyagawaさんにbccされるという隠し機能を付けたら邪悪すぎるか） </description>
+      <dc:subject>plagger aggregation livedoor</dc:subject>
+      <title>subtechグループ - otsune&amp;#39;s SnakeOil  - 「CustomFeed::livedoorFinance」で、口座一括管理の残高をGmailに送信ってどうよ</title>
+    </item>
+    <item>
+      <category>plagger bloglines</category>
+      <link>http://subtech.g.hatena.ne.jp/otsune/20060418/bloglinescitations</link>
+      <description> 特に工夫無し。 global: timezone: Asia/Tokyo plugins: - module: Subscription::Config config: feed: - http://bloglines.com/citations?url=http%3A//mohican.g.hatena.ne.jp - http://bloglines.com/citations?url=http%3A//otsune.com/ - http://bloglines.com/citations?url=http%3A//d.hatena.ne.jp/otsune/ - module: CustomFeed::BloglinesCitations - module: Publish::Feed config: format: Atom dir: /home/otsune/public_html/plagger/feed filename: my_%t.atom これで出来たatomフィードをbloglinesに登録し...</description>
+      <dc:subject>plagger bloglines</dc:subject>
+      <title>subtechグループ - otsune&amp;#39;s SnakeOil  - CustomFeed::BloglinesCitationsでエゴサーチ設定をしてみる</title>
+    </item>
+    <item>
+      <category>plagger</category>
+      <link>http://d.hatena.ne.jp/ikasam_a/20060407</link>
+      <description>The problem is that Module::Install adds 'inc/Module/Install' to the @INC in its load_extensions method. On Windows we end up loading Config_heavy.pl here which loads ActivePerl::Config and ActiveState::Path. ActiveState::Path contains this statement: use base 'Exporter'; so Perl ends up trying to load 'base.pm'. Since the Windows file system is case insensitive and Module::Install has added 'inc/Module/Install' to @INC this ends up loading inc/Module/Install/Base.pm instead of the base pragma. The ...</description>
+      <dc:subject>plagger</dc:subject>
+      <title>masakiのはてなダイアリー</title>
+    </item>
+    <item>
+      <category>plagger otsune</category>
+      <link>http://onexone.sakura.ne.jp/archives/2006/04/11_002556.php</link>
+      <description>な"youtube" あと更新に使ってる"plagger"の３つで。 もっとスマートに出来れば、コンパクトに大量に、時間をわけて更新するのになあ。 MT更新するときに不便なのが Plagger::Rule::Freshだと、RSS内のitemタグ内に～が入っていないと mtimeで過去のものを切り捨ててくれないような。 でも、この間の文字化けのように、普通に見逃している予感もするので まぁどうにかなるかなぁと。 ちな...</description>
+      <dc:subject>plagger otsune</dc:subject>
+      <title>ONE�ONE: いくつか、ちらほら。</title>
+    </item>
+    <item>
+      <category>plagger perl programming rss</category>
+      <link>http://subtech.g.hatena.ne.jp/otsune/20060418/mixi2gmail</link>
+      <description> CustomFeed::Mixiが色々と機能追加されているので設定。 config-sns.yamlとして global: timezone: Asia/Tokyo plugins: - module: Filter::Rule rule: module: Fresh mtime: path: /home/HOGE/plagger/plagger.tmp autoupdate: 1 - module: Publish::Gmail rule: - module: Rating rate: '&gt;= 0' config: mailto: HOGE+plagger@example.com mailfrom: HOGE+plagger@example.com mailroute: via: smtp host: 127.0.0.1 - module: CustomFeed::Mixi config: email: HOGE@example.com password: **************** fetch...</description>
+      <dc:subject>plagger perl programming rss</dc:subject>
+      <title>subtechグループ - otsune&amp;#39;s SnakeOil - PlaggerのSNSなconfig.yamlを設定を詰める</title>
+    </item>
+    <item>
+      <category>plagger</category>
+      <link>http://ti-na-ba.ddo.jp/~xinaba/serene_bach/log/eid220.html</link>
+      <description>えー、別にニートの話でもNHK受信料の話でもありません。 ましてや、 http://tencount.blogdb.jp/ このサイトおもしれー、なんて話がしたいのでもなくて、 お試し期間が終わってしまった『フレッシュリーダー』のブロガーライセンスを取得できないので、通常のライセンス取得には3000円払えばいいんだけど…という話。 で、Scuttle+Plaggerで何とかならんか、と試行錯誤中。 『ググって...</description>
+      <dc:subject>plagger</dc:subject>
+      <title>17 tea | 払ったら負けかなと思ってる</title>
+    </item>
+    <item>
+      <category>plagger entryfulltext</category>
+      <link>http://d.hatena.ne.jp/manabou/20060413/1144962572</link>
+      <dc:subject>plagger entryfulltext</dc:subject>
+      <title>manabouのログ - plaggerのEntryFullTextを書いてみるitmedia</title>
+    </item>
+    <item>
+      <category>plagger 2ch neta</category>
+      <link>http://subtech.g.hatena.ne.jp/tokuhirom/20060417</link>
+      <description> Plaggerだけどなにか質問ある？ 1 ：Plagger：2006/04/17(月) 16:16:46.02 ID:BQ06xQDb0 だいたい全部答える尾 2 ：以下、名無しにかわりましてVIPがお送りします ：2006/04/17(月) 16:17:16.76 ID:S/Worpq/0 ・・・・。（＾ω＾；） 3 ：以下、名無しにかわりましてVIPがお送りします ：2006/04/17(月) 16:17:37.21 ID:S/Worpq/0 ・・・・。（＾ω＾；） 4 ：以下、名無しにかわりましてVIPがお送りします ：2006/04/17(月) 16:...</description>
+      <dc:subject>plagger 2ch neta</dc:subject>
+      <title>subtechグループ - tokuhirom@株主の日記</title>
+    </item>
+    <item>
+      <category>plagger</category>
+      <link>http://wiki.shibuya.pl/?NoluggerNews</link>
+      <dc:subject>plagger</dc:subject>
+      <title>  NoluggerNews -  Shibuya.Plaggers :: Publish::Kwiki</title>
+    </item>
+    <item>
+      <category>plagger</category>
+      <link>http://unknownplace.org/memo/tag/plagger</link>
+      <description>package Plagger::Plugin::Notify::Stdout; use strict; use warnings; use base qw/Plagger::Plugin/; sub register { my ( $self, $c ) = @_; $c-&gt;register_hook( $self, 'publish.feed' =&gt; \&amp;update, 'publish.finalize' =&gt; \&amp;finalize, ); $self-&gt;{count} = 0; } sub update { my ( $self, $c, $args ) = @_; $self-&gt;{count} += $args-&gt;{feed}-&gt;count if $args-&gt;{feed}-&gt;count; } sub finalize { my ( $self, $c, $args ) = @_; if (defined $self-&gt;{count}) { $self-&gt;conf-&gt;{format} ? printf $self...</description>
+      <dc:subject>plagger</dc:subject>
+      <title>CLON - Tags: plagger</title>
+    </item>
+    <item>
+      <category>plagger</category>
+      <link>http://subtech.g.hatena.ne.jp/miyagawa/20060417/1145277062</link>
+      <description> youpy さんの http://subtech.g.hatena.ne.jp/youpy/20060417/p2 を参考に、メタプラグイン化。(assets からパターン読む load_plugins も種類が増えてきたから Plagger::Plugin にメソッド書いて再利用すっかなあ） rewrite (eval) と query_param (クエリから抜き出し）に対応。とりあえず TECH 総研、ref=rss (asahi.com, CNET)、NAMAAN, Yahoo! Blog Search, rss.s2ch.net に対応してあります。パターンファイルの追加歓迎。 </description>
+      <dc:subject>plagger</dc:subject>
+      <title>subtechグループ - Bulknews::Subtech -  [Plagger] PermalinkNormalize</title>
+    </item>
+    <item>
+      <category>ical calendar tool cal ツール calender plagger web</category>
+      <link>http://www8.atwiki.jp/icalmemo/pages/5.html</link>
+      <description> 導入は自己責任でお願いします。 カレンダー生成スクリプトその他 カレンダー生成スクリプト Comic2icalコミック発売情報を任意の漫画家で絞ってicsを生成するRubyスクリプト Mhc2icalMHCの スケジュールデータベースをicsでエキスポートするRubyスクリプト comic2icsコミック発売情報からicsを生成するperlスクリプト ics2csv.rbiCalendar形式のファイルをzdbat 用に加工するRubyスクリプト weatherca...</description>
+      <dc:subject>ical calendar tool cal ツール calender plagger web</dc:subject>
+      <title>iCal MEMO - 関連アプリ等 カレンダー生成スクリプト</title>
+    </item>
+    <item>
+      <category>plagger yappo hatena これはひどい vip neta aa 2ch</category>
+      <link>http://ex14.2ch.net/test/read.cgi/news4vip/1145258206/75</link>
+      <dc:subject>plagger yappo hatena これはひどい vip neta aa 2ch</dc:subject>
+      <title>Plaggerだけどなにか質問ある？</title>
+    </item>
+    <item>
+      <category>ical plagger livedoor</category>
+      <link>http://subtech.g.hatena.ne.jp/otsune/20060417/1145256656</link>
+      <description> Plaggerでics形式が扱えるようになると素敵なサムシング。 </description>
+      <dc:subject>ical plagger livedoor</dc:subject>
+      <title>subtechグループ - otsune&amp;#39;s SnakeOil  - livedoor weatherの天気予報データをGoogle Calendarのics形式に変換できねぇかな</title>
+    </item>
+    <item>
+      <category>plagger rss</category>
+      <link>http://ex14.2ch.net/test/read.cgi/news4vip/1145258206/l50</link>
+      <description> かなりモテる。 Plaggerで2chのスレ巡回させれば、女神すれに画像が上がった瞬間に 画像落としてきて、画像を携帯に送ってくれる。 女神スレに張り付かなくても、画像が自動的に送られてくるから 女神スレに張り付いていた時間をモテるために使える </description>
+      <dc:subject>plagger rss</dc:subject>
+      <title>Plaggerだけどなにか質問ある？</title>
+    </item>
+    <item>
+      <category>plagger 2ch vip hatena 笑 neta</category>
+      <link>http://ex14.2ch.net/test/read.cgi/news4vip/1145258206/</link>
+      <dc:subject>plagger 2ch vip hatena 笑 neta</dc:subject>
+      <title>Plaggerだけどなにか質問ある？</title>
+    </item>
+    <item>
+      <category>plagger</category>
+      <link>http://www.otsune.com/fswiki/plagger.html#p11</link>
+      <description>devel/p5-Module-Install devel/p5-Cache devel/p5-Cache-Cache devel/p5-Class-Accessor devel/p5-File-Find-Rule devel/p5-UNIVERSAL-require devel/p5-DateTime-Format-Mail devel/p5-DateTime-Format-W3CDTF devel/p5-DateTime-Format-Strptime mail/p5-MIME-Lite math/p5-Number-Compare textproc/p5-Text-Diff textproc/p5-Text-Glob textproc/p5-YAML textproc/p5-XML-OPML textproc/p5-XML-Feed textproc/p5-XML-RSS-LibXML textproc/p5-URI-Find www/p5-Template-Toolkit www/p5-WWW-Mechanize security/p5-Digest-MD5 security/p5-Digest-HM...</description>
+      <dc:subject>plagger</dc:subject>
+      <title>plagger - otsune FreeStyleWiki</title>
+    </item>
+    <item>
+      <category>plagger hatena</category>
+      <link>http://subtech.g.hatena.ne.jp/keyword/%e3%81%9d%e3%82%8cPlagger%e3%81%a7%e3%82%84%e3%82%8c%e3%81%b0%e3%81%84%e3%81%84%e3%82%93%e3%81%98%e3%82%83%e3%81%ad%ef%bc%9f</link>
+      <description>「それPlaggerでやればいいんじゃね？」へのトラックバック (0) - http://subtech.g.hatena.ne.jp/keyword/%e3%81%9d%e3%82%8cPlagger%e3%81%a7%e3%82%84%e3%82%8c%e3%81%b0%e3%81%84%e3%81%84%e3%82%93%e3%81%98%e3%82%83%e3%81%ad%ef%bc%9f</description>
+      <dc:subject>plagger hatena</dc:subject>
+      <title>subtechグループ - それPlaggerでやればいいんじゃね？</title>
+    </item>
+  </channel>
+</rss>

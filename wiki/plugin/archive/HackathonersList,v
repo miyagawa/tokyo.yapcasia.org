@@ -1,0 +1,535 @@
+head	1.33;
+access;
+symbols;
+locks
+	root:1.33;
+comment	@# @;
+
+
+1.33
+date	2006.08.23.06.16.12;	author root;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2006.05.14.12.59.51;	author root;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2006.04.03.03.25.42;	author root;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2006.03.31.06.55.02;	author root;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2006.03.30.20.49.32;	author root;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2006.03.30.13.57.38;	author root;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2006.03.30.13.40.35;	author root;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2006.03.30.03.04.27;	author root;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2006.03.28.10.53.44;	author root;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2006.03.28.03.09.29;	author root;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2006.03.27.10.58.34;	author root;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2006.03.27.08.24.34;	author root;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2006.03.27.08.16.17;	author root;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2006.03.27.05.03.12;	author root;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2006.03.27.01.57.28;	author root;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2006.03.26.12.04.30;	author root;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2006.03.26.08.21.29;	author root;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2006.03.26.06.16.54;	author root;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2006.03.26.06.13.01;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2006.03.26.04.42.22;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2006.03.26.01.34.31;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2006.03.26.01.34.05;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2006.03.26.01.33.26;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2006.03.26.01.22.42;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2006.03.25.16.44.01;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2006.03.25.16.40.44;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.03.25.15.48.55;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.03.25.15.40.02;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.03.25.15.36.17;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.03.25.15.20.35;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.03.25.15.05.26;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.03.25.15.03.26;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.03.25.15.01.31;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.33
+log
+@edit_address:203.112.21.146,edit_by:miyagawa,edit_by_icon:http%3A%2F%2Fbulknews.typepad.com%2FP506iC0003735833.jpg,edit_time:Wed%20Aug%2023%2006%3A16%3A12%202006,edit_unixtime:1156313772
+@
+text
+@Hackathon is on March 31st and April 1st, at Dan Kogai's place @@  (Tsukishima).
+
+Put your name, when you can come (if not all) and what you want to hack.
+
+* DanKogai (The Host!)
+* AudreyTang
+* LarryWall
+* DamianConway (3/31)
+* Matz (3/31)
+* IngyDotNet
+* ChiaLiangKao
+* JesseVincent ((Jifty: Plugins, L10N, TT Integration), Wiki UI, Mason TT Parser, KwikiKwiki for other apps + PAR)
+* LeonBrocard
+* DaveRolsky (Mason, DateTime::*, fixing Time::Local, parrot grant update, Javascript stuff like obsoleting script.aculo.us with JSAN modules)
+* KangMinLiu
+* MartyPauley (3/31 (maybe))
+* TatsuhikoMiyagawa (Plagger, Jemplate, XML::Atom 1.0 Support, XML::Feed)
+* TakeshiNagayama (Plagger)
+* TokuhiroMatsuno (Plagger, Sledge)
+* NaoyaIto
+* BataraKesuma
+* KenichiIshigaki
+* DaisukeMurase (4/1: Plagger, perldoc site with Catalyst)
+* Takesako (3/31: japh)
+* Yappo (Plagger, Rast, YahooJ::Search, JavaScript::Tidy, My Favorite Perl Modules)
+* LyoKato
+* KoichiSasada
+* Ktat(Data::RuledValidator, Glue)
+* MasahiroNagano (3/31)
+* HiroyukiOyama (DBD::mysqlPP etc...)
+* KazuhoOku (3/31: debugger)
+* MasayoshiSekimura
+* JeffKim
+* HioYamashina
+* Mala (4/1-4/2 : cpan.ma.la )
+@
+
+
+1.32
+log
+@edit_address:58.75.192.168,edit_by:AnonymousGnome,edit_time:Sun%20May%2014%2012%3A59%3A51%202006,edit_unixtime:1147611591
+@
+text
+@d1 1
+a1 1
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... Thanks!!! Links: <a href='http://www.areaseo.com'>pagerank main</a> : [http://www.areaseo.com improve pagerank default] - [HTTP://www.areaseo.com improve pagerank default] : [PageRank 11|http://www.areaseo.com] - [PageRank 11|HTTP://www.areaseo.com] : http://www.areaseo.com/improvepr/ : [[http://www.areaseo.com google rank 20]] : [[http://www.areaseo.com | pagerank 5]] : "online pr16" http://www.areaseo.com : [http://www.areaseo.com|google pr] </u>Hackathon is on March 31st and April 1st, at Dan Kogai's place @@  (Tsukishima).
+@
+
+
+1.31
+log
+@edit_address:210.148.129.199,edit_by:AnonymousGnome,edit_time:Mon%20Apr%20%203%2003%3A25%3A42%202006,edit_unixtime:1144034742
+@
+text
+@d1 1
+a1 1
+Hackathon is on March 31st and April 1st, at Dan Kogai's place @@  (Tsukishima).
+@
+
+
+1.30
+log
+@edit_address:221.115.238.242,edit_by:AnonymousGnome,edit_time:Fri%20Mar%2031%2006%3A55%3A02%202006,edit_unixtime:1143788102
+@
+text
+@d35 1
+@
+
+
+1.29
+log
+@edit_address:218.45.196.30,edit_by:AnonymousGnome,edit_time:Thu%20Mar%2030%2020%3A49%3A32%202006,edit_unixtime:1143751772
+@
+text
+@d34 1
+@
+
+
+1.28
+log
+@edit_address:203.131.201.195,edit_by:DaveRolsky,edit_time:Thu%20Mar%2030%2013%3A57%3A38%202006,edit_unixtime:1143727058
+@
+text
+@d33 1
+a33 1
+* JeffKim (4/1)
+@
+
+
+1.27
+log
+@edit_address:218.45.196.30,edit_by:AnonymousGnome,edit_time:Thu%20Mar%2030%2013%3A40%3A35%202006,edit_unixtime:1143726035
+@
+text
+@d14 1
+a14 1
+* DaveRolsky
+@
+
+
+1.26
+log
+@edit_address:221.242.144.74,edit_by:AnonymousGnome,edit_time:Thu%20Mar%2030%2003%3A04%3A27%202006,edit_unixtime:1143687867
+@
+text
+@d33 1
+@
+
+
+1.25
+log
+@edit_address:222.148.31.151,edit_by:AnonymousGnome,edit_time:Tue%20Mar%2028%2010%3A53%3A44%202006,edit_unixtime:1143543224
+@
+text
+@d12 1
+a12 1
+* JesseVincent (Jifty (plugins), maybe reactive templating with Jemplate)
+@
+
+
+1.24
+log
+@edit_address:203.112.24.227,edit_by:AnonymousGnome,edit_time:Tue%20Mar%2028%2003%3A09%3A29%202006,edit_unixtime:1143515369
+@
+text
+@d32 1
+@
+
+
+1.23
+log
+@edit_address:222.148.31.151,edit_by:TatsuhikoMiyagawa,edit_time:Mon%20Mar%2027%2010%3A58%3A34%202006,edit_unixtime:1143457114
+@
+text
+@d31 1
+@
+
+
+1.22
+log
+@edit_address:219.106.230.78,edit_by:AnonymousGnome,edit_time:Mon%20Mar%2027%2008%3A24%3A34%202006,edit_unixtime:1143447874
+@
+text
+@a25 1
+* kazeburo
+@
+
+
+1.21
+log
+@edit_address:219.101.238.132,edit_by:AnonymousGnome,edit_time:Mon%20Mar%2027%2008%3A16%3A17%202006,edit_unixtime:1143447377
+@
+text
+@d31 1
+@
+
+
+1.20
+log
+@edit_address:125.100.97.234,edit_by:AnonymousGnome,edit_time:Mon%20Mar%2027%2005%3A03%3A12%202006,edit_unixtime:1143435792
+@
+text
+@d30 1
+@
+
+
+1.19
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Mon%20Mar%2027%2001%3A57%3A28%202006,edit_unixtime:1143424648
+@
+text
+@d29 1
+@
+
+
+1.18
+log
+@edit_address:212.3.160.125,edit_by:MartyPauley,edit_time:Sun%20Mar%2026%2012%3A04%3A29%202006,edit_unixtime:1143374669
+@
+text
+@d27 2
+@
+
+
+1.17
+log
+@edit_address:203.112.11.45,edit_by:TatsuhikoMiyagawa,edit_time:Sun%20Mar%2026%2008%3A21%3A29%202006,edit_unixtime:1143361289
+@
+text
+@d16 1
+a16 1
+* MartyPauley
+@
+
+
+1.16
+log
+@edit_address:221.243.122.122,edit_by:AnonymousGnome,edit_time:Sun%20Mar%2026%2006%3A16%3A54%202006,edit_unixtime:1143353814
+@
+text
+@d26 1
+@
+
+
+1.15
+log
+@edit_address:138.243.201.10,edit_by:AnonymousGnome,edit_time:Sun%20Mar%2026%2006%3A13%3A01%202006,edit_unixtime:1143353581
+@
+text
+@d25 1
+@
+
+
+1.14
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sun%20Mar%2026%2004%3A42%3A22%202006,edit_unixtime:1143348142
+@
+text
+@d24 1
+@
+
+
+1.13
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sun%20Mar%2026%2001%3A34%3A31%202006,edit_unixtime:1143336871
+@
+text
+@d17 1
+a17 1
+* TatsuhikoMiyagawa (Plagger, Jemplate)
+@
+
+
+1.12
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sun%20Mar%2026%2001%3A34%3A05%202006,edit_unixtime:1143336845
+@
+text
+@d23 1
+a23 1
+* DaisukeMurase (Plagger, perldoc site with Catalyst)
+@
+
+
+1.11
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sun%20Mar%2026%2001%3A33%3A26%202006,edit_unixtime:1143336806
+@
+text
+@d23 1
+a23 1
+* DaisukeMurase
+@
+
+
+1.10
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sun%20Mar%2026%2001%3A22%3A42%202006,edit_unixtime:1143336162
+@
+text
+@d17 1
+a17 1
+* TatsuhikoMiyagawa (Plagger)
+@
+
+
+1.9
+log
+@edit_address:43.244.161.152,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2016%3A44%3A01%202006,edit_unixtime:1143305041
+@
+text
+@d23 1
+@
+
+
+1.8
+log
+@edit_address:208.54.14.65,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2016%3A40%3A44%202006,edit_unixtime:1143304844
+@
+text
+@d22 1
+@
+
+
+1.7
+log
+@edit_address:220.211.53.47,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2015%3A48%3A55%202006,edit_unixtime:1143301735
+@
+text
+@d1 1
+a1 1
+Hackathon is on March 31st and April 1st, at Dan Kogai's place @@ 月島 (Tsukishima).
+d12 1
+a12 1
+* JesseVincent
+@
+
+
+1.6
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2015%3A40%3A02%202006,edit_unixtime:1143301202
+@
+text
+@d21 1
+@
+
+
+1.5
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2015%3A36%3A17%202006,edit_unixtime:1143300977
+@
+text
+@d20 1
+@
+
+
+1.4
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2015%3A20%3A35%202006,edit_unixtime:1143300035
+@
+text
+@d16 1
+@
+
+
+1.3
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2015%3A05%3A26%202006,edit_unixtime:1143299126
+@
+text
+@d1 1
+a1 1
+Hackathon is on March 31 and April 1st, at Dan Kogai's place.
+@
+
+
+1.2
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2015%3A03%3A26%202006,edit_unixtime:1143299006
+@
+text
+@d15 1
+@
+
+
+1.1
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2015%3A01%3A31%202006,edit_unixtime:1143298891
+@
+text
+@d5 1
+@

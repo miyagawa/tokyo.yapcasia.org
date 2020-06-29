@@ -1,0 +1,44 @@
+head	1.2;
+access;
+symbols;
+locks
+	root:1.2;
+comment	@# @;
+
+
+1.2
+date	2006.03.26.13.19.20;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.03.25.14.56.04;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@edit_address:203.112.21.146,edit_by:TatsuhikoMiyagawa,edit_time:Sun%20Mar%2026%2013%3A19%3A20%202006,edit_unixtime:1143379160
+@
+text
+@Use following channels on chat.freenode.net.
+
+* #yapc.asia (English)
+* #yapc.asia-ja (Japanese)
+@
+
+
+1.1
+log
+@edit_address:203.112.21.146,edit_by:AnonymousGnome,edit_time:Sat%20Mar%2025%2014%3A56%3A04%202006,edit_unixtime:1143298564
+@
+text
+@d1 4
+a4 1
+Use #yapc.asia and #yapc.asia-ja on irc.freenode.net
+@

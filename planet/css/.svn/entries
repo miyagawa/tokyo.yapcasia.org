@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="315"
+   name=""
+   committed-date="2006-03-05T01:57:13.821211Z"
+   url="http://svn.bulknews.net/repos/plagger/trunk/plagger/assets/plugins/publish-planet/default/static/css"
+   last-author="cwest"
+   kind="dir"
+   uuid="9e658b99-cc0b-0410-98f7-b440a16a7064"
+   revision="540"/>
+<entry
+   committed-rev="315"
+   name="print.css"
+   text-time="2006-03-06T01:38:23.000000Z"
+   committed-date="2006-03-05T01:57:13.821211Z"
+   checksum="d369d85dfbd5cee9a3e84bd7dc7cb4cc"
+   last-author="cwest"
+   kind="file"
+   prop-time="2006-03-06T01:38:23.000000Z"/>
+<entry
+   committed-rev="311"
+   name="screen.css"
+   text-time="2006-03-06T01:38:23.000000Z"
+   committed-date="2006-03-05T00:58:58.377219Z"
+   checksum="b7c1671bebabb9fb39ca02d9b7469b63"
+   last-author="cwest"
+   kind="file"
+   prop-time="2006-03-06T01:38:23.000000Z"/>
+<entry
+   committed-rev="314"
+   name="screen-members-list.css"
+   text-time="2006-03-06T01:38:23.000000Z"
+   committed-date="2006-03-05T01:44:20.703592Z"
+   checksum="d25ea1299781c195cebc51ed14847a5e"
+   last-author="cwest"
+   kind="file"
+   prop-time="2006-03-06T01:38:23.000000Z"/>
+<entry
+   committed-rev="315"
+   name="handheld.css"
+   text-time="2006-03-06T01:38:23.000000Z"
+   committed-date="2006-03-05T01:57:13.821211Z"
+   checksum="e0a5683a07a695ca1f34fbed3d907117"
+   last-author="cwest"
+   kind="file"
+   prop-time="2006-03-06T01:38:23.000000Z"/>
+</wc-entries>

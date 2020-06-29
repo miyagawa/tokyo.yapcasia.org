@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+   <channel>
+      <title>YAPC::Asia 2006 Tokyo Speakers</title>
+      <link>http://tokyo.yapcasia.org/speakers/</link>
+      <description></description>
+      <language>ja</language>
+      <copyright>Copyright 2006</copyright>
+      <lastBuildDate>Wed, 22 Mar 2006 17:54:25 +0900</lastBuildDate>
+      <generator>http://www.sixapart.com/movabletype/?v=3.2</generator>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs> 
+
+            <item>
+         <title>Daisuke Maki</title>
+         <description><![CDATA[<p>有限会社endeworks代表。ブラジル、アメリカを流浪した後アメリカに飽きて２００４年に帰国。 高速クローラーXango、PerlモジュールSenna、XML::RSS::LibXML等の作者。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/daisuke_maki.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/daisuke_maki.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 17:54:25 +0900</pubDate>
+      </item>
+            <item>
+         <title>Yukihiro Matsumoto</title>
+         <description><![CDATA[<p>Yukihiro Matsumoto ("Matz"), the creator of Ruby, is a professional programmer who worked for the Japanese open source company, netlab.jp. "Matz" is also known as one of the open source evangelists in Japan. He's released several open source products, including cmail, the emacs-based mail user agent, written entirely in emacs lisp.</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/yukihiro_matsumoto.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/yukihiro_matsumoto.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:46:55 +0900</pubDate>
+      </item>
+            <item>
+         <title>Masayuki Moriyama</title>
+         <description><![CDATA[<p>Perl 5.8.0 の Encode モジュールの CP932 での変換問題に取り組んだのがきっかけで、いろいろな所に出没。圧倒的なシェアを誇る Windows との日本語情報交換をスムースに行えるようにするには、どうしたら良いかを模索している。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/masayuki_moriyama.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/masayuki_moriyama.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:44:12 +0900</pubDate>
+      </item>
+            <item>
+         <title>Shinya Hayakawa</title>
+         <description></description>
+         <link>http://tokyo.yapcasia.org/speakers/shinya_hayakawa.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/shinya_hayakawa.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:42:58 +0900</pubDate>
+      </item>
+            <item>
+         <title>Tatsuhiko Miyagawa</title>
+         <description><![CDATA[<p>Shibuya.pm リーダーにして、CPAN モジュール制作数 で世界3本の指に入る Perl Hacker。著書に Blog Hacks など。現在は Six Apart にて VP of Partner Engineering。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/tatsuhiko_miyagawa.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/tatsuhiko_miyagawa.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:36:55 +0900</pubDate>
+      </item>
+            <item>
+         <title>Larry Wall</title>
+         <description><![CDATA[<p>Writer, Author and Creator of Perl.<br />
+</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/larry_wall.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/larry_wall.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:34:36 +0900</pubDate>
+      </item>
+            <item>
+         <title>Jesse Vincent</title>
+         <description><![CDATA[<p>Jesse is the creator of RT and the founder of Best Practical Solutions. He spends an awful lot of time on airplanes.<br />
+</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/jesse_vincent.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/jesse_vincent.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:34:03 +0900</pubDate>
+      </item>
+            <item>
+         <title>Dan Kogai</title>
+         <description><![CDATA[<p>オープンソース・プログラマー、 元オン・ザ・エッヂ取締役最高技術責任者（CTO） PerlにおけるJcode.pm、そして現在はEncode.pmの開発を手がけている。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/dan_kogai.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/dan_kogai.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:33:06 +0900</pubDate>
+      </item>
+            <item>
+         <title>Masayoshi Takahashi</title>
+         <description><![CDATA[<p>株式会社ツインスパークにてWebアプリケーション開発等に従事するかたわら、日本Rubyの会の代表を務める。Perlはほとんど素人なのにYAPCのスピーカーになってしまってひそかに動揺している。大学時代はSF研究会と推理小説研究会と天文同好会に所属。</p>
+
+<p>好きなCPANモジュールはLWP。好きなメソッドはattr_accessorと綾瀬メソッド。好きな作家は新井素子。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/masayoshi_takahashi.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/masayoshi_takahashi.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:32:03 +0900</pubDate>
+      </item>
+            <item>
+         <title>Kazuho Oku</title>
+         <description><![CDATA[<p>1997年に開発開始したPalm OS用ウェブブラウザ「Palmscape」が評価され、Technology Review 誌 (マサチューセッツ工科大学) より「TR100/2002」を受賞。ＩＰＡ2004年度第１回未踏ソフトウェア創造事業において「ウェブアプリケーション統合開発環境の開発」により「天才プログラマー／スーパークリエータ」認定。2005年8月、サイボウズ・ラボ入社。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/kazuho_oku.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/kazuho_oku.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:31:28 +0900</pubDate>
+      </item>
+            <item>
+         <title>Masayoshi Sekimura</title>
+         <description><![CDATA[<p>2005年6月くらいから Six Apart の TypePad engineer。<br />
+風呂は結構時間をかけて入る長風呂派。<br />
+長風呂で何をしてるかって？もちろんチャンピオンズリーグ観戦ですよ。<br />
+ロケフリ＋PSP で Lifehack の申し子っす。<br />
+風呂につかりながら見るロナウジーニョの変態フェイントは格別。<br />
+</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/masayoshi_sekimura.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/masayoshi_sekimura.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:30:43 +0900</pubDate>
+      </item>
+            <item>
+         <title>Hiroyuki Oyama</title>
+         <description><![CDATA[<p>フリーランスのプログラマで一児の父。DBD::mysqlPP, DBD::PgPP, Net::YahooMessengerなどビミョーなモジュールをCPANに送りつけるものの、その後は「patch待ってます」で放置するダメCPAN Author。著書 Apacheモジュールプログラミングガイド。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/hiroyuki_oyama.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/hiroyuki_oyama.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:24:17 +0900</pubDate>
+      </item>
+            <item>
+         <title>Atsushi Kato</title>
+         <description><![CDATA[<p>文学部哲学及倫理学専攻出身な文系プログラマ。Perldoc.jp にて、perltoot, perltooc, perluniintro 他いろいろ翻訳してたり、Sumibi.org の Ajax 作ったりしてます。が、最近は、どちらもサボり気味。</p>
+
+<p>アフィリエイト広告配信会社、株式会社アドウェイズに勤務。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/atsushi_kato.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/atsushi_kato.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:23:31 +0900</pubDate>
+      </item>
+            <item>
+         <title>Yoshinori Takesako</title>
+         <description><![CDATA[<p>サイボウズ・ラボ株式会社 所属。<br />
+LLDNにてPerlで予約語プログラミングを提唱。<br />
+Namazu for Win32 のメンテナでもある。<br />
+会社では50%ルールでまったりと仕事してます。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/yoshinori_takesako.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/yoshinori_takesako.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:22:26 +0900</pubDate>
+      </item>
+            <item>
+         <title>Marty Pauley</title>
+         <description><![CDATA[<p>Marty Pauley is a Hacker and GNU Guerilla from 火星, in Northern Ireland.  He codes in many languages, including Perl, to build data manipulation programs and web applications.  He manages the network and GNU/Linux systems for a small ISP, and helps to organise the Belfast Linux User Group.</p>]]></description>
+         <link>http://tokyo.yapcasia.org/speakers/marty_pauley.html</link>
+         <guid>http://tokyo.yapcasia.org/speakers/marty_pauley.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 16:21:17 +0900</pubDate>
+      </item>
+      
+   </channel>
+</rss>

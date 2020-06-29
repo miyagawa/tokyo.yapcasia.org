@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://purl.org/atom/ns#">
+  <title xmlns="http://purl.org/atom/ns#">Bulkfeeds Search for "Plagger"</title>
+  <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://bulkfeeds.net/app/search2?q=Plagger"/>
+  <modified xmlns="http://purl.org/atom/ns#">2006-04-19T16:27:45+09:00</modified>
+  <generator xmlns="http://purl.org/atom/ns#">Plagger/0.6.3</generator>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">PlaggerでAmazonアソシエイトレポートをGmailへ送る</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://blog.livedoor.jp/hakin/archives/50553463.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+WindowsにPlaggerをインストールして、
+Bloglinesの未読をGmailで読む
+ところまでできました。
+今回はアマゾンアソシエイトレポートをGmailに送るように設定しました。
+</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">
+WindowsにPlaggerをインストールして、
+&lt;a href="http://blog.livedoor.jp/hakin/archives/50551352.html" title="しげふみメモ:Windowsで Plagger インストール#2 Gmailで読めた"&gt;Bloglinesの未読をGmailで読む&lt;/a&gt;
+ところまでできました。&lt;br&gt;
+今回はアマゾンアソシエイトレポートをGmailに送るように設定しました。&lt;br&gt;
+</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-18T22:30:07+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#"> Win32にEncode::Detectを入れる</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/charsbar/20060417/1145230665"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+		
+			先日Plaggerの推奨モジュールとなったEncode::Detect。
+			
+			This module provides an interface to Mozilla's universal charset detector, which detects the charset used to encode data.
+			
+			とのことで、多少のクセはあるものの判定精度はなかなかよろしいらしいのですが、なにせCPAN Testersのうち無事にインストール成功したのはたったの3人。Linuxユーザ含めて11人が失敗していて、バグレポートもあがっているのに半年近く更新されていないのですから個人的にはあまり使う気にならんのだよなあと、思いつつも、やっぱり気にはなるので例によってWinマシンにインストールしようとして、あえなく玉砕。
+			ふだんならここで悪態のひとつもついておしまいにしてしまうところなのですが、c++のソース読んでも特別けったいなことをしているでなし、なんでこれが入らないのかという思いが捨てきれなかったので、あれこれ試して、ようやく一手間かければVC98でも問題なく入ることを確認したので以下その手順など。
+			1) とりあえずtarballを落としてくる
+			Debianならapt-getせんでもCPANから素直に入りますし、Cygwin環境でも事前にある程度準備ができていればすんなり入るようなのですが、ActivePerl＋VC98だとその辺期待薄なので手作業で。
+			2) Module::Build関係のファイルを消す
+			うまいことすればMBでも入るのかもしらんですが、よくわからなかったのでとりあえず消す。ついでにMANIFESTも消しておく。
+			3) いくつかのファイルの配置を変える
+
+lib/Encode/Detect.pm
+lib/Encode/Detect/Detector.pm
+src/Detector.xs
+src/include/...
+
+
+			てな具合に移動しておく。
+			4) Makefile.PLを書く
+
+use ExtUtils::MakeMaker;
+WriteMakefile(
+  NAME         =&gt; 'Encode::Detect',
+  VERSION_FROM =&gt; 'lib/Encode/Detect.pm',
+  DIR          =&gt; ['src'],
+);
+
+
+			もちろん面倒でなければAUTHORとかABSTRACTの指定もするよろし。
+			5) src/Makefile.PLを書く
+
+use ExtUtils::MakeMaker;
+WriteMakefile(
+  NAME         =&gt; 'Encode::Detect::Detector',
+  VERSION_FROM =&gt; '../lib/Encode/Detect/Detector.pm',
+  INC          =&gt; '-Iinclude',
+  OBJECT       =&gt; '$(O_FILES)',
+  XS           =&gt; {'Detector.xs' =&gt; 'Detector.cpp'},
+);
+
+
+			あらかじめ書いておくと、この辺の指定はいろいろ過不足ありそう。
+			6) perl Makefile.PLする
+			DIR設定しているのでこれだけでsrc/Makefile.PLの方も処理されます。
+			7) xsubppで事前にxsをcに変換しておく
+
+cd src
+xsubpp -typemap (ActivePerlのインストール先)\lib\ExtUtils\typemap -typemap typemap Detector.xs &gt; Detector.cpp
+
+
+			これと次の8についてはMakefile.PLを正しく書けば自動的にしてくれそうなものなんですが、うまくいかなかったのでとりあえず応急処置として。
+			8) 生成されたDetector.cppを編集
+			コメントをスキップして、コード冒頭の
+
+extern "C" {
+#define PERL_NO_GET_CONTEXT     /* we want efficiency */
+#include "EXTERN.h"
+#include "perl.h"
+#include "XSUB.h"
+}
+
+
+			のextern "C" {}をはずす。
+			9) nmake → nmake test → nmake install
+			VCの環境設定さえ間違っていなければ、あとはこれで入るはず。
+			最近のVCならまた違うのかなあとか思わんでもないですが、なんにせよいちばん参考になったのはTemplate-ToolkitのMakefile.PLでした、ということで。
+		
+</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+		<div class="section">
+			<p>先日Plaggerの推奨モジュールとなった<a href="http://search.cpan.org/dist/Encode-Detect">Encode::Detect</a>。</p>
+			<blockquote>
+			<p>This module provides an interface to Mozilla's universal charset detector, which detects the charset used to encode data.</p>
+			</blockquote>
+			<p>とのことで、多少のクセはあるものの判定精度はなかなかよろしいらしいのですが、なにせCPAN Testersのうち無事にインストール成功したのはたったの3人。Linuxユーザ含めて11人が失敗していて、バグレポートもあがっているのに半年近く更新されていないのですから個人的にはあまり使う気にならんのだよなあと、思いつつも、やっぱり気にはなるので例によってWinマシンにインストールしようとして、あえなく玉砕。</p>
+			<p>ふだんならここで悪態のひとつもついておしまいにしてしまうところなのですが、c++のソース読んでも特別けったいなことをしているでなし、なんでこれが入らないのかという思いが捨てきれなかったので、あれこれ試して、ようやく一手間かければVC98でも問題なく入ることを確認したので以下その手順など。</p>
+			<p>1) とりあえずtarballを落としてくる</p>
+			<p>Debianならapt-getせんでもCPANから素直に入りますし、Cygwin環境でも事前にある程度準備ができていればすんなり入るようなのですが、ActivePerl＋VC98だとその辺期待薄なので手作業で。</p>
+			<p>2) Module::Build関係のファイルを消す</p>
+			<p>うまいことすればMBでも入るのかもしらんですが、よくわからなかったのでとりあえず消す。ついでにMANIFESTも消しておく。</p>
+			<p>3) いくつかのファイルの配置を変える</p>
+<pre>
+lib/Encode/Detect.pm
+lib/Encode/Detect/Detector.pm
+src/Detector.xs
+src/include/...
+</pre>
+
+			<p>てな具合に移動しておく。</p>
+			<p>4) Makefile.PLを書く</p>
+<pre>
+use ExtUtils::MakeMaker;
+WriteMakefile(
+  NAME         =&gt; 'Encode::Detect',
+  VERSION_FROM =&gt; 'lib/Encode/Detect.pm',
+  DIR          =&gt; ['src'],
+);
+</pre>
+
+			<p>もちろん面倒でなければAUTHORとかABSTRACTの指定もするよろし。</p>
+			<p>5) src/Makefile.PLを書く</p>
+<pre>
+use ExtUtils::MakeMaker;
+WriteMakefile(
+  NAME         =&gt; 'Encode::Detect::Detector',
+  VERSION_FROM =&gt; '../lib/Encode/Detect/Detector.pm',
+  INC          =&gt; '-Iinclude',
+  OBJECT       =&gt; '$(O_FILES)',
+  XS           =&gt; {'Detector.xs' =&gt; 'Detector.cpp'},
+);
+</pre>
+
+			<p>あらかじめ書いておくと、この辺の指定はいろいろ過不足ありそう。</p>
+			<p>6) perl Makefile.PLする</p>
+			<p>DIR設定しているのでこれだけでsrc/Makefile.PLの方も処理されます。</p>
+			<p>7) xsubppで事前にxsをcに変換しておく</p>
+<pre>
+cd src
+xsubpp -typemap (ActivePerlのインストール先)\lib\ExtUtils\typemap -typemap typemap Detector.xs &gt; Detector.cpp
+</pre>
+
+			<p>これと次の8についてはMakefile.PLを正しく書けば自動的にしてくれそうなものなんですが、うまくいかなかったのでとりあえず応急処置として。</p>
+			<p>8) 生成されたDetector.cppを編集</p>
+			<p>コメントをスキップして、コード冒頭の</p>
+<pre>
+extern "C" {
+#define PERL_NO_GET_CONTEXT     /* we want efficiency */
+#include "EXTERN.h"
+#include "perl.h"
+#include "XSUB.h"
+}
+</pre>
+
+			<p>のextern "C" {}をはずす。</p>
+			<p>9) nmake → nmake test → nmake install</p>
+			<p>VCの環境設定さえ間違っていなければ、あとはこれで入るはず。</p>
+			<p>最近のVCならまた違うのかなあとか思わんでもないですが、なんにせよいちばん参考になったのはTemplate-ToolkitのMakefile.PLでした、ということで。</p>
+		</div>
+</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-17T08:37:45+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">Windowsで Plagger インストール#2 Gmailで読めた</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://blog.livedoor.jp/hakin/archives/50551352.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+perlをよく知らない私でも、WindowsにPlaggerをインストールするところまでできました。
+今回は、Bloglinesの未読をGmailに送るように設定してみました。
+</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">
+perlをよく知らない私でも、WindowsにPlaggerをインストールするところまでできました。&lt;br&gt;
+今回は、Bloglinesの未読をGmailに送るように設定してみました。&lt;br&gt;
+</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-17T01:50:49+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">Windowsで Plagger インストール#1</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://blog.livedoor.jp/hakin/archives/50551152.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+Windowsで
+Plagger
+を使うために、perlになじみの無い私が、
+Windowsで Plagger 準備#1 ActivePerlインストール
+Windowsで Plagger 準備#2 初めてCPANを使う
+と準備しました。
+やっと Plaggerをインストールします。
+</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">
+Windowsで
+&lt;a href="http://plagger.org/trac" target="_blank" onClick="javascript:urchinTracker ('/outgoing/http://plagger.org/trac'); "&gt;Plagger&lt;/a&gt;
+を使うために、perlになじみの無い私が、&lt;br&gt;
+&lt;a href="http://blog.livedoor.jp/hakin/archives/50551036.html" title="しげふみメモ:Windowsで Plagger 準備#1 ActivePerlインストール"&gt;Windowsで Plagger 準備#1 ActivePerlインストール&lt;/a&gt;&lt;br&gt;
+&lt;a href="http://blog.livedoor.jp/hakin/archives/50551053.html" title="しげふみメモ:Windowsで Plagger 準備#2 初めてCPANを使う"&gt;Windowsで Plagger 準備#2 初めてCPANを使う&lt;/a&gt;&lt;br&gt;
+と準備しました。&lt;br&gt;
+やっと Plaggerをインストールします。&lt;br&gt;
+</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-16T23:49:00+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">Plagger::Plugin::Publish::Gmail.pm で SMTP-AUTH</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://www5d.biglobe.ne.jp/~y0ka/2006-04.html#2006-04-16-3"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+  Gmail.pm に SMTP-AUTH を仕込んでみました．
+config の via に smtp-auth と書いて使います．
+
+- module: Publish::Gmail
+  config:
+    mailto: hoge@fuga.com
+    mailfrom: foo@bar.com
+    mailroute:
+      via: smtp-auth
+      host: smtp.bar.com
+      username: foo
+      password: burabura
+
+オリジナル Gmail.pm との diff です．コピペばかり．
+
+*** Gmail.pm.org 2006-04-15 00:11:04.000000000 +0900
+--- Gmail.pm Mon 2006-04-16 22:21:43.000000000 +0900
+***************
+*** 81,86 ****
+--- 81,89 ----
+          my %param = (FromSender =&gt; "{mailfrom}&gt;");
+          $param{Sendmail} = $route-&gt;{command} if defined $route-&gt;{command};
+          $msg-&gt;send('sendmail', %param);
++     } elsif ($route-&gt;{via} eq 'smtp-auth') {
++         my @args  = $route-&gt;{host} ? ($route-&gt;{host}) : ();
++         $msg-&gt;send_by_smtp_auth($route, @args);
+      } else {
+          my @args  = $route-&gt;{host} ? ($route-&gt;{host}) : ();
+          $msg-&gt;send($route-&gt;{via}, @args);
+*** 156,159 ****
+--- 159,204 ----
+  @MIME::Lite::SMTP::TLS::ISA = qw( Net::SMTP::TLS );
+  sub MIME::Lite::SMTP::TLS::print { shift-&gt;datasend(@_) }
+
++ *MIME::Lite::send_by_smtp_auth = sub {
++     my($self, @args) = @_;
++
++     ### We need the "From:" and "To:" headers to pass to the SMTP mailer:
++     my $hdr   = $self-&gt;fields();
++     my($from) = MIME::Lite::extract_addrs( $self-&gt;get('From') );
++     my $to    = $self-&gt;get('To');
++
++     ### Sanity check:
++     defined($to) or Carp::croak "send_by_smtp_auth: missing 'To:' address\n";
++
++     ### Get the destinations as a simple array of addresses:
++     my @to_all = MIME::Lite::extract_addrs($to);
++     if ($MIME::Lite::AUTO_CC) {
++         foreach my $field (qw(Cc Bcc)) {
++             my $value = $self-&gt;get($field);
++             push @to_all, MIME::Lite::extract_addrs($value) if defined($value);
++         }
++     }
++
++     ### Create SMTP client:
++     require Net::SMTP;
++     my $route = shift @args;
++     defined($route) or Carp::croak "send_by_smtp_auth: missing route\n";
++     my $smtp = MIME::Lite::SMTP-&gt;new(@args)
++       or Carp::croak("Failed to connect to mail server: $!\n");
++     $smtp-&gt;auth($route-&gt;{username}, $route-&gt;{password})
++       or Carp::croak("SMTP AUTH command failed: $!\n".$smtp-&gt;message."\n");
++     $smtp-&gt;mail($from)
++       or Carp::croak("SMTP MAIL command failed: $!\n".$smtp-&gt;message."\n");
++     $smtp-&gt;to(@to_all)
++       or Carp::croak("SMTP TO command failed: $!\n".$smtp-&gt;message."\n");
++     $smtp-&gt;data()
++       or Carp::croak("SMTP DATA command failed: $!\n".$smtp-&gt;message."\n");
++
++     ### MIME::Lite can print() to anything with a print() method:
++     $self-&gt;print_for_smtp($smtp);
++     $smtp-&gt;dataend();
++     $smtp-&gt;quit();
++     1;
++ };
++
+  1;
+
+
+以下，何がどうなってるのか理解したかったので自分用のメモです．
+
+Gmail.pm は plagger で収集したフィードを gmail に送信するプラグインです．
+メール送信は，中外の MTA を使ったり，SMTP とか SMTP + TLS によって行われています．
+でも，そこらへんは MIME::Lite に移譲してたりします．
+MIME::Lite はどうやってメール送ってるかというと Net::SMTP を使っています．
+
+SMTP-AUTH の実装はほぼコピペオンリーです．
+コピペ元は Gmail.pm に記述されている SMTP + TLS の実装と Net::SMTP::send_by_smtp の実装です．
+SMTP + TLS の実装も，Net::SMTP::send_by_smtp のコピーでした．
+ただ，Net::SMTP のインスタンスではなく，Net::SMTP::TLS のインスタンスを使うようにしてました．
+参考になったのは，use したクラスのメソッド定義をその場で追加してるところです．
+よく分かってないのですが，こんな風になってました．
+
+# hack MIME::Lite to support TLS Authentication
+*MIME::Lite::send_by_smtp_tls = sub {
+    my($self, @args) = @_;
+
+    ### We need the "From:" and "To:" headers to pass to the SMTP mailer:
+    my $hdr   = $self-&gt;fields();
+    my($from) = MIME::Lite::extract_addrs( $self-&gt;get('From') );
+    my $to    = $self-&gt;get('To');
+
+    ...
+
+@MIME::Lite::SMTP::TLS::ISA = qw( Net::SMTP::TLS );
+sub MIME::Lite::SMTP::TLS::print { shift-&gt;datasend(@_) }
+
+「*」は何かなと perldoc perlop で見ると，デリファレンスをするオペレータのようです．
+       unary * Dereference-address operator. (Perl's prefix dereferencing
+               operators are typed: $, @, %, and &amp;.)
+send_by_smtp_tls 自体は定義されてない名前なのですが，その場で定義されることになるのだと思います．
+で，そこに sub を代入，動的です．
+
+その次のやつはなんか見覚えがありました．
+- @ISA はパッケージごとに予約されている基底クラス名が入ってる配列 (これが重要かも，多態のためですきっと)
+- え，でも MIME::Lite::SMTP::TLS なんてパッケージはどこに… (あまり気にしないことにする)
+- MIME::Lite::SMTP::TLS::print はただのメソッド定義
+
+ということで，方針としては次のようにします．
+- 呼び出し側
+-- $route-&gt;{via} で dispatch してるところに ``smtp-auth'' を追加
+-- send_by_smtp_auth を呼ぶ
+- send_by_smtp_auth の実装
+-- send_by_smtp_tls の実装をコピー
+-- MIME::Lite クラスにメソッドを追加
+-- Net::SMTP のインスタンスは mail メソッドではなく auth メソッドを呼ぶようにする
+
+で，実際にやってみたところ，そのまま動きました．よかったよかった．
+
+Plagger はなんでもフィードアグリゲータです．
+SMTP + TLS はたぶん SMTP over SSLと同じものです．
+SMTP-AUTH は SMTP でユーザ認証するための SMTP 拡張 (RFC 2554) です．
+MIME::Lite はシンプルな MIME ジェネレータです．
+Net::SMTP は SMTP のクライアント実装です．
+
+ </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">
+  Gmail.pm に SMTP-AUTH を仕込んでみました．&lt;br&gt;
+config の via に smtp-auth と書いて使います．&lt;br&gt;
+&lt;pre class="code"&gt;
+- module: Publish::Gmail
+  config:
+    mailto: hoge@fuga.com
+    mailfrom: foo@bar.com
+    mailroute:
+      via: smtp-auth
+      host: smtp.bar.com
+      username: foo
+      password: burabura
+&lt;/pre&gt;
+オリジナル Gmail.pm との diff です．コピペばかり．&lt;br&gt;
+&lt;pre class="code"&gt;
+*** Gmail.pm.org 2006-04-15 00:11:04.000000000 +0900
+--- Gmail.pm Mon 2006-04-16 22:21:43.000000000 +0900
+***************
+*** 81,86 ****
+--- 81,89 ----
+          my %param = (FromSender =&gt; "&lt;$cfg-&gt;{mailfrom}&gt;");
+          $param{Sendmail} = $route-&gt;{command} if defined $route-&gt;{command};
+          $msg-&gt;send('sendmail', %param);
++     } elsif ($route-&gt;{via} eq 'smtp-auth') {
++         my @args  = $route-&gt;{host} ? ($route-&gt;{host}) : ();
++         $msg-&gt;send_by_smtp_auth($route, @args);
+      } else {
+          my @args  = $route-&gt;{host} ? ($route-&gt;{host}) : ();
+          $msg-&gt;send($route-&gt;{via}, @args);
+*** 156,159 ****
+--- 159,204 ----
+  @MIME::Lite::SMTP::TLS::ISA = qw( Net::SMTP::TLS );
+  sub MIME::Lite::SMTP::TLS::print { shift-&gt;datasend(@_) }
+
++ *MIME::Lite::send_by_smtp_auth = sub {
++     my($self, @args) = @_;
++
++     ### We need the "From:" and "To:" headers to pass to the SMTP mailer:
++     my $hdr   = $self-&gt;fields();
++     my($from) = MIME::Lite::extract_addrs( $self-&gt;get('From') );
++     my $to    = $self-&gt;get('To');
++
++     ### Sanity check:
++     defined($to) or Carp::croak "send_by_smtp_auth: missing 'To:' address\n";
++
++     ### Get the destinations as a simple array of addresses:
++     my @to_all = MIME::Lite::extract_addrs($to);
++     if ($MIME::Lite::AUTO_CC) {
++         foreach my $field (qw(Cc Bcc)) {
++             my $value = $self-&gt;get($field);
++             push @to_all, MIME::Lite::extract_addrs($value) if defined($value);
++         }
++     }
++
++     ### Create SMTP client:
++     require Net::SMTP;
++     my $route = shift @args;
++     defined($route) or Carp::croak "send_by_smtp_auth: missing route\n";
++     my $smtp = MIME::Lite::SMTP-&gt;new(@args)
++       or Carp::croak("Failed to connect to mail server: $!\n");
++     $smtp-&gt;auth($route-&gt;{username}, $route-&gt;{password})
++       or Carp::croak("SMTP AUTH command failed: $!\n".$smtp-&gt;message."\n");
++     $smtp-&gt;mail($from)
++       or Carp::croak("SMTP MAIL command failed: $!\n".$smtp-&gt;message."\n");
++     $smtp-&gt;to(@to_all)
++       or Carp::croak("SMTP TO command failed: $!\n".$smtp-&gt;message."\n");
++     $smtp-&gt;data()
++       or Carp::croak("SMTP DATA command failed: $!\n".$smtp-&gt;message."\n");
++
++     ### MIME::Lite can print() to anything with a print() method:
++     $self-&gt;print_for_smtp($smtp);
++     $smtp-&gt;dataend();
++     $smtp-&gt;quit();
++     1;
++ };
++
+  1;
+&lt;/pre&gt;
+&lt;br&gt;
+以下，何がどうなってるのか理解したかったので自分用のメモです．&lt;br&gt;
+&lt;br&gt;
+Gmail.pm は plagger で収集したフィードを gmail に送信するプラグインです．&lt;br&gt;
+メール送信は，中外の MTA を使ったり，SMTP とか SMTP + TLS によって行われています．&lt;br&gt;
+でも，そこらへんは MIME::Lite に移譲してたりします．&lt;br&gt;
+MIME::Lite はどうやってメール送ってるかというと Net::SMTP を使っています．&lt;br&gt;
+&lt;br&gt;
+SMTP-AUTH の実装はほぼコピペオンリーです．&lt;br&gt;
+コピペ元は Gmail.pm に記述されている SMTP + TLS の実装と Net::SMTP::send_by_smtp の実装です．&lt;br&gt;
+SMTP + TLS の実装も，Net::SMTP::send_by_smtp のコピーでした．&lt;br&gt;
+ただ，Net::SMTP のインスタンスではなく，Net::SMTP::TLS のインスタンスを使うようにしてました．&lt;br&gt;
+参考になったのは，use したクラスのメソッド定義をその場で追加してるところです．&lt;br&gt;
+よく分かってないのですが，こんな風になってました．&lt;br&gt;
+&lt;pre&gt;
+# hack MIME::Lite to support TLS Authentication
+*MIME::Lite::send_by_smtp_tls = sub {
+    my($self, @args) = @_;
+
+    ### We need the "From:" and "To:" headers to pass to the SMTP mailer:
+    my $hdr   = $self-&gt;fields();
+    my($from) = MIME::Lite::extract_addrs( $self-&gt;get('From') );
+    my $to    = $self-&gt;get('To');
+
+    ...
+
+@MIME::Lite::SMTP::TLS::ISA = qw( Net::SMTP::TLS );
+sub MIME::Lite::SMTP::TLS::print { shift-&gt;datasend(@_) }
+&lt;/pre&gt;
+「*」は何かなと perldoc perlop で見ると，デリファレンスをするオペレータのようです．&lt;br&gt;
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;       unary * Dereference-address operator. (Perl's prefix dereferencing&lt;br&gt;
+               operators are typed: $, @, %, and &amp;.)&lt;br&gt;
+&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;send_by_smtp_tls 自体は定義されてない名前なのですが，その場で定義されることになるのだと思います．&lt;br&gt;
+で，そこに sub を代入，動的です．&lt;br&gt;
+&lt;br&gt;
+その次のやつはなんか見覚えがありました．&lt;br&gt;
+- @ISA はパッケージごとに予約されている基底クラス名が入ってる配列 (これが重要かも，多態のためですきっと)&lt;br&gt;
+- え，でも MIME::Lite::SMTP::TLS なんてパッケージはどこに… (あまり気にしないことにする)&lt;br&gt;
+- MIME::Lite::SMTP::TLS::print はただのメソッド定義&lt;br&gt;
+&lt;br&gt;
+ということで，方針としては次のようにします．&lt;br&gt;
+- 呼び出し側&lt;br&gt;
+-- $route-&gt;{via} で dispatch してるところに ``smtp-auth'' を追加&lt;br&gt;
+-- send_by_smtp_auth を呼ぶ&lt;br&gt;
+- send_by_smtp_auth の実装&lt;br&gt;
+-- send_by_smtp_tls の実装をコピー&lt;br&gt;
+-- MIME::Lite クラスにメソッドを追加&lt;br&gt;
+-- Net::SMTP のインスタンスは mail メソッドではなく auth メソッドを呼ぶようにする&lt;br&gt;
+&lt;br&gt;
+で，実際にやってみたところ，そのまま動きました．よかったよかった．&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://plagger.org/trac"&gt;Plagger&lt;/a&gt; はなんでもフィードアグリゲータです．&lt;br&gt;
+SMTP + TLS はたぶん &lt;a href="http://dictionary.rbbtoday.com/Details/term2683.html"&gt;SMTP over SSL&lt;/a&gt;と同じものです．&lt;br&gt;
+&lt;a href="http://e-words.jp/w/SMTP20Authentication.html"&gt;SMTP-AUTH&lt;/a&gt; は SMTP でユーザ認証するための SMTP 拡張 (RFC 2554) です．&lt;br&gt;
+&lt;a href="http://search.cpan.org/~yves/MIME-Lite-3.01/lib/MIME/Lite.pm"&gt;MIME::Lite&lt;/a&gt; はシンプルな MIME ジェネレータです．&lt;br&gt;
+&lt;a href="http://search.cpan.org/~gbarr/libnet-1.19/Net/SMTP.pm"&gt;Net::SMTP&lt;/a&gt; は SMTP のクライアント実装です．&lt;br&gt;
+
+ </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-16T23:59:59+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">Windowsで Plagger 準備#2 初めてCPANを使う</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://blog.livedoor.jp/hakin/archives/50551053.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+Windowsで Plaggerを使うために、前回で
+ActivePerlをインストール
+しました。
+PlaggerはperlでCPANからインストールしますが、
+perlになじみの無い私はCPANを使うのも初めてでした。
+やったことをメモしておきます。
+</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">
+Windowsで Plaggerを使うために、前回で
+&lt;a href="http://blog.livedoor.jp/hakin/archives/50551036.html" title="しげふみメモ:Windowsで Plagger 準備#1 ActivePerlインストール"&gt;ActivePerlをインストール&lt;/a&gt;
+しました。&lt;br&gt;
+PlaggerはperlでCPANからインストールしますが、
+perlになじみの無い私はCPANを使うのも初めてでした。&lt;br&gt;
+やったことをメモしておきます。&lt;br&gt;
+</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-16T22:59:37+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">Windowsで Plagger 準備#1 ActivePerlインストール</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://blog.livedoor.jp/hakin/archives/50551036.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+少し前から興味があった
+Plagger
+をWindows XPで使ってみました。
+私はperlについてはほとんど知らないのですが、いろいろなBlogなどを参考に、
+なんとかインストールしてBloglinesの未読をGmailに送るところまでできました。
+私の場合の手順をメモしておきます。
+まずは、Windowsでperlを使うために、
+ActivePerl
+をインストールします。
+</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">
+少し前から興味があった
+&lt;a href="http://plagger.org/trac" target="_blank" onClick="javascript:urchinTracker ('/outgoing/http://plagger.org/trac'); "&gt;Plagger&lt;/a&gt;
+をWindows XPで使ってみました。&lt;br&gt;
+私はperlについてはほとんど知らないのですが、いろいろなBlogなどを参考に、
+なんとかインストールしてBloglinesの未読をGmailに送るところまでできました。&lt;br&gt;
+私の場合の手順をメモしておきます。&lt;br&gt;
+まずは、Windowsでperlを使うために、
+&lt;a href="http://www.activestate.com/Products/ActivePerl/" target="_blank" onClick="javascript:urchinTracker ('/outgoing/http://www.activestate.com/Products/ActivePerl/'); "&gt;ActivePerl&lt;/a&gt;
+をインストールします。&lt;br&gt;
+</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-16T22:50:33+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">コトノハ と Plagger</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://feeds.feedburner.com/mizzyorg?m=123"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+
+
+
+
+
+...</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+
+
+...</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-15T18:00:00+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">[雑感]はてブのお気に入り基準なんて考えない</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/kurimax/20060415/1145065836"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+		
+			はてブお気に入りユーザを選ぶポイントなんてあるの？
+			■お気に入りユーザを選ぶポイント（以下のいずれかに当てはまること）
+			▼会ったことある人
+			▼1getが多い人
+			▼コメントなんて少しあれば可
+			▼ネガティブなコメントをしてくれる人
+			▼各新聞のニュースをぶくましてくれるひと
+			▼[性]、[モテ]など特定のジャンルに偏ってるひと。
+			▼ブクマ数が多く、ユニークな記事をクリップしているひと。
+			▼finalvent
+			▼よくわからない Plagger とかがあるんだよとぶくまで教えてくれる人
+		
+</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+		<div class="section">
+			<p>はてブお気に入りユーザを選ぶポイントなんてあるの？</p>
+			<p>■お気に入りユーザを選ぶポイント（以下のいずれかに当てはまること）</p>
+			<p>▼会ったことある人</p>
+			<p>▼1getが多い人</p>
+			<p>▼コメントなんて少しあれば可</p>
+			<p>▼ネガティブなコメントをしてくれる人</p>
+			<p>▼各新聞のニュースをぶくましてくれるひと</p>
+			<p>▼[性]、[モテ]など特定のジャンルに偏ってるひと。</p>
+			<p>▼ブクマ数が多く、ユニークな記事をクリップしているひと。</p>
+			<p>▼finalvent</p>
+			<p>▼よくわからない Plagger とかがあるんだよとぶくまで教えてくれる人</p>
+		</div>
+</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-15T10:50:36+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">[perl] Plagger</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/babie/20060414/p4"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+		
+			Plagger って Gmail を便利に使うためのライブラリだと思ってた……。盛り上がってるなぁみんなメール好きだなぁ、と……
+		
+</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+		<div class="section">
+			<p>Plagger って Gmail を便利に使うためのライブラリだと思ってた……。盛り上がってるなぁみんなメール好きだなぁ、と……</p>
+		</div>
+</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-14T00:00:00+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Google Calendar vs. 30 boxes</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://feeds.feedburner.com/bulknews?m=351"/>
+    <summary xmlns="http://purl.org/atom/ns#">Google Calendar
+
+Simplify. Organize. (And relax.) Organizing your schedule shouldn't be a burden. That's why we've created Google Calendar – our free online shareable calendar service. With Google Calendar, it's easy to keep track of all your life's important events – birthdays, reunions, little league games, doctor's appointments – all in one place.
+
+Google Calendar がようやっとローンチ。ここしばらく 30boxes をかなり気に入って使ってきたので心中複雑ですが、Google Calendar の iCal っぽい UI はたしかにステキですね。色でカレンダーをわけたり、Quick Add も踏襲していてさすがという感じ。Gmail で文中にスケジュールが書いてあると自動で追加する Gmail Integration （試してみたいけどどうやるのかな） とか、GMaps 連携とか面白そう。
+
+ただ、３週間ほど使っている 30boxes のほうがまだ痒いところに手が届く感じ。Flickr のアカウントを追加すると勝手に buddyicon がデフォルトで置き換わるとか、登録時の Email に gmail.com を使うと Check Gmail なリンクがついたり、細かいところが凝っているなあ、と スモールチームのプロダクトという感じが気に入っていました。
+
+Journal of acme (189)
+
+and I import the ICS into Google Calendar and all the times are off by eight hours!. That 2.05pm event is now at 10.05pm. Pesky dates! Pesky software!
+
+たしかに ics インポートするときにはローカルタイムがすべて西海岸時間（GMT-8 ）になってしまうとか、UTF-8 でマルチバイトな文字はちゃんとインポートできないとか、まだまだ Google Calendar も改善の余地がありそうです。Atom への link (Auto-Discovery) もついているけど実際にアクセスしてもフィードはでてこなかった。。。
+
+Google Calendar - Ogawa::Memoranda
+
+サイボウズのスケジュールを読み込んで、Google CalendarにiCal形式でポストできるPlaggerのモジュールがあればなあ。そうすればOutlookは完全に捨てられるのに。
+
+Plagger でカレンダーデータを扱うというのはかなり楽しいですね。CustomFeed::iCal と Publish::iCal をつくってみても面白いかも。Feed のエントリーの中にスケジュールっぽい文字列があったら自動抽出なんてできるとステキだなあ。もちろん王道で hCalendar な microformats にも。
+
+Plagger のRSS/Atom な entry には日付しかついてないので、より詳細なメタデータ形式としては RDF Site Summary 1.0 Modules: Event を使うとよいかも。hCalendar を フィードの xhtml:body, content:encoded, atom:body にそのまま入れるのもありですね。
+
+これは Plagger Enclosure 対応のときに Media RSS に対応するのと同じ感じ。Publish::Feed の大改造が必要だな。</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p><a title="Google Calendar" href="http://www.google.com/googlecalendar/overview.html">Google Calendar</a></p>
+
+<blockquote>Simplify. Organize. (And relax.) Organizing your schedule shouldn't be a burden. That's why we've created Google Calendar – our free online shareable calendar service. With Google Calendar, it's easy to keep track of all your life's important events – birthdays, reunions, little league games, doctor's appointments – all in one place.</blockquote>
+
+<p>Google Calendar がようやっとローンチ。ここしばらく <a href="http://30boxes.com/">30boxes</a> をかなり気に入って使ってきたので心中複雑ですが、Google Calendar の iCal っぽい UI はたしかにステキですね。色でカレンダーをわけたり、Quick Add も踏襲していてさすがという感じ。Gmail で文中にスケジュールが書いてあると自動で追加する Gmail Integration （試してみたいけどどうやるのかな） とか、GMaps 連携とか面白そう。</p>
+
+<p>ただ、３週間ほど使っている 30boxes のほうがまだ痒いところに手が届く感じ。Flickr のアカウントを追加すると勝手に buddyicon がデフォルトで置き換わるとか、登録時の Email に gmail.com を使うと Check Gmail なリンクがついたり、細かいところが凝っているなあ、と スモールチームのプロダクトという感じが気に入っていました。</p>
+
+<p><a title="Journal of acme (189)" href="http://use.perl.org/~acme/journal/29310?from=rss">Journal of acme (189)</a></p>
+
+<blockquote>and I import the ICS into Google Calendar and all the times are off by eight hours!. That 2.05pm event is now at 10.05pm. Pesky dates! Pesky software!</blockquote>
+
+<p>たしかに ics インポートするときにはローカルタイムがすべて西海岸時間（GMT-8 ）になってしまうとか、UTF-8 でマルチバイトな文字はちゃんとインポートできないとか、まだまだ Google Calendar も改善の余地がありそうです。Atom への link (Auto-Discovery) もついているけど実際にアクセスしてもフィードはでてこなかった。。。</p>
+
+<p><a title="Google Calendar - Ogawa::Memoranda" href="http://as-is.net/blog/archives/001120.html">Google Calendar - Ogawa::Memoranda</a></p>
+
+<blockquote>サイボウズのスケジュールを読み込んで、Google CalendarにiCal形式でポストできるPlaggerのモジュールがあればなあ。そうすればOutlookは完全に捨てられるのに。</blockquote>
+
+<p>Plagger でカレンダーデータを扱うというのはかなり楽しいですね。CustomFeed::iCal と Publish::iCal をつくってみても面白いかも。Feed のエントリーの中にスケジュールっぽい文字列があったら自動抽出なんてできるとステキだなあ。もちろん王道で hCalendar な microformats にも。</p>
+
+<p>Plagger のRSS/Atom な entry には日付しかついてないので、より詳細なメタデータ形式としては <a title="RDF Site Summary 1.0 Modules: Event" href="http://web.resource.org/rss/1.0/modules/event/">RDF Site Summary 1.0 Modules: Event</a> を使うとよいかも。hCalendar を フィードの xhtml:body, content:encoded, atom:body にそのまま入れるのもありですね。</p>
+
+<p>これは Plagger Enclosure 対応のときに <a href="http://en.wikipedia.org/wiki/Media_RSS">Media RSS</a> に対応するのと同じ感じ。Publish::Feed の大改造が必要だな。</p></div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-13T18:10:46+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">OSCON 2006 で Plagger のプレゼン</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://feeds.feedburner.com/bulknews?m=350"/>
+    <summary xmlns="http://purl.org/atom/ns#">O'Reilly Open Source Convention - July, 24-28, 2006 - Portland, OR
+
+Plagger: Pluggable RSS/Atom Aggregation
+Tatsuhiko Miyagawa, Six Apart
+
+YAPC::Asia のスライドでも触れましたが、O'Reilly Open Source Convention 2006 @ Portland, OR で Plagger のトーク (50分) をすることになりました。英語でのプレゼンはほとんど初めてに近い（YAPC::Taipei も一応英語でしたが）のでちょっと緊張します！ といってもこれが最初ではなくて、ちょうど１ヶ月前の YAPC::NA @ Chicago にも同じトーク（＋Trickter Hacking iTunes &amp; PSP）をサブミットしてあります。
+
+これももうすぐ accept の可否がわかると思いますが、たぶん大丈夫でしょう。いい予行演習になるはず。</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">&lt;p&gt;&lt;a title="O'Reilly Open Source Convention - July, 24-28, 2006 - Portland, OR" href="http://conferences.oreillynet.com/cs/os2006/view/e_sess/8993"&gt;O'Reilly Open Source Convention - July, 24-28, 2006 - Portland, OR&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;Plagger: Pluggable RSS/Atom Aggregation
+Tatsuhiko Miyagawa, Six Apart&lt;/blockquote&gt;
+
+&lt;p&gt;YAPC::Asia のスライドでも触れましたが、O'Reilly Open Source Convention 2006 @ Portland, OR で Plagger のトーク (50分) をすることになりました。英語でのプレゼンはほとんど初めてに近い（YAPC::Taipei も一応英語でしたが）のでちょっと緊張します！ といってもこれが最初ではなくて、ちょうど１ヶ月前の &lt;a href="http://www.yapcchicago.org/"&gt;YAPC::NA @ Chicago&lt;/a&gt; にも同じトーク（＋Trickter Hacking iTunes &amp; PSP）をサブミットしてあります。&lt;/p&gt;
+
+&lt;p&gt;これももうすぐ accept の可否がわかると思いますが、たぶん大丈夫でしょう。いい予行演習になるはず。&lt;/p&gt;</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-13T17:57:12+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Gmail</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/vkgtaro/20060412/1144816072"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+		
+			plagger を使うようになってから Gmail も少しずつ使うようになってきた。（アンケートとかで拡張アドレス使って見たりって事は良くやってたんだけど。）
+			plagger 使うようになってからと言っても、mixi の本文取得にしか使って無い状況だけど。bloglines に貯めた feed の Gmail 送信は未だ見送ってしまってる。
+		
+</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+		<div class="section">
+			<p>plagger を使うようになってから Gmail も少しずつ使うようになってきた。（アンケートとかで拡張アドレス使って見たりって事は良くやってたんだけど。）</p>
+			<p>plagger 使うようになってからと言っても、mixi の本文取得にしか使って無い状況だけど。bloglines に貯めた feed の Gmail 送信は未だ見送ってしまってる。</p>
+		</div>
+</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-12T13:27:52+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">はてな日記 RSS フィード全文掲載問題</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://yoosee.net/d/archives/2006/04/11/002.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+ 
+
+ * 
+       RSSフィードへの全文掲載についてのアンケートはてな日記の RSS フィードに標準で全文を載せるかどうか、と言うアンケート。これは問いかけ自体がおかしい。だって書き手が後から自分で選択可能な設定に対して、「そんなのどっちでもいい(初期設定のままで構わない)」と思っているユーザの初期挙動をどうすべきかと言う質問をしてるんだもの。こんなのははてな側が自身のリスクで勝手に設定を変えて、その旨の説明文を初期設定ウィザードにでも入れておけば宜しい。基本的にはどうすべきかを問うのでは無く「フィードとは要約と全文が入っていて読み手が自由な形で読み方を選択できるもの」が普通だと言う認識を進めて欲しい。書き手は選択可能だけど読み手が選択出来ない事に対して、読み手が不便になる方向に舵を切る必要はないじゃない。Web2.0 なんだしさー、Webを進化させてよね。
+ 
+    
+ 
+
+ * 
+       フィードに全文を載せるのはそんなに嫌な事?さて「全文を RSS で読まれるのは気に入らない」と言う方へ今更ながら。そもそも Plagger なりの HTML から全文をぶっこぬいて RSS にするツールを使うという選択肢が読み手にある以上、概要しか配りたくないと言う望みは基本的に達成できない。概要と本文の両方をフィードしておけば、読み手は好きな方を選んで表示することが出来る。また「RSS に全文がないんじゃ面倒だから読まない」と言う読者は一定数以上存在する。例えば私。だったら最大限読み手に面倒がない方法を提供することで、読者を増やした方がいいんじゃないかと思うわけですよ。
+ 
+    </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+ 
+
+ <h4><a href="http://yoosee.net/d/archives/2006/04/11/002.html#s1" name="s1">*</a> 
+       <span><a href="http://d.hatena.ne.jp/hatenadiary/20060410/1144667709">RSSフィードへの全文掲載についてのアンケート</a></span></h4><span>はてな日記の RSS フィードに標準で全文を載せるかどうか、と言うアンケート。これは問いかけ自体がおかしい。だって書き手が後から自分で選択可能な設定に対して、「そんなのどっちでもいい(初期設定のままで構わない)」と思っているユーザの初期挙動をどうすべきかと言う質問をしてるんだもの。<br/><br/>こんなのははてな側が自身のリスクで勝手に設定を変えて、その旨の説明文を初期設定ウィザードにでも入れておけば宜しい。基本的にはどうすべきかを問うのでは無く「フィードとは要約と全文が入っていて読み手が自由な形で読み方を選択できるもの」が普通だと言う認識を進めて欲しい。書き手は選択可能だけど読み手が選択出来ない事に対して、読み手が不便になる方向に舵を切る必要はないじゃない。Web2.0 なんだしさー、Webを進化させてよね。</span>
+ 
+    
+ 
+
+ <h4><a href="http://yoosee.net/d/archives/2006/04/11/002.html#s2" name="s2">*</a> 
+       <span>フィードに全文を載せるのはそんなに嫌な事?</span></h4><span>さて「全文を RSS で読まれるのは気に入らない」と言う方へ今更ながら。そもそも <a href="http://subtech.g.hatena.ne.jp/miyagawa/20060410/1144690387">Plagger</a> なりの HTML から全文をぶっこぬいて RSS にするツールを使うという選択肢が読み手にある以上、概要しか配りたくないと言う望みは基本的に達成できない。概要と本文の両方をフィードしておけば、読み手は好きな方を選んで表示することが出来る。また「RSS に全文がないんじゃ面倒だから読まない」と言う読者は一定数以上存在する。例えば私。<br/><br/>だったら最大限読み手に面倒がない方法を提供することで、読者を増やした方がいいんじゃないかと思うわけですよ。</span>
+ 
+    </div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-12T08:42:19+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">[etc]Bloglines</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/kenkitii/20060412/p1"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+		
+			なんだか調子悪いなー。。。情報源がBloglinesオンリーてのはやばいかも
+			Plaggerとか使ってみようかしら。。。
+		
+</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+		<div class="section">
+			<p>なんだか調子悪いなー。。。情報源がBloglinesオンリーてのはやばいかも</p>
+			<p>Plaggerとか使ってみようかしら。。。</p>
+		</div>
+</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-12T00:00:00+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">YAPC Hackathon</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://feeds.feedburner.com/bulknews?m=349"/>
+    <summary xmlns="http://purl.org/atom/ns#">YAPC は終わってしまいましたが、「YAPC は Hackathon が終わるまでが YAPC です」というわけで、3/31-4/2 の間、月島の Dan さんのウチにお世話になって Hackathon してきました。
+
+Larry, Audrey, Dave, Ingy, Jesse のステイ組に加えて、初日は Damian, Matz さんも参加と超豪華。Larry, Audrey, Ingy, Dave に「サブテク入りたい！」 と書かせる悪ノリなんかもありつつ、かなりプロダクティブにハックできました。それもこれも Dan さん、そしておいしい料理を提供してくれた奥様のおかげです。多謝。
+
+というわけで Plagger は無事 0.6.0 をリリース。CustomFeed の API 変更と EntryFullText による "Upgrader Your Feed" がメインテーマ。現状は entryfulltext の設定から CustomFeed もつくれて、asahi.com やスポナビなどの本文がないフィードからフル HTMLをとってきたりできます。簡単にサイトが追加できるので、ぜひ新しいサイト用のパターンファイルをつくって IRC で教えてください。</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>YAPC は終わってしまいましたが、「YAPC は Hackathon が終わるまでが YAPC です」というわけで、3/31-4/2 の間、月島の Dan さんのウチにお世話になって Hackathon してきました。</p>
+
+<p>Larry, Audrey, Dave, Ingy, Jesse のステイ組に加えて、初日は Damian, Matz さんも参加と超豪華。<a href="http://www.flickr.com/photos/bulknews/121261397/">Larry, Audrey, Ingy, Dave に「サブテク入りたい！」</a> と書かせる悪ノリなんかもありつつ、かなりプロダクティブにハックできました。それもこれも Dan さん、そしておいしい料理を提供してくれた奥様のおかげです。多謝。</p>
+
+<p>というわけで Plagger は無事 0.6.0 をリリース。CustomFeed の API 変更と EntryFullText による "Upgrader Your Feed" がメインテーマ。現状は entryfulltext の設定から CustomFeed もつくれて、asahi.com やスポナビなどの本文がないフィードからフル HTMLをとってきたりできます。簡単にサイトが追加できるので、ぜひ新しいサイト用のパターンファイルをつくって IRC で教えてください。</p></div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-03T02:02:16+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Plagger と iTunes</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://feeds.feedburner.com/mizzyorg?m=119"/>
+    <summary xmlns="http://purl.org/atom/ns#">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...</div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-02T17:08:00+09:00</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title xmlns="http://purl.org/atom/ns#">YAPC::Asia 2006 Tokyo</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://feeds.feedburner.com/norainu?m=108"/>
+    <summary xmlns="http://purl.org/atom/ns#">行ってきました、YAPC::Asia 2006 Tokyo!!!。
+
+感想とか内容を簡単に羅列してみます（内容は妄想も含まれてるかもしれないのであとでスライド要見なおし。）
+
+
+9:30 - Welcome - miyagawaさん
+YAPC::Asiaについてとか弾さんのスライドとかでひと笑い。「興奮せずにはいられないプレゼンターの面々」。まさに。
+10:00 - Introduction to Pugs - Audrey Tangさん
+天才登場。でも、聞きいってたのでメモあんまりとってない…。
+Perl6の説明を交えながら、Pugsの歴史とこれからについて。「Pugsはオモチャ」、「Perl6は車輪の才発明じゃなくて車の再発明!!」とかが印象に。
+とにかくPugsは楽しい!!そうです。ちょっと試してみようと思う。。。
+10:45 - Module::Compile - Ingy dot Netさん
+Module::Compileの紹介。
+use は .pmc &gt; .pmの順でロードを試みる。
+use v6-pugsで Perl5のソース内にPerl6なシンタックス(？）、関数（？)がかける。
+11:05 - mightyv - Leon Brocard
+このサービス知りませんでした。日本版ほしい。
+Catalyst/Class::DBIつかってる。
+11:50 - （タイトル忘れた） - matzさん
+PerlとRubyの文字コード処理について。
+PerlはUCS。RubyはCSIを試み中（CSIというのをはじめて知った）。
+13:30 - Plagger - miyagawaさん
+Plaggerでできること・仕組をさっくり解説。
+Plagger本体はプラグインをしていしないとなにもしない。
+最近GmailアカウントもらったのでBloglines to Gmailやってみよう。
+やっぱすごいなぁ。。。
+14:00 - mixi.jp ChangeLog - Batara Kesumaさん
+mixiのこれまでの歴史と負荷分散についてのぶっちゃけ。
+ユーザー数の遷移が以上にすごい。
+Apache 2.0 / 2.2を使っててmod_perlも2.0。
+DBはMySQLで 4.0 / 4.1 / 5.0を使ってる。OracleRACとか考えてない。
+テンプレートエンジンはHTML::Template::Pro
+CPANにあるフレームワークはつかってない。
+DBの負荷分散はテーブル分散のLevel1、その後ユーザー分散のLevel2の2フェーズでやってきた。テーブル分散でJOIN句に問題がでたけど、MySQL 5.0から導入されたなんとかというので解消（肝心なのところのメモが消えてる…）。
+mod_perlサーバーにmemcached。
+とにかくいろんな工夫を上位レイヤーでやってる。すごー。
+15:00 - JSAN and AJAX -- Dave Rolskyさん
+JSANのこれまでといまんとこコミットされてるスクリプトについて。
+Perlインスパイア多数あり。
+prototype.js / script.aculo.us の開発者とかとは別に話はしてない。
+15:30 - Jifty - Jesse Vincent
+新しいWebアプリケーションフレームワーク。
+なんか見たことのない記述方法多数。
+まだ全然つかめてないのであとで。
+16:25 - the first Babel-17 computer language:Ruby - Rubyの会の高橋さん
+そう、高橋さん。
+Rubyは洗脳言語。
+セミコロンをとりたくなるシンタックス。
+プレゼンがほんとうにおもしろい。
+16:45 - Perl Best Practices - Damian Conwayさん
+最後に天才登場。つかみのおもしろスライドで、一気に引き込まれます。
+Perltidyを使おう。
+Module::Starterを使おう。
+自分のコード習慣を評価することが大事。
+周りに広めるよい方法は、『自分のコードをよくしてまねしたいと思わせる』、ということ。
+
+
+ボリュームありすぎ…。
+
+そして、懇親会にて本日のありえない写真。
+
+
+
+そりゃこんな状態、笑顔も引きつるし、髪の毛も逆立ちます。握手もしてもらいました。しばらく手洗えませんｗ
+
+さらに、このブログやはてブなどを通じて知り合った方たちとリアル対面。感激、そして感動。2日目の明日は、有休とってないし会社の事情も多少あるのでいけない予定ですが、ズル休みしていくかもしれません。。。
+
+少ないですがflickrに本日の写真をupしてあります。
+
+全部コミコミで人生で忘れられない1日となりました。
+</summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="escaped" type="text/html">&lt;p&gt;行ってきました、&lt;a href="http://tokyo.yapcasia.org/blog/ja/"&gt;YAPC::Asia 2006 Tokyo!!!&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;感想とか内容を簡単に羅列してみます（内容は妄想も含まれてるかもしれないのであとで&lt;a href="http://tokyo.yapcasia.org/wiki/?SlidesList"&gt;スライド&lt;/a&gt;要見なおし。）&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;9:30 - Welcome - miyagawaさん&lt;/dt&gt;
+&lt;dd&gt;YAPC::Asiaについてとか弾さんのスライドとかでひと笑い。「興奮せずにはいられないプレゼンターの面々」。まさに。&lt;/dd&gt;
+&lt;dt&gt;10:00 - Introduction to Pugs - Audrey Tangさん&lt;/dt&gt;
+&lt;dd&gt;天才登場。でも、聞きいってたのでメモあんまりとってない…。&lt;/dd&gt;
+&lt;dd&gt;Perl6の説明を交えながら、Pugsの歴史とこれからについて。「Pugsはオモチャ」、「Perl6は車輪の才発明じゃなくて車の再発明!!」とかが印象に。&lt;/dd&gt;
+&lt;dd&gt;とにかくPugsは楽しい!!そうです。ちょっと試してみようと思う。。。&lt;/dd&gt;
+&lt;dt&gt;10:45 - Module::Compile - Ingy dot Netさん&lt;/dt&gt;
+&lt;dd&gt;Module::Compileの紹介。&lt;/dd&gt;
+&lt;dd&gt;use は .pmc &amp;gt; .pmの順でロードを試みる。&lt;/dd&gt;
+&lt;dd&gt;use v6-pugsで Perl5のソース内にPerl6なシンタックス(？）、関数（？)がかける。&lt;/dd&gt;
+&lt;dt&gt;11:05 - &lt;a href="http://www.mightyv.com/"&gt;mightyv&lt;/a&gt; - Leon Brocard&lt;/dt&gt;
+&lt;dd&gt;このサービス知りませんでした。日本版ほしい。&lt;/dd&gt;
+&lt;dd&gt;Catalyst/Class::DBIつかってる。&lt;/dd&gt;
+&lt;dt&gt;11:50 - （タイトル忘れた） - matzさん&lt;/dt&gt;
+&lt;dd&gt;PerlとRubyの文字コード処理について。&lt;/dd&gt;
+&lt;dd&gt;PerlはUCS。RubyはCSIを試み中（CSIというのをはじめて知った）。&lt;/dd&gt;
+&lt;dt&gt;13:30 - Plagger - miyagawaさん&lt;/dt&gt;
+&lt;dd&gt;Plaggerでできること・仕組をさっくり解説。&lt;/dd&gt;
+&lt;dd&gt;Plagger本体はプラグインをしていしないとなにもしない。&lt;/dd&gt;
+&lt;dd&gt;最近GmailアカウントもらったのでBloglines to Gmailやってみよう。&lt;/dd&gt;
+&lt;dd&gt;やっぱすごいなぁ。。。&lt;/dd&gt;
+&lt;dt&gt;14:00 - mixi.jp ChangeLog - Batara Kesumaさん&lt;/dt&gt;
+&lt;dd&gt;mixiのこれまでの歴史と負荷分散についてのぶっちゃけ。&lt;/dd&gt;
+&lt;dd&gt;ユーザー数の遷移が以上にすごい。&lt;/dd&gt;
+&lt;dd&gt;Apache 2.0 / 2.2を使っててmod_perlも2.0。&lt;/dd&gt;
+&lt;dd&gt;DBはMySQLで 4.0 / 4.1 / 5.0を使ってる。OracleRACとか考えてない。&lt;/dd&gt;
+&lt;dd&gt;テンプレートエンジンはHTML::Template::Pro&lt;/dd&gt;
+&lt;dd&gt;CPANにあるフレームワークはつかってない。&lt;/dd&gt;
+&lt;dd&gt;DBの負荷分散はテーブル分散のLevel1、その後ユーザー分散のLevel2の2フェーズでやってきた。テーブル分散でJOIN句に問題がでたけど、MySQL 5.0から導入されたなんとかというので解消（肝心なのところのメモが消えてる…）。&lt;/dd&gt;
+&lt;dd&gt;mod_perlサーバーにmemcached。&lt;/dd&gt;
+&lt;dd&gt;とにかくいろんな工夫を上位レイヤーでやってる。すごー。&lt;/dd&gt;
+&lt;dt&gt;15:00 - JSAN and AJAX -- Dave Rolskyさん&lt;/dt&gt;
+&lt;dd&gt;JSANのこれまでといまんとこコミットされてるスクリプトについて。&lt;/dd&gt;
+&lt;dd&gt;Perlインスパイア多数あり。&lt;/dd&gt;
+&lt;dd&gt;prototype.js / script.aculo.us の開発者とかとは別に話はしてない。&lt;/dd&gt;
+&lt;dt&gt;15:30 - Jifty - Jesse Vincent&lt;/dt&gt;
+&lt;dd&gt;新しいWebアプリケーションフレームワーク。&lt;/dd&gt;
+&lt;dd&gt;なんか見たことのない記述方法多数。&lt;/dd&gt;
+&lt;dd&gt;まだ全然つかめてないのであとで。&lt;/dd&gt;
+&lt;dt&gt;16:25 - the first Babel-17 computer language:Ruby - Rubyの会の高橋さん&lt;/dt&gt;
+&lt;dd&gt;そう、高橋さん。&lt;/dd&gt;
+&lt;dd&gt;Rubyは洗脳言語。&lt;/dd&gt;
+&lt;dd&gt;セミコロンをとりたくなるシンタックス。&lt;/dd&gt;
+&lt;dd&gt;プレゼンがほんとうにおもしろい。&lt;/dd&gt;
+&lt;dt&gt;16:45 - Perl Best Practices - Damian Conwayさん&lt;/dt&gt;
+&lt;dd&gt;最後に天才登場。つかみのおもしろスライドで、一気に引き込まれます。&lt;/dd&gt;
+&lt;dd&gt;Perltidyを使おう。&lt;/dd&gt;
+&lt;dd&gt;Module::Starterを使おう。&lt;/dd&gt;
+&lt;dd&gt;自分のコード習慣を評価することが大事。&lt;/dd&gt;
+&lt;dd&gt;周りに広めるよい方法は、『自分のコードをよくしてまねしたいと思わせる』、ということ。&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;ボリュームありすぎ…。&lt;/p&gt;
+
+&lt;p&gt;そして、懇親会にて本日のありえない写真。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/ziguzagu/119821108/" title="Photo Sharing"&gt;&lt;img src="http://static.flickr.com/47/119821108_56cba8be3a_m.jpg" width="240" height="180" alt="Larry!! Damian!!!!" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;そりゃこんな状態、笑顔も引きつるし、髪の毛も逆立ちます。握手もしてもらいました。しばらく手洗えませんｗ&lt;/p&gt;
+
+&lt;p&gt;さらに、このブログやはてブなどを通じて知り合った方たちとリアル対面。感激、そして感動。2日目の明日は、有休とってないし会社の事情も多少あるのでいけない予定ですが、ズル休みしていくかもしれません。。。&lt;/p&gt;
+
+&lt;p&gt;少ないですが&lt;a href="http://www.flickr.com/photos/ziguzagu/tags/yapc/"&gt;flickr&lt;/a&gt;に本日の写真をupしてあります。&lt;/p&gt;
+
+&lt;p&gt;全部コミコミで人生で忘れられない1日となりました。&lt;/p&gt;
+&lt;p&gt;&lt;map name="google_ad_map_Foq2Owl4v5cGYvP8SvCl6rGL5DI_"&gt;&lt;area shape="rect" href="http://imageads.googleadservices.com/pagead/imgclick/Foq2Owl4v5cGYvP8SvCl6rGL5DI_?pos=0" coords="1,2,367,28"/&gt;&lt;area shape="rect" href="http://services.google.com/feedback/abg" coords="384,10,453,23"/&gt;&lt;/map&gt;&lt;img usemap="#google_ad_map_Foq2Owl4v5cGYvP8SvCl6rGL5DI_" border="0" src="http://imageads.googleadservices.com/pagead/ads?format=468x30_aff_img&amp;client=ca-pub-2553862193005935&amp;output=png&amp;cuid=Foq2Owl4v5cGYvP8SvCl6rGL5DI_&amp;url=http%3A%2F%2Fnorainu.net%2Fmt%2Farchives%2F2006%2F03%2Fyapcasia_2006_tokyo.html"/&gt;&lt;/p&gt;</content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-03-29T23:39:01+09:00</issued>
+  </entry>
+</feed>

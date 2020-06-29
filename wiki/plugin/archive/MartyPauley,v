@@ -1,0 +1,56 @@
+head	1.3;
+access;
+symbols;
+locks
+	root:1.3;
+comment	@# @;
+
+
+1.3
+date	2006.05.25.04.00.30;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.05.18.05.41.19;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.03.26.12.09.14;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@edit_address:222.148.31.151,edit_by:miyagawa,edit_by_icon:http%3A%2F%2Fbulknews.typepad.com%2FP506iC0003735833.jpg,edit_time:Thu%20May%2025%2004%3A00%3A30%202006,edit_unixtime:1148529630
+@
+text
+@Marty will be staying at [http://www.katsutaro.com/annexj_index.html アネックス_勝太郎旅館].
+@
+
+
+1.2
+log
+@edit_address:210.123.39.226,edit_by:AnonymousGnome,edit_time:Thu%20May%2018%2005%3A41%3A19%202006,edit_unixtime:1147930879
+@
+text
+@a1 3
+
+its my vibrator
+[http://icomcon.com/young-pussy.html young pussy] 
+@
+
+
+1.1
+log
+@edit_address:212.3.160.125,edit_by:MartyPauley,edit_time:Sun%20Mar%2026%2012%3A09%3A14%202006,edit_unixtime:1143374954
+@
+text
+@d2 3
+@

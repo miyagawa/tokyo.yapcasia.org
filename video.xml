@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <generator>Plagger/0.6.6</generator>
+    <link>http://www.archive.org/search.php?query=subject:%22yapc%22</link>
+    <title>Internet Archive Search: subject:"yapc"</title>
+    <pubDate>Tue, 16 May 2006 15:04:54 +0900</pubDate>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoWelcome</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo)  "Welcome" by Tatsuhiko MiyagawaKeywords: yapc; perlCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Welcome"</title>
+      <enclosure length="3964347" url="http://www.archive.org/download/YAPCAsia2006TokyoWelcome/yapc_060329_welcome.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoIntroductiontoPugs</link>
+      <description>Yet Another Perl Conference 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Introduction to Pugs by Audrey TangKeywords: perl; yapcCreative Commons license: 
+    AttributionQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Introduction to Pugs"</title>
+      <enclosure length="17933107" url="http://www.archive.org/download/YAPCAsia2006TokyoIntroductiontoPugs/yapc_060329_introduction_to_pugs.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoModuleCompile</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Module::Compile by Ingy dot NetKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Module::Compile"</title>
+      <enclosure length="8588137" url="http://www.archive.org/download/YAPCAsia2006TokyoModuleCompile/yapc_060329_module_compile.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006Tokyomightyv</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Mightyv by Leon BrocardKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "mightyv"</title>
+      <enclosure length="13443243" url="http://www.archive.org/download/YAPCAsia2006Tokyomightyv/yapc_060329_mightyv.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoRubyonPerls</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : 2006 Tokyo) Ruby on Perl(s) by Yukihiko MatsumotoKeywords: yapc; perlCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Ruby on Perl(s)"</title>
+      <enclosure length="15471509" url="http://www.archive.org/download/YAPCAsia2006TokyoRubyonPerls/yapc_060329_ruby_on_perls.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPC2006TokyoPlaggerRSSAtomremixingplatform</link>
+      <description>Yet Another Perl Conference 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Plagger - RSS / Atom remixing platform by Tatsuhiko MiyagawaKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::2006 Tokyo "Plagger - RSS/Atom remixing platform"</title>
+      <enclosure length="13693857" url="http://www.archive.org/download/YAPC2006TokyoPlaggerRSSAtomremixingplatform/yapc_060329_plagger.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPC2006TokyomixijpChangeLog</link>
+      <description>Yet Another Perl Conference 2006 Tokyo (YAPC : : Asia 2006 Tokyo) mixi.jp: ChangeLog by Batara KesumaKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::2006 Tokyo "mixi.jp: ChangeLog"</title>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoJSANandAJAX</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) JSAN and AJAX by Dave RolskyKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "JSAN and AJAX"</title>
+      <enclosure length="14049701" url="http://www.archive.org/download/YAPCAsia2006TokyoJSANandAJAX/yapc_060329_jsan_and_ajax.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoJifty</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Jifty by Jesse VincentKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Jifty"</title>
+      <enclosure length="19638779" url="http://www.archive.org/download/YAPCAsia2006TokyoJifty/yapc_060329_jifty.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoPerlBestPractices</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Perl Best Practices by Damian ConwayKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Perl Best Practices"</title>
+      <enclosure length="24328109" url="http://www.archive.org/download/YAPCAsia2006TokyoPerlBestPractices/yapc_060329_perl_best_practices.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoPerl58andUnicodeMythsFactsandChanges</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Perl5.8 and Unicode: Myths, Facts and Changes by Dan KogaiKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Perl5.8 and Unicode: Myths, Facts and Changes"</title>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoPerl6HackingMadeInsanelyGreat</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Perl6: Hacking Made Insanely Great by Damian ConwayKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Perl6: Hacking Made Insanely Great"</title>
+      <enclosure length="21277669" url="http://www.archive.org/download/YAPCAsia2006TokyoPerl6HackingMadeInsanelyGreat/yapc_060330_perl6.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoPerlDateTimeproject</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Perl Date Time project by Dave RolskyKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Perl Date Time project"</title>
+      <enclosure length="18032823" url="http://www.archive.org/download/YAPCAsia2006TokyoPerlDateTimeproject/yapc_060330_perl_date_time_project.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoGettingYourFeetWetWithXS</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Getting Your Feet Wet With XS by Daisuke MakiKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Getting Your Feet Wet With XS"</title>
+      <enclosure length="15758069" url="http://www.archive.org/download/YAPCAsia2006TokyoGettingYourFeetWetWithXS/yapc_060330_getting_your_feet_wet_with_xs.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoInsideHatenaBookmarksBackend</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Inside Hatena::Bookmark's Backend by Naoya ItoKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Inside Hatena::Bookmark's Backend"</title>
+      <enclosure length="24392997" url="http://www.archive.org/download/YAPCAsia2006TokyoInsideHatenaBookmarksBackend/yapc_060330_inside_hatenabookmarks_backend.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoLightningTalkVisualBasic</link>
+      <title>YAPC::Asia 2006 Tokyo "LightningTalk: Visual Basic"</title>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoLightningTalkWhatisaDataModel</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) LightningTalk: What is a Data Model?Keywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "LightningTalk: What is a Data Model?"</title>
+      <enclosure length="2594423" url="http://www.archive.org/download/YAPCAsia2006TokyoLightningTalkWhatisaDataModel/yapc_060330_what_is_a_data_model.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoLightningTalkSPDebugScreenmeetsPadWalker</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) LightningTalk: S::P::DebugScreen meets PadWalker by Tokuhiro MatsunoKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "LightningTalk: S::P::DebugScreen meets PadWalker"</title>
+      <enclosure length="1143213" url="http://www.archive.org/download/YAPCAsia2006TokyoLightningTalkSPDebugScreenmeetsPadWalker/yapc_060330_DebugScreen_meets_padwalker.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoLightningTalkIloveJSON</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) LightningTalk: I love JSON by Ingy dot NetKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "LightningTalk: I love JSON"</title>
+      <enclosure length="1892509" url="http://www.archive.org/download/YAPCAsia2006TokyoLightningTalkIloveJSON/yapc_060330_i_love_json.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoLightningTalkCPANRecentChanges</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) LightningTalk: CPAN Recent Changes by Daisuke MuraseKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "LightningTalk: CPAN Recent Changes"</title>
+      <enclosure length="1572571" url="http://www.archive.org/download/YAPCAsia2006TokyoLightningTalkCPANRecentChanges/yapc_060330_cpan_recent_changes.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoLightningTalkDEKIRUPerlDebugger</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) LightningTalk: DEKIRU Perl Debugger by Masayoshi SekimuraKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "LightningTalk: DEKIRU Perl Debugger"</title>
+      <enclosure length="2409235" url="http://www.archive.org/download/YAPCAsia2006TokyoLightningTalkDEKIRUPerlDebugger/yapc_060330_dekiru_perl_debugger.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoLightningTalkPERL5WEBDB</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) LightningTalk: PERL5WEBDB by Kazuho OkuKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "LightningTalk: PERL5WEBDB"</title>
+      <enclosure length="2092597" url="http://www.archive.org/download/YAPCAsia2006TokyoLightningTalkPERL5WEBDB/yapc_060330_perl5webdb.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoLightningTalkLetsplaySudoku</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) LightningTalk: Let's play Sudoku! by Kenichi IshigakiKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "LightningTalk: Let's play Sudoku!"</title>
+      <enclosure length="2057159" url="http://www.archive.org/download/YAPCAsia2006TokyoLightningTalkLetsplaySudoku/yapc_060330_lets_play_sudoku.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoLightningTalkGENGONOKABEMONDAI</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) LightningTalk: GENGO NO KABE MONDAI by Tokuhiro MatsunoKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "LightningTalk: GENGO NO KABE MONDAI"</title>
+      <enclosure length="1021117" url="http://www.archive.org/download/YAPCAsia2006TokyoLightningTalkGENGONOKABEMONDAI/yapc_060330_gengo_no_kabe_mondai.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoLightningTalkMYVARIABLEMANIACS</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) LightningTalk: MY VARIABLE MANIACS by Shinya HayakawaKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "LightningTalk: MY VARIABLE MANIACS"</title>
+      <enclosure length="" url="http://www.archive.org/download/YAPCAsia2006TokyoLightningTalkMYVARIABLEMANIACS/yapc_060330_my_variable_maniacs.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoLightningTalkppencodeforPerllover</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) LightningTalk: ppencode for Perl lover by TAKESAKO, YoshinoriKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "LightningTalk: ppencode for Perl lover"</title>
+      <enclosure length="2321249" url="http://www.archive.org/download/YAPCAsia2006TokyoLightningTalkppencodeforPerllover/yapc_060330_ppencode_for_perl_lover.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoKeynote</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Keynote by Larry WallKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Keynote"</title>
+      <enclosure length="20279381" url="http://www.archive.org/download/YAPCAsia2006TokyoKeynote/yapc_060330_keynote.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoMarryingPerlwithOtherLanguages</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Marrying Perl with Other Languages by Chia-liang KaoKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Marrying Perl with Other Languages"</title>
+      <enclosure length="7896299" url="http://www.archive.org/download/YAPCAsia2006TokyoMarryingPerlwithOtherLanguages/yapc_060330_marrying_perl_with_other_languages.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoWrapup</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Wrap up by Tatsuhiko MiyagawaKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Wrap up"</title>
+      <enclosure length="1306413" url="http://www.archive.org/download/YAPCAsia2006TokyoWrapup/yapc_060330_wrapup.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoTemplateToolkitfornonwebapplications</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Template Toolkit for non-web applications by Marty PauleyKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Template Toolkit for non-web applications"</title>
+      <enclosure length="" url="http://www.archive.org/download/YAPCAsia2006TokyoTemplateToolkitfornonwebapplications/yapc_060330_template_toolkit_for_non_web_applications.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoInsideNetAJP13</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Inside Net::AJP13 by Hiroyuki OyamaKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Inside Net::AJP13"</title>
+      <enclosure length="12347067" url="http://www.archive.org/download/YAPCAsia2006TokyoInsideNetAJP13/yapc_060330_inside_net_ajp13.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoDevelopmentofUnifiedLegacyEncodinghandleronOpenSource</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Development of Unified Legacy Encoding handler on Open Source by Masayuki MoriyamaKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Development of Unified Legacy Encoding handler on Open Source"</title>
+      <enclosure length="12574311" url="http://www.archive.org/download/YAPCAsia2006TokyoDevelopmentofUnifiedLegacyEncodinghandleronOpenSource/yapc_060330_unified_legacy_encoding_handler.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoLearningHaskell</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Learning Haskell by Audrey TangKeywords: perl; yapcCreative Commons license: 
+    AttributionQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Learning Haskell"</title>
+      <enclosure length="23788265" url="http://www.archive.org/download/YAPCAsia2006TokyoLearningHaskell/yapc_060330_learning_haskell.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoSVKVersionControlwithouttheHeadaches</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) SVK: Version Control without the Headaches by Chia-liang KaoKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "SVK: Version Control without the Headaches"</title>
+      <enclosure length="13208633" url="http://www.archive.org/download/YAPCAsia2006TokyoSVKVersionControlwithouttheHeadaches/yapc_060330_svk.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoKONGOUGO</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) KONGOUGO by Marty PauleyKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "KONGOUGO"</title>
+      <enclosure length="7037315" url="http://www.archive.org/download/YAPCAsia2006TokyoKONGOUGO/yapc_060330_blending.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoSufficientlyAdvancedTechnologies</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Sufficiently Advanced Technologies by Damian ConwayKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Sufficiently Advanced Technologies"</title>
+      <enclosure length="21015237" url="http://www.archive.org/download/YAPCAsia2006TokyoSufficientlyAdvancedTechnologies/yapc_060330_sufficiently_advanced_technologies.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoSomeJavascriptHacksforPerlHackers</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Some Javascript Hacks for Perl Hackers by Ingy dot NetKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Some Javascript Hacks for Perl Hackers"</title>
+      <enclosure length="13048807" url="http://www.archive.org/download/YAPCAsia2006TokyoSomeJavascriptHacksforPerlHackers/yapc_060330_javascript_hacks.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoThefirstpostmoderncomputerlanguagevs</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) The first postmodern computer language vs ... by Masayoshi TakahashiKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "The first postmodern computer language vs"</title>
+      <enclosure length="7367825" url="http://www.archive.org/download/YAPCAsia2006TokyoThefirstpostmoderncomputerlanguagevs/yapc_060329_the_first_postmodern_computer_language_vs_the_first_babel17_computer.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoFightingwithBlogspams</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Fighting with Blog spams by Tatsuhiko MiyagawaKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Fighting with Blog spams"</title>
+      <enclosure length="505343" url="http://www.archive.org/download/YAPCAsia2006TokyoFightingwithBlogspams/yapc_060330_fighting_with_blog_spams.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoOndebugscreens</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) On debug screens by Kenichi IshigakiKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "On debug screens"</title>
+      <enclosure length="6564975" url="http://www.archive.org/download/YAPCAsia2006TokyoOndebugscreens/yapc_060330_on_debug_screens.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoCatalystEverything</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Catalyst Everything! by Daisuke MuraseKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Catalyst Everything!"</title>
+      <enclosure length="9374435" url="http://www.archive.org/download/YAPCAsia2006TokyoCatalystEverything/yapc_060330_catalyst_everything.mov" type="video/quicktime"/>
+    </item>
+    <item>
+      <link>http://www.archive.org/details/YAPCAsia2006TokyoKwikiKwiki</link>
+      <description>Yet Another Perl Conference Asia 2006 Tokyo (YAPC : : Asia 2006 Tokyo) Kwiki-Kwiki by Kang-min LiuKeywords: perl; yapcCreative Commons license: 
+    Attribution-NonCommercial-ShareAlikeQuickTime</description>
+      <title>YAPC::Asia 2006 Tokyo "Kwiki-Kwiki"</title>
+      <enclosure length="10473189" url="http://www.archive.org/download/YAPCAsia2006TokyoKwikiKwiki/yapc_060330_kwiki_kwiki.mov" type="video/quicktime"/>
+    </item>
+  </channel>
+</rss>

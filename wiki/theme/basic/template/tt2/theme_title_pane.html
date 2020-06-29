@@ -1,0 +1,8 @@
+<!-- BEGIN theme_title_pane -->
+<div id="title_pane">
+  <h1>
+[% IF hub.users.current.icon %]<a href="[% script_name %]?"><img src="[% hub.users.current.icon %]" height="36" style="vertical-align: middle; border: 0" /></a>[% END -%]
+  [% screen_title || self.class_title %]
+  </h1>
+</div>
+<!-- END theme_title_pane -->

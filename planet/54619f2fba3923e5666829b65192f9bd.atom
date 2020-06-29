@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://purl.org/atom/ns#">
+  <title xmlns="http://purl.org/atom/ns#">MSN サーチ Web: Plagger</title>
+  <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://search.msn.co.jp:80/results.aspx?q=Plagger"/>
+  <modified xmlns="http://purl.org/atom/ns#">2006-04-19T16:27:47+09:00</modified>
+  <generator xmlns="http://purl.org/atom/ns#">Plagger/0.6.3</generator>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">mizzy.org - Plagger と YouTube</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://mizzy.org/program/youtube_and_plagger.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">Plagger と YouTube posted at 2006/04/01 (Sat) 15:39 in プログラミング 宣言どおり、 Plagger::Plugin::CustomFeed::YouTube を作成しました。野良プラグインとして転がしときます。Publish::Gmail との組み合わせで以下の様になります。 YouTube はタグ別に RSS を吐いているのですが、検索 ... </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">Plagger と YouTube posted at 2006/04/01 (Sat) 15:39 in プログラミング 宣言どおり、 Plagger::Plugin::CustomFeed::YouTube を作成しました。野良プラグインとして転がしときます。Publish::Gmail との組み合わせで以下の様になります。 YouTube はタグ別に RSS を吐いているのですが、検索 ... </div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-14T22:15:00Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">mizzy.org - PLAYLOG HACKS with Plagger #2</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://mizzy.org/program/playlog_hacks_with_plagger02.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">ただ、.plagger の下にもう一段ディレクトリ掘らないと、以下の様なエラーが出ますね。 Plagger::Plugin::CustomFeed::iTunesRecentPlay [error] GET http://mizzy.org/itunes.xml failed: 500 Cannot write to '/home/miya/.plagger/customfeed-itunesrecentplay/iTunes Music Library.xml-20852': No such file or directory どこで ... </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">ただ、.plagger の下にもう一段ディレクトリ掘らないと、以下の様なエラーが出ますね。 Plagger::Plugin::CustomFeed::iTunesRecentPlay [error] GET http://mizzy.org/itunes.xml failed: 500 Cannot write to '/home/miya/.plagger/customfeed-itunesrecentplay/iTunes Music Library.xml-20852': No such file or directory どこで ... </div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-10T07:33:00Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">はてなブックマーク - Plagger</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://b.hatena.ne.jp/keyword/Plagger?sort=hot"/>
+    <summary xmlns="http://purl.org/atom/ns#">void GraphicWizardsLair( void ); // ソーシャルブックマークサービスとPlagger（Perlスクリプト）とGMailを使って「あとで読む」サービスを実現しているよ www.otsune.com </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">void GraphicWizardsLair( void ); // ソーシャルブックマークサービスとPlagger（Perlスクリプト）とGMailを使って「あとで読む」サービスを実現しているよ www.otsune.com </div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-18T02:51:00Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">はてなブックマーク - タグ plagger</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://b.hatena.ne.jp/t/plagger"/>
+    <summary xmlns="http://purl.org/atom/ns#">void GraphicWizardsLair( void ); // ソーシャルブックマークサービスとPlagger（Perlスクリプト）とGMailを使って「あとで読む」サービスを実現しているよ www.otsune.com </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">void GraphicWizardsLair( void ); // ソーシャルブックマークサービスとPlagger（Perlスクリプト）とGMailを使って「あとで読む」サービスを実現しているよ www.otsune.com </div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-16T16:51:00Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">HSBT Hiki - Plagger</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://hsbt.que.ne.jp/hiki/hiki.cgi?Plagger"/>
+    <summary xmlns="http://purl.org/atom/ns#">sudo emerge -uD g-cpan sudo g-cpan -i Plagger debian 以下のパッケージをaptでインストール libyaml-perl libclass-accessor-perl libfile-find-rule-perl libuniversal-require-perl libtext-template-perl libdatetime-perl libdigest-md5-perl libwww-perl liburi-perl libcache-cache-perl libpoe-perl libpoe-component-client-dns-perl libpoe ... </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">sudo emerge -uD g-cpan sudo g-cpan -i Plagger debian 以下のパッケージをaptでインストール libyaml-perl libclass-accessor-perl libfile-find-rule-perl libuniversal-require-perl libtext-template-perl libdatetime-perl libdigest-md5-perl libwww-perl liburi-perl libcache-cache-perl libpoe-perl libpoe-component-client-dns-perl libpoe ... </div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-04T19:28:00Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">plagger - otsune FreeStyleWiki</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://www.otsune.com/fswiki/plagger.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">の二つに分離してconfigを書いて、crontab -eで */30 * * * * cd /home/YOUR_NAME/plagger ; /usr/bin/perl plagger config-bloglines.yaml &gt; /dev/null 5 * * * * cd /home/YOUR_NAME/plagger ; /usr/bin/perl plagger config-sns.yaml &gt; /dev/null のように細かく指定している。 Link http://plagger.org/ HomePage - Shibuya.Plagger :: Publish ... </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">の二つに分離してconfigを書いて、crontab -eで */30 * * * * cd /home/YOUR_NAME/plagger ; /usr/bin/perl plagger config-bloglines.yaml &gt; /dev/null 5 * * * * cd /home/YOUR_NAME/plagger ; /usr/bin/perl plagger config-sns.yaml &gt; /dev/null のように細かく指定している。 Link http://plagger.org/ HomePage - Shibuya.Plagger :: Publish ... </div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-11T19:27:00Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Plagger をリリース: blog.bulknews.net</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://blog.bulknews.net/mt/archives/001893.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">Plagger をリリース Plagger - Pluggable RSS/Atom aggregator の 0.5.0 を CPAN にリリース しました。 Plagger は Bloglines to Gmail な Hack の進化したもので、すべてをプラグインで実装できるようにしたソフトウェアです。Blog ソフトウェアの Blosxom とか SMTP サーバの qpsmtpd とかを知って ... </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">Plagger をリリース Plagger - Pluggable RSS/Atom aggregator の 0.5.0 を CPAN にリリース しました。 Plagger は Bloglines to Gmail な Hack の進化したもので、すべてをプラグインで実装できるようにしたソフトウェアです。Blog ソフトウェアの Blosxom とか SMTP サーバの qpsmtpd とかを知って ... </div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-08T12:50:00Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">Plagger とプラグインシステム: blog.bulknews.net</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://blog.bulknews.net/mt/archives/001910.html"/>
+    <summary xmlns="http://purl.org/atom/ns#">Plagger とプラグインシステム というわけでここ数日 Plagger Blog みたいになってますがご容赦を。Plagger ネタを追いかけたい方は del.icio.us の plagger タグ でほぼ網羅できているとおもうので、ここをチェック。 で、Plagger とプラグインシステムです。「なんで Plagger ... </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">Plagger とプラグインシステム というわけでここ数日 Plagger Blog みたいになってますがご容赦を。Plagger ネタを追いかけたい方は del.icio.us の plagger タグ でほぼ網羅できているとおもうので、ここをチェック。 で、Plagger とプラグインシステムです。「なんで Plagger ... </div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-18T14:04:00Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">[僕] tag: plagger</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://sky.taro-web.com/tag/plagger"/>
+    <summary xmlns="http://purl.org/atom/ns#">geek というよりは nerd な海賊たろがたらたら綴るよ。 ... plagger 0.5.4 -&gt; 0.5.7 Searched on: plagger ... </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">geek というよりは nerd な海賊たろがたらたら綴るよ。 ... plagger 0.5.4 -&gt; 0.5.7 Searched on: plagger ... </div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-11T10:23:00Z</issued>
+  </entry>
+  <entry xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+    <title xmlns="http://purl.org/atom/ns#">はてな - Plaggerとは</title>
+    <link xmlns="http://purl.org/atom/ns#" type="text/html" rel="alternate" href="http://d.hatena.ne.jp/keyword/Plagger?kid=159950"/>
+    <summary xmlns="http://purl.org/atom/ns#">Plagger」を含むはてな内の情報 (1) 2006-03-04 00:49:47 はてなグループ - subtechグループ - Plagger </summary>
+    <content xmlns="http://purl.org/atom/ns#" mode="xml" type="text/html">
+      <div xmlns="http://www.w3.org/1999/xhtml">Plagger」を含むはてな内の情報 (1) 2006-03-04 00:49:47 はてなグループ - subtechグループ - Plagger </div>
+    </content>
+    <dc:subject xmlns="http://purl.org/dc/elements/1.1/"></dc:subject>
+    <issued xmlns="http://purl.org/atom/ns#">2006-04-17T07:03:00Z</issued>
+  </entry>
+</feed>

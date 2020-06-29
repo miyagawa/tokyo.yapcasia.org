@@ -1,0 +1,25 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1;
+comment	@# @;
+
+
+1.1
+date	2006.04.04.17.08.40;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@edit_address:125.203.130.4,edit_by:AnonymousGnome,edit_time:Tue%20Apr%20%204%2017%3A08%3A40%202006,edit_unixtime:1144170520
+@
+text
+@test
+@

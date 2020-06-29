@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+   <channel>
+      <title>YAPC::Asia 2006 Tokyo Sessions</title>
+      <link>http://tokyo.yapcasia.org/sessions/</link>
+      <description></description>
+      <language>ja</language>
+      <copyright>Copyright 2006</copyright>
+      <lastBuildDate>Wed, 22 Mar 2006 18:39:19 +0900</lastBuildDate>
+      <generator>http://www.sixapart.com/movabletype/?v=3.2</generator>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs> 
+
+            <item>
+         <title>(TBA)</title>
+         <description><![CDATA[<p>(TBA)</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/tba.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/tba.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:39:19 +0900</pubDate>
+      </item>
+            <item>
+         <title>What is a Data Model? The Relational Model; SQL is not Relational</title>
+         <description><![CDATA[<p>A talk about what a data model is, what the relational model describes, and where SQL falls short of the mark. The goal here is to explain some of theory behind the relational model, and the pitfalls that SQL introduces.</p>
+
+<p>データモデルとは何か、リレーショナルモデルにより記述されるものとは、また SQL がうまく腑に落ちないケースは何かについて語ります。リレーショナルモデルについての理論や SQL による落とし穴をいくつか解説できればと思います。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/what_is_a_data_model_the_relat.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/what_is_a_data_model_the_relat.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:36:17 +0900</pubDate>
+      </item>
+            <item>
+         <title>DebugScreen meets PadWalker</title>
+         <description><![CDATA[<p>今 Perl Framework 界で騒然のブームとなっている DebugScreen ハック。日本発の Web Application Framework Sledge では PadWalker を用いて、更なる高みを目指します。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/debugscreen_meets_padwalker.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/debugscreen_meets_padwalker.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:35:38 +0900</pubDate>
+      </item>
+            <item>
+         <title>Wikiwyg</title>
+         <description><![CDATA[<p> Wikiwyg is the simple way to add Wysiwyg editing to your existing social software project.</p>
+
+<p>Wikiwyg を利用すると、 WYSIWYG エディタを既存のソフトウェアにカンタンに導入することができます。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/wikiwyg.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/wikiwyg.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:34:39 +0900</pubDate>
+      </item>
+            <item>
+         <title>続my変数マニアックス(仮)</title>
+         <description><![CDATA[<p>my変数とサブルーチンの使い方あれこれ。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/my.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/my.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:34:07 +0900</pubDate>
+      </item>
+            <item>
+         <title>できる Perl debugger</title>
+         <description><![CDATA[<p>Perl debugger の使い方の初歩の初歩。今まで遣ったことが無い人向けに簡単な例を交えて紹介。<br />
+</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/_perl_debugger.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/_perl_debugger.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:33:37 +0900</pubDate>
+      </item>
+            <item>
+         <title>CPAN Recent Changes</title>
+         <description><![CDATA[<p>CPANの更新情報をChangelog付きで購読できるCatalystアプリケーション、CPAN Recent Changesの紹介。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/cpan_recent_changes.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/cpan_recent_changes.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:32:58 +0900</pubDate>
+      </item>
+            <item>
+         <title>曜日判定における言語の壁問題</title>
+         <description><![CDATA[<p>日本人は日本語を使うべきである!日本万歳!日本万歳!</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/post_1.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/post_1.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:32:05 +0900</pubDate>
+      </item>
+            <item>
+         <title>rapide - Remote Apache IDE</title>
+         <description><![CDATA[<p>Perl CGI の統合開発環境「rapide」の公開。rapide は、IPA未踏ソフトウェアプロジェクトの支援を受けて開発された、ウェブブラウザ上で動作する統合開発環境であり、 サービス運用中のサーバ上で、CGI の GUI デバッグやバージョン管理等が可能となっている。http://www.ipa.go.jp/jinzai/esp/2004mito1/mdata/9-5.html</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/rapide_remote_apache_ide.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/rapide_remote_apache_ide.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:30:40 +0900</pubDate>
+      </item>
+            <item>
+         <title>Let&apos;s play Sudoku</title>
+         <description><![CDATA[<p>Do you know Sudoku or Numberplace, a kind of cross-'number' puzzle. The name 'Sudoku' is born in Japan around 1988 (in fact, it's a trademark), but it seems to have far long history. Anyway, I'll try to implement Sudoku player (solver and generator) with Perl/Tk -- yes, needlessly :-). Let's play!</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/lets_play_sudoku.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/lets_play_sudoku.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:29:27 +0900</pubDate>
+      </item>
+            <item>
+         <title>ppencode for Perl6</title>
+         <description><![CDATA[<p>Lightweight Language Day and Night のラストを飾った伝説のセッション復活。Perlの予約語だけで ""just another perl hacker"" を出力するPerlプログラム。それを拡張して、任意の文字列を出力できるようにした ppencode の紹介です。さらに<br />
+パワーアップした Perl6 バージョンを(まだ作ってないけど…)頑張って英語で紹介したいと思います。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/ppencode_for_perl6.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/ppencode_for_perl6.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:25:55 +0900</pubDate>
+      </item>
+            <item>
+         <title>SVK: Version Control without the Headaches</title>
+         <description><![CDATA[<p>svk is quickly becoming the version control system of choice for many people who need to work without a constant connection to a master repository, to track and painlessly merge between multiple lines of development, and to transparently branch others' projects.</p>
+
+<p>svk は、多くの人にとってベストなバージョン管理システムとして受け入れられています。マスターレポジトリに常につながってる必要がなく、複数の開発ラインをトラックしたりうまいことマージしたり、他人のプロジェクトレポジトリを透過的にブランチしたりといったメリットがあります。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/svk_version_control_without_th.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/svk_version_control_without_th.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:13:30 +0900</pubDate>
+      </item>
+            <item>
+         <title>Marrying perl with other languages</title>
+         <description><![CDATA[<p>Chia-liang Kao has been mixing different languages together for fun, writing perl5 in perl6, using CPAN modules in JavaScript. Come to learn the secret recipes and XS-fu, so whenever you are in love with a programming language, they can get the power of CPAN as well!</p>
+
+<p>Chia-liang Kao は異なるプログラミング言語をまぜこぜにするのが大好きです。perl5 を perl6 で書いたり、JavaScript の中から CPAN モジュールを利用したり。このトークでその秘密のレシピと、ちょっとした XS の魔術を学んで、自分の好きなプログラミング言語に CPAN のパワーを融合させてみましょう！</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/marrying_perl_with_other_langu.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/marrying_perl_with_other_langu.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:12:31 +0900</pubDate>
+      </item>
+            <item>
+         <title>オープンソースソフトウェアにおける統一したレガシーエンコーディングの変換機能の開発について</title>
+         <description><![CDATA[<p>Perl 5.8.0 から標準サポートされた Encode モジュールでは、Windows 機種依存文字対応のシフトJIS符号化方式の文字コードとして cp932 がサポートされている。しかし、cp932 を日本語EUC符号化方式 や 7ビットJISコード符号化方式に変換する事が出来ないため適切な文字コード変換できないケースが生じている。今回、cp932 を他の符号化方式に変換できるようにするための文字コードの追加を行う。また、他のソフトとのデータ交換が出来るようにする為、libiconv, glibc, Ruby, Python, PHP, PostgreSQL, MySQL, nkf などにも同様の追加・修正を行う予定である。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/post.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/post.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:10:06 +0900</pubDate>
+      </item>
+            <item>
+         <title>混合語 (Kongougo)</title>
+         <description><![CDATA[<p>It is well known that Larry Wall stole lots of good bits from other programming languages to create and then extend Perl. But Perl's position as the most eclectic Programming language has been threatened by Ruby, created by Matsumoto Yukihiro by stealing all the best bits from Perl. Larry responded by stealing all the good bits from Ruby to use in Perl6, but he soon realised that this would not be enough. To defeat Ruby, Larry will use his impressive linguistic skills to steal from Matz's native language:Japanese.</p>
+
+<p>This talk starts by examining the existing similarities between Perl5 and Japanese, then looks at some of the new Perl6 features that Larry stole from Japanese.</p>
+
+<p>Larry Wall は、他のプログラミング言語から多くのものを盗み、Perl を拡張してきたことはよく知られています。ですが、もっとも折衷的なプログラミング言語としての地位は、 Ruby の作者であるまつもとゆきひろ氏が Perl から多くのものを盗んだことにより、脅かされてきています。</p>
+
+<p>それに対して Larry は、Ruby のいいところを盗んで Perl6 にとりこんでいますが、それでは足りないということに気づきました。Ruby を打ち負かすには、Larry は自身のすばらしい言語学の才能をもって、Matz の母国語である「日本語」から盗む必要があったのです。</p>
+
+<p>このトークでは、Perl5 と日本語の類似性から始まり、Perl6 の新機能のうち日本語から盗んだと思われるものを、いくつか解説します。</p>]]></description>
+         <link>http://tokyo.yapcasia.org/sessions/_kongougo.html</link>
+         <guid>http://tokyo.yapcasia.org/sessions/_kongougo.html</guid>
+         <category></category>
+         <pubDate>Wed, 22 Mar 2006 18:08:07 +0900</pubDate>
+      </item>
+      
+   </channel>
+</rss>
