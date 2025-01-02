@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>YAPC::Asia 2006 Tokyo</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/" />
-    <link rel="self" type="application/atom+xml" href="http://tokyo.yapcasia.org/blog/atom.xml" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/" />
+    <link rel="self" type="application/atom+xml" href="https://tokyo.yapcasia.org/blog/atom.xml" />
    <id>tag:tokyo.yapcasia.org,2006:/blog//9</id>
     <link rel="service.post" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9" title="YAPC::Asia 2006 Tokyo" />
     <updated>2006-12-16T07:04:43Z</updated>
@@ -11,7 +11,7 @@
  
 <entry>
     <title>Get Ready for 2007!</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/12/get_ready_for_2007.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/12/get_ready_for_2007.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=2088" title="Get Ready for 2007!" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.2088</id>
     
@@ -24,14 +24,14 @@
         <uri>http://blog.bulknews.net/mt/</uri>
     </author>
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
         <![CDATA[<p><a href="http://tokyo2007.yapcasia.org/">YAPC::Asia 2007 Tokyo site</a> is available. We're currently working on the schedule and will announce the details soonish. Subscribe to the newsletter now and get ready!</p>]]>
         
     </content>
 </entry>
 <entry>
     <title>YAPC::Asia 2006 Tokyo Videos are online!</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/05/yapcasia_2006_tokyo_videos_are.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/05/yapcasia_2006_tokyo_videos_are.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=2038" title="YAPC::Asia 2006 Tokyo Videos are online!" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.2038</id>
     
@@ -45,18 +45,18 @@
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
         <![CDATA[<p>We've finally uploaded video files recorded in YAPC::Asia 2006, to <a href="http://www.archive.org/search.php?query=subject:%22yapc%22">Internet Archive (archive.org)</a> under Creative Commons <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/">by-nc-sa</a> (with some exceptions like Audrey's "by" ones).</p>
 
-<p>Go stream them and re-enjoy YAPC::Asia. We also generated <a href="http://tokyo.yapcasia.org/video.xml">Videocast feed (RSS 2.0 with enclosures)</a> so that you can download videos using videocatcher tools like iTunes. This feed is generated using my favorite RSS/Atom aggregator/generator <a href="http://plagger.org/">Plagger</a>, of course :-)</p>
+<p>Go stream them and re-enjoy YAPC::Asia. We also generated <a href="https://tokyo.yapcasia.org/video.xml">Videocast feed (RSS 2.0 with enclosures)</a> so that you can download videos using videocatcher tools like iTunes. This feed is generated using my favorite RSS/Atom aggregator/generator <a href="http://plagger.org/">Plagger</a>, of course :-)</p>
 
-<p>We will integrate <a href="http://yapc.g.hatena.ne.jp/jkondo/">Audio</a> and <a href="http://tokyo.yapcasia.org/wiki/?SlidesList">Slides</a> to <a href="http://tokyo.yapcasia.org/sessions/">Sessions</a> page as well.</p>]]>
+<p>We will integrate <a href="http://yapc.g.hatena.ne.jp/jkondo/">Audio</a> and <a href="https://tokyo.yapcasia.org/wiki/?SlidesList">Slides</a> to <a href="https://tokyo.yapcasia.org/sessions/">Sessions</a> page as well.</p>]]>
         
     </content>
 </entry>
 <entry>
     <title>Donated 800 US Dollars to the Perl Foundation</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/04/donated_800_us_dollars_to_perl.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/04/donated_800_us_dollars_to_perl.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=2033" title="Donated 800 US Dollars to the Perl Foundation" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.2033</id>
     
@@ -70,7 +70,7 @@
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
         <![CDATA[<p>Thanks to the registration fee from massive # of attendees (300 tickets + 15 paypal registrations),  we made roughly 198,000 Yen (= 1,700 USD) of benefit in YAPC::Asia account.</p>
 
 <p>Of course, YAPC is a non-profit event and thus we pooled 100,000 Yen to Shibuya.pm account, so that we can use that for an upcoming event, if any. We decided we would donate other than that.</p>
@@ -81,7 +81,7 @@
 </entry>
 <entry>
     <title>YAPC::Asia is over</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/03/yapcasia_is_over.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/03/yapcasia_is_over.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=2027" title="YAPC::Asia is over" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.2027</id>
     
@@ -94,12 +94,12 @@
         <uri>http://blog.bulknews.net/mt/</uri>
     </author>
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
         <![CDATA[<p>YAPC::Asia 2006 Tokyo is over now. I might say this conference is a very huge success.</p>
 
-<p>It seemed to me everybody enjoyed the whole excitement of <a href="http://tokyo.yapcasia.org/sessions/">great sessions</a> from <a href="http://tokyo.yapcasia.org/speakers/">amazing speakers</a>. </p>
+<p>It seemed to me everybody enjoyed the whole excitement of <a href="https://tokyo.yapcasia.org/sessions/">great sessions</a> from <a href="https://tokyo.yapcasia.org/speakers/">amazing speakers</a>. </p>
 
-<p>We have a very temporary <a href="http://tokyo.yapcasia.org/wiki/?SlidesList">list of slides</a> and <a href="http://yapc.g.hatena.ne.jp/jkondo/">Audio files</a>. Sometime very soon we'll upload a set of video files and integrate the links to the existent sessions, but if you're impacient (as i guess you are), follow the links and re-enjoy the conference as soon as the memory is hot.</p>
+<p>We have a very temporary <a href="https://tokyo.yapcasia.org/wiki/?SlidesList">list of slides</a> and <a href="http://yapc.g.hatena.ne.jp/jkondo/">Audio files</a>. Sometime very soon we'll upload a set of video files and integrate the links to the existent sessions, but if you're impacient (as i guess you are), follow the links and re-enjoy the conference as soon as the memory is hot.</p>
 
 <p>Thank you everybody for coming!</p>]]>
         
@@ -107,7 +107,7 @@
 </entry>
 <entry>
     <title>Sessions and Speakers Bio are out</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/03/sessions_and_speakers_bio_are.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/03/sessions_and_speakers_bio_are.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=2018" title="Sessions and Speakers Bio are out" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.2018</id>
     
@@ -120,8 +120,8 @@
         <uri>http://blog.bulknews.net/mt/</uri>
     </author>
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
-        <![CDATA[<p>We're pleased to be able to finally announce the fixed <a href="http://tokyo.yapcasia.org/sessions/">Sessions schedule</a> and <a href="http://tokyo.yapcasia.org/speakers/">Speakers Bio</a> online, along with iCal subscription links.</p>
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
+        <![CDATA[<p>We're pleased to be able to finally announce the fixed <a href="https://tokyo.yapcasia.org/sessions/">Sessions schedule</a> and <a href="https://tokyo.yapcasia.org/speakers/">Speakers Bio</a> online, along with iCal subscription links.</p>
 
 <p>Sessions are ordered by timeline, while speakers are sorted alphabetically.</p>]]>
         
@@ -129,7 +129,7 @@
 </entry>
 <entry>
     <title>Conference Party on March 29th</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/03/conference_party_on_march_29th.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/03/conference_party_on_march_29th.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=1924" title="Conference Party on March 29th" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.1924</id>
     
@@ -143,7 +143,7 @@
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
         <![CDATA[<p>Hey, we have just one week for YAPC::Asia!</p>
 
 <p>We'll have an official conference dinner on 29th March, the 1st night. Here's a detailed schedule.</p>
@@ -162,7 +162,7 @@
 </entry>
 <entry>
     <title>YAPC::Asia 2006 Tokyo is Sold Out!</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/03/yapcasia_2006_tokyo_is_sold_ou.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/03/yapcasia_2006_tokyo_is_sold_ou.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=1917" title="YAPC::Asia 2006 Tokyo is Sold Out!" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.1917</id>
     
@@ -176,7 +176,7 @@
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
         <![CDATA[<p>In less than 3 weeks, we got 300 tickets sold out for domestic attendees. and  20+ signups from international attendees. This has hit the capacity of the venue and we're now closing the registration.</p>
 
 <p>Thanks for signups everybody. We're looking forward to seeing all of you in Tokyo!</p>]]>
@@ -185,7 +185,7 @@
 </entry>
 <entry>
     <title>Matz at YAPC::Asia 2006 Tokyo</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/03/matz_at_yapcasia_2006_tokyo.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/03/matz_at_yapcasia_2006_tokyo.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=1914" title="Matz at YAPC::Asia 2006 Tokyo" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.1914</id>
     
@@ -199,7 +199,7 @@
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
         <![CDATA[<p>Yukihiro Matsumoto, aka Matz, is coming to YAPC::Asia!</p>
 
 <p>He'll speak something about Ruby possibly, but the details not yet decided. Anyway, you can see Matz, Larry, Damian and Audrey in one place. Hooray! </p>]]>
@@ -208,7 +208,7 @@
 </entry>
 <entry>
     <title>YAPC Tickets are getting close to sold out</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/02/yapc_tickets_are_getting_close.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/02/yapc_tickets_are_getting_close.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=1896" title="YAPC Tickets are getting close to sold out" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.1896</id>
     
@@ -222,7 +222,7 @@
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
         <![CDATA[<p>YAPC::Asia 2006 tickets have been selling very well and it's almost getting close to SOLD OUT.</p>
 
 <p>If you're insterested, <a href="http://shibuya.pm.org/register/yapc-register/">register now</a> using our web form. NOTE that this form is only valid for international attendees.</p>]]>
@@ -231,7 +231,7 @@
 </entry>
 <entry>
     <title>Yahoo! JAPAN sponsors YAPC</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/02/yahoo_japan_sponsors_yapc.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/02/yahoo_japan_sponsors_yapc.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=1895" title="Yahoo! JAPAN sponsors YAPC" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.1895</id>
     
@@ -244,14 +244,14 @@
         <uri>http://blog.bulknews.net/mt/</uri>
     </author>
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
         <![CDATA[<p><a href="http://www.yahoo.co.jp/">Yahoo! JAPAN</a> is now a sponsor of YAPC::Asia 2006.</p>]]>
         
     </content>
 </entry>
 <entry>
     <title>Announcement: Speakers and Sponsors</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/02/announcement_speakers_and_spon.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/02/announcement_speakers_and_spon.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=1888" title="Announcement: Speakers and Sponsors" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.1888</id>
     
@@ -265,7 +265,7 @@
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
         <![CDATA[<p>Now we're ready to announce the chosen speakers and our sponsors to the world.</p>
 
 <h3>YAPC::Asia 2006 Tokyo</h3>
@@ -325,7 +325,7 @@ Registration: <a href="http://shibuya.pm.org/register/yapc-register/">Register N
 </entry>
 <entry>
     <title>YAPC::Asia 2006 Registration comes here!</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/01/yapcasia_2006_registration_com.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/01/yapcasia_2006_registration_com.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=1885" title="YAPC::Asia 2006 Registration comes here!" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.1885</id>
     
@@ -339,10 +339,10 @@ Registration: <a href="http://shibuya.pm.org/register/yapc-register/">Register N
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
-        <![CDATA[<p>We're happy to announce that the registratin for YAPC::Asia 2006 (March 29-30th, Tokyo) has now opened! Use <a href="http://shibuya.pm.org/register/yapc-register/form.cgi">our web registration form</a> (shibuya.pm.org site) to register yourself and pay the conference fee using PayPal to get the 500 JPY off. If you consider visiting Tokyo for this YAPC but are wondering the accommodation, go check out <a href="http://tokyo.yapcasia.org/blog/2006/01/accommodation_plan_for_yapcasi.html">the accommodation plan</a> how to reserve a hotel in the neighborhood.</p>
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
+        <![CDATA[<p>We're happy to announce that the registratin for YAPC::Asia 2006 (March 29-30th, Tokyo) has now opened! Use <a href="http://shibuya.pm.org/register/yapc-register/form.cgi">our web registration form</a> (shibuya.pm.org site) to register yourself and pay the conference fee using PayPal to get the 500 JPY off. If you consider visiting Tokyo for this YAPC but are wondering the accommodation, go check out <a href="https://tokyo.yapcasia.org/blog/2006/01/accommodation_plan_for_yapcasi.html">the accommodation plan</a> how to reserve a hotel in the neighborhood.</p>
 
-<p>(Note: This registration form is only for international attendees and non-Japanese speaking people. Japanese attendees should check out <a href="http://tokyo.yapcasia.org/blog/ja/">our Japanese blog</a> how to get the ticket, etc.)</p>
+<p>(Note: This registration form is only for international attendees and non-Japanese speaking people. Japanese attendees should check out <a href="https://tokyo.yapcasia.org/blog/ja/">our Japanese blog</a> how to get the ticket, etc.)</p>
 
 <p>In addition, I'd like to remind that the deadline for the YAPC talks is just 2 days away: January 31st. Use <a href="http://shibuya.pm.org/register/yapc-papers/">the web form</a> to submit your talks, either 20 mins, 45 mins or Lightning Talks.</p>
 
@@ -352,7 +352,7 @@ Registration: <a href="http://shibuya.pm.org/register/yapc-register/">Register N
 </entry>
 <entry>
     <title>Accommodation Plan for YAPC::Asia</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/01/accommodation_plan_for_yapcasi.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/01/accommodation_plan_for_yapcasi.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=1883" title="Accommodation Plan for YAPC::Asia" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.1883</id>
     
@@ -365,7 +365,7 @@ Registration: <a href="http://shibuya.pm.org/register/yapc-register/">Register N
         <uri>http://blog.bulknews.net/mt/</uri>
     </author>
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
         <![CDATA[<p>For attendees from overseas and aliens in non-Tokyo Japan, we'd like to put some information regarding accommodation plan in Tokyo here.</p>
 
 <p>Unfortunately, the conference venue <a href="http://www.pio.or.jp/english/access.html">Ota City PiO</a> doesn't come with any accommodation, and it's a little far from the central Tokyo. But the venue is pretty close to the "Keikyu-Kamata" station and using <a href="http://www.keikyu.co.jp/english/sitemap.html">the Keikyu Line</a> Express it's just one-stop for bigger towns like Shinagawa and Kawasaki.</p>
@@ -406,7 +406,7 @@ Registration: <a href="http://shibuya.pm.org/register/yapc-register/">Register N
 </entry>
 <entry>
     <title>YAPC Talks submission deadline is 2 weeks away!</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/01/yapc_talks_submission_deadline.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/01/yapc_talks_submission_deadline.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=1882" title="YAPC Talks submission deadline is 2 weeks away!" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.1882</id>
     
@@ -420,7 +420,7 @@ Registration: <a href="http://shibuya.pm.org/register/yapc-register/">Register N
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
         <![CDATA[<p>Now we'd like to remind you that the submission deadline for YAPC::Asia talks is 2 weeks away, Jan 31st.</p>
 
 <p>Note that if you submit Non-Lightning Talk (20 or 45 minutes) and if it's accepted, your registration fee is now free. We'll start attendees registration on early February and we'll inform you the result of acceptance in email beforehand.</p>
@@ -431,7 +431,7 @@ Registration: <a href="http://shibuya.pm.org/register/yapc-register/">Register N
 </entry>
 <entry>
     <title>IRC channel to hang out</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/2006/01/irc_channel_to_hang_out.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/2006/01/irc_channel_to_hang_out.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=9/entry_id=1875" title="IRC channel to hang out" />
     <id>tag:tokyo.yapcasia.org,2006:/blog//9.1875</id>
     
@@ -445,7 +445,7 @@ Registration: <a href="http://shibuya.pm.org/register/yapc-register/">Register N
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="en" xml:base="http://tokyo.yapcasia.org/blog/">
+    <content type="html" xml:lang="en" xml:base="https://tokyo.yapcasia.org/blog/">
         <![CDATA[<p>Now we have an official IRC channel for you to chat about everything related (or non-related) to YAPC::Asia, at <a href="irc://chat.freenode.net/#yapc.asia">#yapc.asia on freenode (chat.freenode.net)</a>. Feel free to join the channel ask questions if you have.</p>]]>
         
     </content>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>YAPC::Asia 2006 Tokyo (Japanese)</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/" />
-    <link rel="self" type="application/atom+xml" href="http://tokyo.yapcasia.org/blog/ja/atom.xml" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/" />
+    <link rel="self" type="application/atom+xml" href="https://tokyo.yapcasia.org/blog/ja/atom.xml" />
    <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10</id>
     <link rel="service.post" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10" title="YAPC::Asia 2006 Tokyo (Japanese)" />
     <updated>2006-05-16T06:27:13Z</updated>
@@ -11,7 +11,7 @@
  
 <entry>
     <title>YAPC::Asia のビデオを公開しました</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/05/yapcasia_2.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/05/yapcasia_2.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=2039" title="YAPC::Asia のビデオを公開しました" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.2039</id>
     
@@ -25,18 +25,18 @@
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
         <![CDATA[<p>おまたせしました。YAPC::Asia 2006 で撮影したビデオを QuickTime フォーマットで公開しました。<a href="http://www.archive.org/search.php?query=subject:%22yapc%22">Internet Archive (archive.org)</a> からダウンロードできます。ビデオは Creative Commons <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/">by-nc-sa</a> のもとでライセンスされています。いくつか <a href="http://creativecommons.org/licenses/by/2.5/">by</a> ライセンスのファイルも含まれます。</p>
 
-<p>iTunes などで利用できる <a href="http://tokyo.yapcasia.org/video.xml">ビデオキャスト feed (RSS 2.0)</a> を <a href="http://plagger.org/">Plagger</a> を使って生成しましたので、Video iPod などへの同期にはこちらをご利用ください。(レシピを提供してくれた <a href="http://blog.nomadscafe.jp/archives/000673.html">kazeburoさん</a> ありがとう！）</p>
+<p>iTunes などで利用できる <a href="https://tokyo.yapcasia.org/video.xml">ビデオキャスト feed (RSS 2.0)</a> を <a href="http://plagger.org/">Plagger</a> を使って生成しましたので、Video iPod などへの同期にはこちらをご利用ください。(レシピを提供してくれた <a href="http://blog.nomadscafe.jp/archives/000673.html">kazeburoさん</a> ありがとう！）</p>
 
-<p><a href="http://tokyo.yapcasia.org/wiki/?SlidesList">スライド</a> や <a href="http://yapc.g.hatena.ne.jp/jkondo/">音声</a> とあわせてお楽しみください。</p>]]>
+<p><a href="https://tokyo.yapcasia.org/wiki/?SlidesList">スライド</a> や <a href="http://yapc.g.hatena.ne.jp/jkondo/">音声</a> とあわせてお楽しみください。</p>]]>
         
     </content>
 </entry>
 <entry>
     <title>収益の一部を The Perl Foundation に寄付しました</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/04/_the_perl_foundation.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/04/_the_perl_foundation.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=2034" title="収益の一部を The Perl Foundation に寄付しました" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.2034</id>
     
@@ -49,7 +49,7 @@
         <uri>http://blog.bulknews.net/mt/</uri>
     </author>
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
         <![CDATA[<p>たくさんの参加者およびスポンサーの皆様のおかげで、YAPC::Asia 2006 の会計は +194,912 円の収支となりました。</p>
 
 <p>もともと非営利のイベントですので、100,000 円を運営母体である <a href="http://shibuya.pm.org/">Shibuya Perl Mongers</a> のイベント関連資金としてプールし、残りの 94,912 円分に相当する 800 US ドルを <a href="https://donate.perlfoundation.org/index.pl?node=Fund+Drive+Details&amp;selfund=2">The Perl Foundation の Perl 開発基金</a> にドネートしました。中ほどにある Miyagawa, Tatsuhiko がそれをあらわしています（フォームに Shibuya.pm の名前で登録してくれと書いたのですが、自動的にクレジットカード名義が使われているようです）。</p>
@@ -60,7 +60,7 @@
 </entry>
 <entry>
     <title>YAPC::Asia is over (２日目の感想はこちらへ）</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/03/yapcasia_is_over.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/03/yapcasia_is_over.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=2026" title="YAPC::Asia is over (２日目の感想はこちらへ）" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.2026</id>
     
@@ -73,7 +73,7 @@
         <uri>http://blog.bulknews.net/mt/</uri>
     </author>
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
         <![CDATA[<p>YAPC::Asia 2006 Tokyo が無事終了しました。</p>
 
 <p>スピーカーの皆さん、関係者の方々、スポンサーの皆さん、そして参加者のみなさん、ありがとうございました。</p>
@@ -84,7 +84,7 @@
 </entry>
 <entry>
     <title>１日目の感想はこちら</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/03/post_8.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/03/post_8.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=2025" title="１日目の感想はこちら" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.2025</id>
     
@@ -97,7 +97,7 @@
         <uri>http://blog.bulknews.net/mt/</uri>
     </author>
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
         <![CDATA[<p>YAPC::Asia 2006 Tokyo 1日目が無事終了しました。</p>
 
 <p>感想などはこちらのエントリまで Trackback にて。</p>]]>
@@ -106,7 +106,7 @@
 </entry>
 <entry>
     <title>当日の会場受付</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/03/post_7.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/03/post_7.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=2024" title="当日の会場受付" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.2024</id>
     
@@ -119,7 +119,7 @@
         <uri>http://blog.bulknews.net/mt/</uri>
     </author>
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
         <![CDATA[<p>カンファレンス当日の受付開始は 9:15 を予定しています。9:00 から会場に入ることはできますが、受付に時間がかかる可能性がありますのでご了承ください。</p>
 
 <p>会場には WiFi を用意します。バックチャネル #yapc.asia および #yapc.asia-ja (chat.freenode.net) や英語トークの資料参照などにご利用ください。</p>]]>
@@ -128,7 +128,7 @@
 </entry>
 <entry>
     <title>セッションのアブストラクトを日本語訳しました</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/03/post_6.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/03/post_6.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=2020" title="セッションのアブストラクトを日本語訳しました" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.2020</id>
     
@@ -141,8 +141,8 @@
         <uri>http://blog.bulknews.net/mt/</uri>
     </author>
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
-        <![CDATA[<p><a href="http://tokyo.yapcasia.org/sessions/">Sessions</a> のうち、英語で行われる（予定）のトークのアブストラクトを日本語に訳しました。より自然な訳になるように心がけてみましたが、内容に相違などありましたらご指摘ください。</p>
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
+        <![CDATA[<p><a href="https://tokyo.yapcasia.org/sessions/">Sessions</a> のうち、英語で行われる（予定）のトークのアブストラクトを日本語に訳しました。より自然な訳になるように心がけてみましたが、内容に相違などありましたらご指摘ください。</p>
 
 <p>当日の配布資料にも印刷する予定ですので、少しでも、英語によるトークの理解の助けになれば幸いです。なお、日本語で行われると思われるトークについては、英語アブストラクトのままにしてあります。</p>]]>
         
@@ -150,7 +150,7 @@
 </entry>
 <entry>
     <title>セッションとスピーカープロフィールを公開</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/03/post_5.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/03/post_5.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=2017" title="セッションとスピーカープロフィールを公開" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.2017</id>
     
@@ -163,8 +163,8 @@
         <uri>http://blog.bulknews.net/mt/</uri>
     </author>
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
-        <![CDATA[<p>お待たせしました、昨日の iCal による公開に続き、アブストラクトを含めたセッション概要（Lightning Talks 含む）、スピーカーのプロフィールを公開しました。<a href="http://tokyo.yapcasia.org/sessions/">Sessions</a>, <a href="http://tokyo.yapcasia.org/speakers/">Speakers</a> からそれぞれどうぞ。セッションは時系列、スピーカーはアルファベット順となっています。</p>
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
+        <![CDATA[<p>お待たせしました、昨日の iCal による公開に続き、アブストラクトを含めたセッション概要（Lightning Talks 含む）、スピーカーのプロフィールを公開しました。<a href="https://tokyo.yapcasia.org/sessions/">Sessions</a>, <a href="https://tokyo.yapcasia.org/speakers/">Speakers</a> からそれぞれどうぞ。セッションは時系列、スピーカーはアルファベット順となっています。</p>
 
 <p>Language: English となっているトークについては、英語によるプレゼンとなりますが、日本語による資料、またオリジナルのスライドを用意し、Web から閲覧できるようにする予定です（会場では Wi-Fi が利用可能です）。時間やスタッフリソースなどの制約上、逐次および同時による通訳は行いませんのでご了承ください。Q&A などについては、各セッションで通訳スタッフを用意できる予定です。</p>
 
@@ -175,7 +175,7 @@
 </entry>
 <entry>
     <title>YAPC::Asia タイムテーブルを暫定公開</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/03/yapcasia_1.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/03/yapcasia_1.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=1926" title="YAPC::Asia タイムテーブルを暫定公開" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.1926</id>
     
@@ -189,12 +189,12 @@
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
         <![CDATA[<p>お待たせしました、YAPC::Asia のタイムテーブルを暫定的に一般公開します。</p>
 
-<p>ics ファイル: <a href="http://tokyo.yapcasia.org/calendar/calendars/YAPC.ics">小展示ホール (3/29, 30)</a>,  <a href="http://tokyo.yapcasia.org/calendar/calendars/YAPCConvention.ics">コンベンションホール (3/30)</a><br />
+<p>ics ファイル: <a href="https://tokyo.yapcasia.org/calendar/calendars/YAPC.ics">小展示ホール (3/29, 30)</a>,  <a href="https://tokyo.yapcasia.org/calendar/calendars/YAPCConvention.ics">コンベンションホール (3/30)</a><br />
 iCal: <a href="webcal://tokyo.yapcasia.org/calendar/calendars/YAPC.ics">小展示ホール (3/29, 30)</a>, <a href="webcal://tokyo.yapcasia.org/calendar/calendars/YAPCConvention.ics">コンベンションホール (3/30)</a><br />
-php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060329">3/29 (小展示ホール)</a>, <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060330">3/30 (小展示ホール, コンベンションホール)</a></p>
+php iCalendar: <a href="https://tokyo.yapcasia.org/calendar/day.php?getdate=20060329">3/29 (小展示ホール)</a>, <a href="https://tokyo.yapcasia.org/calendar/day.php?getdate=20060330">3/30 (小展示ホール, コンベンションホール)</a></p>
 
 <p>スピーカーのプロフィールなどを含めたコンテンツは現在準備しておりますが、3/23 にはアップできる予定です。タイムテーブルの発表が予定より遅くなり申し訳ありません。</p>]]>
         
@@ -202,7 +202,7 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
 </entry>
 <entry>
     <title>カンファレンス懇親会について</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/03/post_4.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/03/post_4.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=1925" title="カンファレンス懇親会について" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.1925</id>
     
@@ -216,7 +216,7 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
         <![CDATA[<p>YAPC::Asia 2006 懇親会を 3/29 (1日目)の夜に予定しています。以下が詳細となります。</p>
 
 <p><strong>日時:</strong> 2006/03/29 19:00-<br />
@@ -236,7 +236,7 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
 </entry>
 <entry>
     <title>チケットは売り切れました</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/03/post_3.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/03/post_3.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=1918" title="チケットは売り切れました" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.1918</id>
     
@@ -250,7 +250,7 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
         <![CDATA[<p>YAPC::Asia 2006 Tokyo は 300枚のチケットを売り切りました。海外からの20名弱の登録を含めて、会場のキャパシティに達しましたので、登録および販売を終了します。</p>
 
 <p>3/29, 30 と会場でお会いするのをスタッフ一同、楽しみにしています。</p>]]>
@@ -259,7 +259,7 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
 </entry>
 <entry>
     <title>まつもとゆきひろさんの参加が決定しました</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/03/post_2.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/03/post_2.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=1915" title="まつもとゆきひろさんの参加が決定しました" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.1915</id>
     
@@ -273,7 +273,7 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
         <![CDATA[<p>Ruby の作者であるまつもとゆきひろさんが<a href="http://www.rubyist.net/~matz/20060304.html#p01">YAPC::Asia 2006 に参加</a>することが決まりました。</p>
 
 <p>初日か２日目に３０分ほどのトークを予定していますが詳細は未定です。</p>]]>
@@ -282,7 +282,7 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
 </entry>
 <entry>
     <title>チケット追加販売は 2/27 (月) 10:00 より</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/02/_227_1000.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/02/_227_1000.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=1903" title="チケット追加販売は 2/27 (月) 10:00 より" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.1903</id>
     
@@ -296,8 +296,8 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
-        <![CDATA[<p><a href="http://tokyo.yapcasia.org/blog/ja/2006/02/post_1.html">先日お知らせした</a> チケット販売ですが、<strong>2006/2/27 (Mon) 10:00</strong> より、ローソンチケットにて50枚追加販売することに決定しました。</p>
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
+        <![CDATA[<p><a href="https://tokyo.yapcasia.org/blog/ja/2006/02/post_1.html">先日お知らせした</a> チケット販売ですが、<strong>2006/2/27 (Mon) 10:00</strong> より、ローソンチケットにて50枚追加販売することに決定しました。</p>
 
 <p>イベント: YAPC::Asia 2006 Tokyo (Lコード 36278)<br />
 発売開始: 2006/02/27 (Mon)<br />
@@ -319,7 +319,7 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
 </entry>
 <entry>
     <title>チケットを追加販売します</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/02/post_1.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/02/post_1.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=1898" title="チケットを追加販売します" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.1898</id>
     
@@ -333,18 +333,18 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
         <![CDATA[<p>おかげさまで1週間ほどで SOLD OUT となった YAPC::Asia 2006 Tokyo ですが、会場の座席数などを考慮の結果、チケットを50枚追加販売することに決定しました。</p>
 
 <p>販売に関する最新情報は本 Blog で2月中に発表予定です。<a href="http://feeds.feedburner.com/Yapcasia2006TokyoJapanese">RSS フィード</a> などで最新情報をチェックしてみてください。</p>
 
-<p><strong>UPDATE:</strong> <a href="http://tokyo.yapcasia.org/blog/ja/2006/02/_227_1000.html">2/27 10:00 より販売します</a>。</p>]]>
+<p><strong>UPDATE:</strong> <a href="https://tokyo.yapcasia.org/blog/ja/2006/02/_227_1000.html">2/27 10:00 より販売します</a>。</p>]]>
         
     </content>
 </entry>
 <entry>
     <title>Sessions を公開しました</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/02/sessions.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/02/sessions.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=1897" title="Sessions を公開しました" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.1897</id>
     
@@ -358,14 +358,14 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
     </author>
             <category term="announcement" />
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
-        <![CDATA[<p>YAPC::Asia 2006 Tokyo の <a href="http://tokyo.yapcasia.org/blog/ja/sessions.html">セッション一覧</a> をアブストラクトとともに公開しました。タイムテーブルやスピーカーのプロフィール公開は3月上旬を予定しています。</p>]]>
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
+        <![CDATA[<p>YAPC::Asia 2006 Tokyo の <a href="https://tokyo.yapcasia.org/blog/ja/sessions.html">セッション一覧</a> をアブストラクトとともに公開しました。タイムテーブルやスピーカーのプロフィール公開は3月上旬を予定しています。</p>]]>
         
     </content>
 </entry>
 <entry>
     <title>Yahoo! JAPAN がスポンサーになりました</title>
-    <link rel="alternate" type="text/html" href="http://tokyo.yapcasia.org/blog/ja/2006/02/yahoo_japan.html" />
+    <link rel="alternate" type="text/html" href="https://tokyo.yapcasia.org/blog/ja/2006/02/yahoo_japan.html" />
     <link rel="service.edit" type="application/atom+xml" href="http://blog.bulknews.net/mt3/mt-atom.cgi/weblog/blog_id=10/entry_id=1894" title="Yahoo! JAPAN がスポンサーになりました" />
     <id>tag:tokyo.yapcasia.org,2006:/blog/ja//10.1894</id>
     
@@ -378,7 +378,7 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
         <uri>http://blog.bulknews.net/mt/</uri>
     </author>
     
-    <content type="html" xml:lang="ja" xml:base="http://tokyo.yapcasia.org/blog/ja/">
+    <content type="html" xml:lang="ja" xml:base="https://tokyo.yapcasia.org/blog/ja/">
         <![CDATA[<p><a href="http://www.yahoo.co.jp/">Yahoo! JAPAN</a> 様が YAPC::Asia 2006 のスポンサーとなりましたので、お知らせします。</p>
 
 <p>なお、YAPC::Asia では現在スポンサーの追加募集は行っておりませんので、あしからずご了承ください。</p>]]>

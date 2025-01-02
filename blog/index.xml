@@ -2,7 +2,7 @@
 <rss version="2.0">
    <channel>
       <title>YAPC::Asia 2006 Tokyo</title>
-      <link>http://tokyo.yapcasia.org/blog/</link>
+      <link>https://tokyo.yapcasia.org/blog/</link>
       <description>March 29-30 2006, Tokyo</description>
       <language>en</language>
       <copyright>Copyright 2006</copyright>
@@ -13,8 +13,8 @@
             <item>
          <title>Get Ready for 2007!</title>
          <description><![CDATA[<p><a href="http://tokyo2007.yapcasia.org/">YAPC::Asia 2007 Tokyo site</a> is available. We're currently working on the schedule and will announce the details soonish. Subscribe to the newsletter now and get ready!</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/12/get_ready_for_2007.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/12/get_ready_for_2007.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/12/get_ready_for_2007.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/12/get_ready_for_2007.html</guid>
          <category></category>
          <pubDate>Sat, 16 Dec 2006 16:03:38 +0900</pubDate>
       </item>
@@ -22,11 +22,11 @@
          <title>YAPC::Asia 2006 Tokyo Videos are online!</title>
          <description><![CDATA[<p>We've finally uploaded video files recorded in YAPC::Asia 2006, to <a href="http://www.archive.org/search.php?query=subject:%22yapc%22">Internet Archive (archive.org)</a> under Creative Commons <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/">by-nc-sa</a> (with some exceptions like Audrey's "by" ones).</p>
 
-<p>Go stream them and re-enjoy YAPC::Asia. We also generated <a href="http://tokyo.yapcasia.org/video.xml">Videocast feed (RSS 2.0 with enclosures)</a> so that you can download videos using videocatcher tools like iTunes. This feed is generated using my favorite RSS/Atom aggregator/generator <a href="http://plagger.org/">Plagger</a>, of course :-)</p>
+<p>Go stream them and re-enjoy YAPC::Asia. We also generated <a href="https://tokyo.yapcasia.org/video.xml">Videocast feed (RSS 2.0 with enclosures)</a> so that you can download videos using videocatcher tools like iTunes. This feed is generated using my favorite RSS/Atom aggregator/generator <a href="http://plagger.org/">Plagger</a>, of course :-)</p>
 
-<p>We will integrate <a href="http://yapc.g.hatena.ne.jp/jkondo/">Audio</a> and <a href="http://tokyo.yapcasia.org/wiki/?SlidesList">Slides</a> to <a href="http://tokyo.yapcasia.org/sessions/">Sessions</a> page as well.</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/05/yapcasia_2006_tokyo_videos_are.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/05/yapcasia_2006_tokyo_videos_are.html</guid>
+<p>We will integrate <a href="http://yapc.g.hatena.ne.jp/jkondo/">Audio</a> and <a href="https://tokyo.yapcasia.org/wiki/?SlidesList">Slides</a> to <a href="https://tokyo.yapcasia.org/sessions/">Sessions</a> page as well.</p>]]></description>
+         <link>https://tokyo.yapcasia.org/blog/2006/05/yapcasia_2006_tokyo_videos_are.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/05/yapcasia_2006_tokyo_videos_are.html</guid>
          <category>announcement</category>
          <pubDate>Tue, 16 May 2006 02:00:22 +0900</pubDate>
       </item>
@@ -37,8 +37,8 @@
 <p>Of course, YAPC is a non-profit event and thus we pooled 100,000 Yen to Shibuya.pm account, so that we can use that for an upcoming event, if any. We decided we would donate other than that.</p>
 
 <p>So today, we made 800 US Dollars donation to <a href="https://donate.perlfoundation.org/index.pl?node=Fund+Drive+Details&amp;selfund=2">Perl development fund of The Perl Foundation</a>. You can find my name (Miyagawa, Tatsuhiko) in the middle, which actually represents Shibuya Perl Mongers and YAPC::Asia 2006 Committe. (I noted that Shibuya.pm should be listed there instead of my name, but apparently there name listing system is not flexible enough)</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/04/donated_800_us_dollars_to_perl.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/04/donated_800_us_dollars_to_perl.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/04/donated_800_us_dollars_to_perl.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/04/donated_800_us_dollars_to_perl.html</guid>
          <category>announcement</category>
          <pubDate>Tue, 18 Apr 2006 00:44:47 +0900</pubDate>
       </item>
@@ -46,23 +46,23 @@
          <title>YAPC::Asia is over</title>
          <description><![CDATA[<p>YAPC::Asia 2006 Tokyo is over now. I might say this conference is a very huge success.</p>
 
-<p>It seemed to me everybody enjoyed the whole excitement of <a href="http://tokyo.yapcasia.org/sessions/">great sessions</a> from <a href="http://tokyo.yapcasia.org/speakers/">amazing speakers</a>. </p>
+<p>It seemed to me everybody enjoyed the whole excitement of <a href="https://tokyo.yapcasia.org/sessions/">great sessions</a> from <a href="https://tokyo.yapcasia.org/speakers/">amazing speakers</a>. </p>
 
-<p>We have a very temporary <a href="http://tokyo.yapcasia.org/wiki/?SlidesList">list of slides</a> and <a href="http://yapc.g.hatena.ne.jp/jkondo/">Audio files</a>. Sometime very soon we'll upload a set of video files and integrate the links to the existent sessions, but if you're impacient (as i guess you are), follow the links and re-enjoy the conference as soon as the memory is hot.</p>
+<p>We have a very temporary <a href="https://tokyo.yapcasia.org/wiki/?SlidesList">list of slides</a> and <a href="http://yapc.g.hatena.ne.jp/jkondo/">Audio files</a>. Sometime very soon we'll upload a set of video files and integrate the links to the existent sessions, but if you're impacient (as i guess you are), follow the links and re-enjoy the conference as soon as the memory is hot.</p>
 
 <p>Thank you everybody for coming!</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/03/yapcasia_is_over.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/03/yapcasia_is_over.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/03/yapcasia_is_over.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/03/yapcasia_is_over.html</guid>
          <category></category>
          <pubDate>Fri, 31 Mar 2006 01:06:38 +0900</pubDate>
       </item>
             <item>
          <title>Sessions and Speakers Bio are out</title>
-         <description><![CDATA[<p>We're pleased to be able to finally announce the fixed <a href="http://tokyo.yapcasia.org/sessions/">Sessions schedule</a> and <a href="http://tokyo.yapcasia.org/speakers/">Speakers Bio</a> online, along with iCal subscription links.</p>
+         <description><![CDATA[<p>We're pleased to be able to finally announce the fixed <a href="https://tokyo.yapcasia.org/sessions/">Sessions schedule</a> and <a href="https://tokyo.yapcasia.org/speakers/">Speakers Bio</a> online, along with iCal subscription links.</p>
 
 <p>Sessions are ordered by timeline, while speakers are sorted alphabetically.</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/03/sessions_and_speakers_bio_are.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/03/sessions_and_speakers_bio_are.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/03/sessions_and_speakers_bio_are.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/03/sessions_and_speakers_bio_are.html</guid>
          <category></category>
          <pubDate>Thu, 23 Mar 2006 12:59:17 +0900</pubDate>
       </item>
@@ -81,8 +81,8 @@
 <p>We're sorry this dinner is not free, and has a limit of people to get together.</p>
 
 <p><strong>NOTE:</strong> Speakers and invited guests don't have to signup.</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/03/conference_party_on_march_29th.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/03/conference_party_on_march_29th.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/03/conference_party_on_march_29th.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/03/conference_party_on_march_29th.html</guid>
          <category>announcement</category>
          <pubDate>Wed, 22 Mar 2006 00:30:51 +0900</pubDate>
       </item>
@@ -91,8 +91,8 @@
          <description><![CDATA[<p>In less than 3 weeks, we got 300 tickets sold out for domestic attendees. and  20+ signups from international attendees. This has hit the capacity of the venue and we're now closing the registration.</p>
 
 <p>Thanks for signups everybody. We're looking forward to seeing all of you in Tokyo!</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/03/yapcasia_2006_tokyo_is_sold_ou.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/03/yapcasia_2006_tokyo_is_sold_ou.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/03/yapcasia_2006_tokyo_is_sold_ou.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/03/yapcasia_2006_tokyo_is_sold_ou.html</guid>
          <category>announcement</category>
          <pubDate>Thu, 16 Mar 2006 18:35:41 +0900</pubDate>
       </item>
@@ -101,8 +101,8 @@
          <description><![CDATA[<p>Yukihiro Matsumoto, aka Matz, is coming to YAPC::Asia!</p>
 
 <p>He'll speak something about Ruby possibly, but the details not yet decided. Anyway, you can see Matz, Larry, Damian and Audrey in one place. Hooray! </p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/03/matz_at_yapcasia_2006_tokyo.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/03/matz_at_yapcasia_2006_tokyo.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/03/matz_at_yapcasia_2006_tokyo.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/03/matz_at_yapcasia_2006_tokyo.html</guid>
          <category>announcement</category>
          <pubDate>Mon, 06 Mar 2006 07:31:52 +0900</pubDate>
       </item>
@@ -111,16 +111,16 @@
          <description><![CDATA[<p>YAPC::Asia 2006 tickets have been selling very well and it's almost getting close to SOLD OUT.</p>
 
 <p>If you're insterested, <a href="http://shibuya.pm.org/register/yapc-register/">register now</a> using our web form. NOTE that this form is only valid for international attendees.</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/02/yapc_tickets_are_getting_close.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/02/yapc_tickets_are_getting_close.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/02/yapc_tickets_are_getting_close.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/02/yapc_tickets_are_getting_close.html</guid>
          <category>announcement</category>
          <pubDate>Tue, 21 Feb 2006 13:52:43 +0900</pubDate>
       </item>
             <item>
          <title>Yahoo! JAPAN sponsors YAPC</title>
          <description><![CDATA[<p><a href="http://www.yahoo.co.jp/">Yahoo! JAPAN</a> is now a sponsor of YAPC::Asia 2006.</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/02/yahoo_japan_sponsors_yapc.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/02/yahoo_japan_sponsors_yapc.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/02/yahoo_japan_sponsors_yapc.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/02/yahoo_japan_sponsors_yapc.html</guid>
          <category></category>
          <pubDate>Tue, 21 Feb 2006 13:47:58 +0900</pubDate>
       </item>
@@ -180,22 +180,22 @@ Registration: <a href="http://shibuya.pm.org/register/yapc-register/">Register N
 
 <p>* Conference official languages are Japanese and English. International speakers will do their talks mostly in English.</p>
 ]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/02/announcement_speakers_and_spon.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/02/announcement_speakers_and_spon.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/02/announcement_speakers_and_spon.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/02/announcement_speakers_and_spon.html</guid>
          <category>announcement</category>
          <pubDate>Fri, 03 Feb 2006 17:44:48 +0900</pubDate>
       </item>
             <item>
          <title>YAPC::Asia 2006 Registration comes here!</title>
-         <description><![CDATA[<p>We're happy to announce that the registratin for YAPC::Asia 2006 (March 29-30th, Tokyo) has now opened! Use <a href="http://shibuya.pm.org/register/yapc-register/form.cgi">our web registration form</a> (shibuya.pm.org site) to register yourself and pay the conference fee using PayPal to get the 500 JPY off. If you consider visiting Tokyo for this YAPC but are wondering the accommodation, go check out <a href="http://tokyo.yapcasia.org/blog/2006/01/accommodation_plan_for_yapcasi.html">the accommodation plan</a> how to reserve a hotel in the neighborhood.</p>
+         <description><![CDATA[<p>We're happy to announce that the registratin for YAPC::Asia 2006 (March 29-30th, Tokyo) has now opened! Use <a href="http://shibuya.pm.org/register/yapc-register/form.cgi">our web registration form</a> (shibuya.pm.org site) to register yourself and pay the conference fee using PayPal to get the 500 JPY off. If you consider visiting Tokyo for this YAPC but are wondering the accommodation, go check out <a href="https://tokyo.yapcasia.org/blog/2006/01/accommodation_plan_for_yapcasi.html">the accommodation plan</a> how to reserve a hotel in the neighborhood.</p>
 
-<p>(Note: This registration form is only for international attendees and non-Japanese speaking people. Japanese attendees should check out <a href="http://tokyo.yapcasia.org/blog/ja/">our Japanese blog</a> how to get the ticket, etc.)</p>
+<p>(Note: This registration form is only for international attendees and non-Japanese speaking people. Japanese attendees should check out <a href="https://tokyo.yapcasia.org/blog/ja/">our Japanese blog</a> how to get the ticket, etc.)</p>
 
 <p>In addition, I'd like to remind that the deadline for the YAPC talks is just 2 days away: January 31st. Use <a href="http://shibuya.pm.org/register/yapc-papers/">the web form</a> to submit your talks, either 20 mins, 45 mins or Lightning Talks.</p>
 
 <p>We're looking forward to seeing you in Tokyo!</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/01/yapcasia_2006_registration_com.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/01/yapcasia_2006_registration_com.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/01/yapcasia_2006_registration_com.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/01/yapcasia_2006_registration_com.html</guid>
          <category>announcement</category>
          <pubDate>Mon, 30 Jan 2006 18:38:56 +0900</pubDate>
       </item>
@@ -236,8 +236,8 @@ Registration: <a href="http://shibuya.pm.org/register/yapc-register/">Register N
 
 <p>If you live in Japan (non-Tokyo area) and want to find hotels to stay during the conference, you can use <a href="http://travel.rakuten.co.jp/en/">Rakuten Travel</a> and <a href="http://tokyo-hotel.poke1.jp/shinagawa.html">other Hotel reservation sites</a> to find Hotels in Shinagawa or Kawasaki area.<br />
 </p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/01/accommodation_plan_for_yapcasi.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/01/accommodation_plan_for_yapcasi.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/01/accommodation_plan_for_yapcasi.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/01/accommodation_plan_for_yapcasi.html</guid>
          <category></category>
          <pubDate>Fri, 20 Jan 2006 06:51:47 +0900</pubDate>
       </item>
@@ -248,16 +248,16 @@ Registration: <a href="http://shibuya.pm.org/register/yapc-register/">Register N
 <p>Note that if you submit Non-Lightning Talk (20 or 45 minutes) and if it's accepted, your registration fee is now free. We'll start attendees registration on early February and we'll inform you the result of acceptance in email beforehand.</p>
 
 <p>Use <a href="http://shibuya.pm.org/register/yapc-papers/">our Web form</a> to submit your talks now.</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/01/yapc_talks_submission_deadline.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/01/yapc_talks_submission_deadline.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/01/yapc_talks_submission_deadline.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/01/yapc_talks_submission_deadline.html</guid>
          <category>announcement</category>
          <pubDate>Wed, 18 Jan 2006 04:01:10 +0900</pubDate>
       </item>
             <item>
          <title>IRC channel to hang out</title>
          <description><![CDATA[<p>Now we have an official IRC channel for you to chat about everything related (or non-related) to YAPC::Asia, at <a href="irc://chat.freenode.net/#yapc.asia">#yapc.asia on freenode (chat.freenode.net)</a>. Feel free to join the channel ask questions if you have.</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/2006/01/irc_channel_to_hang_out.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/2006/01/irc_channel_to_hang_out.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/2006/01/irc_channel_to_hang_out.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/2006/01/irc_channel_to_hang_out.html</guid>
          <category>announcement</category>
          <pubDate>Fri, 06 Jan 2006 10:53:00 +0900</pubDate>
       </item>

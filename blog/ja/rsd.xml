@@ -3,7 +3,7 @@
 <service>
 <engineName>Movable Type 3.2</engineName> 
 <engineLink>http://www.sixapart.com/movabletype/</engineLink>
-<homePageLink>http://tokyo.yapcasia.org/blog/ja/</homePageLink>
+<homePageLink>https://tokyo.yapcasia.org/blog/ja/</homePageLink>
 <apis>
 <api name="MetaWeblog" preferred="true" apiLink="http://blog.bulknews.net/mt3/mt-xmlrpc.cgi" blogID="10" />
 <api name="Blogger" preferred="false" apiLink="http://blog.bulknews.net/mt3/mt-xmlrpc.cgi" blogID="10" />

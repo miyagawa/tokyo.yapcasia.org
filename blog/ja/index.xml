@@ -2,7 +2,7 @@
 <rss version="2.0">
    <channel>
       <title>YAPC::Asia 2006 Tokyo (Japanese)</title>
-      <link>http://tokyo.yapcasia.org/blog/ja/</link>
+      <link>https://tokyo.yapcasia.org/blog/ja/</link>
       <description>March 29-30 2006, Tokyo</description>
       <language>ja</language>
       <copyright>Copyright 2006</copyright>
@@ -14,11 +14,11 @@
          <title>YAPC::Asia のビデオを公開しました</title>
          <description><![CDATA[<p>おまたせしました。YAPC::Asia 2006 で撮影したビデオを QuickTime フォーマットで公開しました。<a href="http://www.archive.org/search.php?query=subject:%22yapc%22">Internet Archive (archive.org)</a> からダウンロードできます。ビデオは Creative Commons <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/">by-nc-sa</a> のもとでライセンスされています。いくつか <a href="http://creativecommons.org/licenses/by/2.5/">by</a> ライセンスのファイルも含まれます。</p>
 
-<p>iTunes などで利用できる <a href="http://tokyo.yapcasia.org/video.xml">ビデオキャスト feed (RSS 2.0)</a> を <a href="http://plagger.org/">Plagger</a> を使って生成しましたので、Video iPod などへの同期にはこちらをご利用ください。(レシピを提供してくれた <a href="http://blog.nomadscafe.jp/archives/000673.html">kazeburoさん</a> ありがとう！）</p>
+<p>iTunes などで利用できる <a href="https://tokyo.yapcasia.org/video.xml">ビデオキャスト feed (RSS 2.0)</a> を <a href="http://plagger.org/">Plagger</a> を使って生成しましたので、Video iPod などへの同期にはこちらをご利用ください。(レシピを提供してくれた <a href="http://blog.nomadscafe.jp/archives/000673.html">kazeburoさん</a> ありがとう！）</p>
 
-<p><a href="http://tokyo.yapcasia.org/wiki/?SlidesList">スライド</a> や <a href="http://yapc.g.hatena.ne.jp/jkondo/">音声</a> とあわせてお楽しみください。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/05/yapcasia_2.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/05/yapcasia_2.html</guid>
+<p><a href="https://tokyo.yapcasia.org/wiki/?SlidesList">スライド</a> や <a href="http://yapc.g.hatena.ne.jp/jkondo/">音声</a> とあわせてお楽しみください。</p>]]></description>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/05/yapcasia_2.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/05/yapcasia_2.html</guid>
          <category>announcement</category>
          <pubDate>Tue, 16 May 2006 02:00:23 +0900</pubDate>
       </item>
@@ -29,8 +29,8 @@
 <p>もともと非営利のイベントですので、100,000 円を運営母体である <a href="http://shibuya.pm.org/">Shibuya Perl Mongers</a> のイベント関連資金としてプールし、残りの 94,912 円分に相当する 800 US ドルを <a href="https://donate.perlfoundation.org/index.pl?node=Fund+Drive+Details&amp;selfund=2">The Perl Foundation の Perl 開発基金</a> にドネートしました。中ほどにある Miyagawa, Tatsuhiko がそれをあらわしています（フォームに Shibuya.pm の名前で登録してくれと書いたのですが、自動的にクレジットカード名義が使われているようです）。</p>
 
 <p>以上、ご報告でした。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/04/_the_perl_foundation.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/04/_the_perl_foundation.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/04/_the_perl_foundation.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/04/_the_perl_foundation.html</guid>
          <category></category>
          <pubDate>Tue, 18 Apr 2006 00:44:48 +0900</pubDate>
       </item>
@@ -41,8 +41,8 @@
 <p>スピーカーの皆さん、関係者の方々、スポンサーの皆さん、そして参加者のみなさん、ありがとうございました。</p>
 
 <p>１回目の開催で至らない点もあったかとおもいますが、楽しんでいただけたら幸いです。感想などはこちらのエントリまで。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/03/yapcasia_is_over.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/03/yapcasia_is_over.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/03/yapcasia_is_over.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/03/yapcasia_is_over.html</guid>
          <category></category>
          <pubDate>Thu, 30 Mar 2006 22:22:44 +0900</pubDate>
       </item>
@@ -51,8 +51,8 @@
          <description><![CDATA[<p>YAPC::Asia 2006 Tokyo 1日目が無事終了しました。</p>
 
 <p>感想などはこちらのエントリまで Trackback にて。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/03/post_8.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/03/post_8.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/03/post_8.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/03/post_8.html</guid>
          <category></category>
          <pubDate>Wed, 29 Mar 2006 23:29:03 +0900</pubDate>
       </item>
@@ -61,31 +61,31 @@
          <description><![CDATA[<p>カンファレンス当日の受付開始は 9:15 を予定しています。9:00 から会場に入ることはできますが、受付に時間がかかる可能性がありますのでご了承ください。</p>
 
 <p>会場には WiFi を用意します。バックチャネル #yapc.asia および #yapc.asia-ja (chat.freenode.net) や英語トークの資料参照などにご利用ください。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/03/post_7.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/03/post_7.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/03/post_7.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/03/post_7.html</guid>
          <category></category>
          <pubDate>Wed, 29 Mar 2006 00:10:06 +0900</pubDate>
       </item>
             <item>
          <title>セッションのアブストラクトを日本語訳しました</title>
-         <description><![CDATA[<p><a href="http://tokyo.yapcasia.org/sessions/">Sessions</a> のうち、英語で行われる（予定）のトークのアブストラクトを日本語に訳しました。より自然な訳になるように心がけてみましたが、内容に相違などありましたらご指摘ください。</p>
+         <description><![CDATA[<p><a href="https://tokyo.yapcasia.org/sessions/">Sessions</a> のうち、英語で行われる（予定）のトークのアブストラクトを日本語に訳しました。より自然な訳になるように心がけてみましたが、内容に相違などありましたらご指摘ください。</p>
 
 <p>当日の配布資料にも印刷する予定ですので、少しでも、英語によるトークの理解の助けになれば幸いです。なお、日本語で行われると思われるトークについては、英語アブストラクトのままにしてあります。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/03/post_6.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/03/post_6.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/03/post_6.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/03/post_6.html</guid>
          <category></category>
          <pubDate>Sat, 25 Mar 2006 22:18:11 +0900</pubDate>
       </item>
             <item>
          <title>セッションとスピーカープロフィールを公開</title>
-         <description><![CDATA[<p>お待たせしました、昨日の iCal による公開に続き、アブストラクトを含めたセッション概要（Lightning Talks 含む）、スピーカーのプロフィールを公開しました。<a href="http://tokyo.yapcasia.org/sessions/">Sessions</a>, <a href="http://tokyo.yapcasia.org/speakers/">Speakers</a> からそれぞれどうぞ。セッションは時系列、スピーカーはアルファベット順となっています。</p>
+         <description><![CDATA[<p>お待たせしました、昨日の iCal による公開に続き、アブストラクトを含めたセッション概要（Lightning Talks 含む）、スピーカーのプロフィールを公開しました。<a href="https://tokyo.yapcasia.org/sessions/">Sessions</a>, <a href="https://tokyo.yapcasia.org/speakers/">Speakers</a> からそれぞれどうぞ。セッションは時系列、スピーカーはアルファベット順となっています。</p>
 
 <p>Language: English となっているトークについては、英語によるプレゼンとなりますが、日本語による資料、またオリジナルのスライドを用意し、Web から閲覧できるようにする予定です（会場では Wi-Fi が利用可能です）。時間やスタッフリソースなどの制約上、逐次および同時による通訳は行いませんのでご了承ください。Q&A などについては、各セッションで通訳スタッフを用意できる予定です。</p>
 
 <p>セッションの順序および内容は予告なく変更する可能性があります。ご了承ください。<br />
 </p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/03/post_5.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/03/post_5.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/03/post_5.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/03/post_5.html</guid>
          <category></category>
          <pubDate>Thu, 23 Mar 2006 12:59:17 +0900</pubDate>
       </item>
@@ -93,13 +93,13 @@
          <title>YAPC::Asia タイムテーブルを暫定公開</title>
          <description><![CDATA[<p>お待たせしました、YAPC::Asia のタイムテーブルを暫定的に一般公開します。</p>
 
-<p>ics ファイル: <a href="http://tokyo.yapcasia.org/calendar/calendars/YAPC.ics">小展示ホール (3/29, 30)</a>,  <a href="http://tokyo.yapcasia.org/calendar/calendars/YAPCConvention.ics">コンベンションホール (3/30)</a><br />
+<p>ics ファイル: <a href="https://tokyo.yapcasia.org/calendar/calendars/YAPC.ics">小展示ホール (3/29, 30)</a>,  <a href="https://tokyo.yapcasia.org/calendar/calendars/YAPCConvention.ics">コンベンションホール (3/30)</a><br />
 iCal: <a href="webcal://tokyo.yapcasia.org/calendar/calendars/YAPC.ics">小展示ホール (3/29, 30)</a>, <a href="webcal://tokyo.yapcasia.org/calendar/calendars/YAPCConvention.ics">コンベンションホール (3/30)</a><br />
-php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060329">3/29 (小展示ホール)</a>, <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060330">3/30 (小展示ホール, コンベンションホール)</a></p>
+php iCalendar: <a href="https://tokyo.yapcasia.org/calendar/day.php?getdate=20060329">3/29 (小展示ホール)</a>, <a href="https://tokyo.yapcasia.org/calendar/day.php?getdate=20060330">3/30 (小展示ホール, コンベンションホール)</a></p>
 
 <p>スピーカーのプロフィールなどを含めたコンテンツは現在準備しておりますが、3/23 にはアップできる予定です。タイムテーブルの発表が予定より遅くなり申し訳ありません。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/03/yapcasia_1.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/03/yapcasia_1.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/03/yapcasia_1.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/03/yapcasia_1.html</guid>
          <category>announcement</category>
          <pubDate>Wed, 22 Mar 2006 15:52:26 +0900</pubDate>
       </item>
@@ -119,8 +119,8 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
 <p>費用がカンファレンス別途となってしまう点、また全員の参加を受け付けることができない可能性がある点、あらかじめお詫び申し上げます。ご了承ください。</p>
 
 <p>※スピーカーおよびゲストとして招待されている方はすでにカウントしていますので、登録の必要はありません。逆にスピーカーの方でどうしても参加できない場合には、staff[at]yapcasia.org までご連絡ください。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/03/post_4.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/03/post_4.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/03/post_4.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/03/post_4.html</guid>
          <category>announcement</category>
          <pubDate>Wed, 22 Mar 2006 00:30:52 +0900</pubDate>
       </item>
@@ -129,8 +129,8 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
          <description><![CDATA[<p>YAPC::Asia 2006 Tokyo は 300枚のチケットを売り切りました。海外からの20名弱の登録を含めて、会場のキャパシティに達しましたので、登録および販売を終了します。</p>
 
 <p>3/29, 30 と会場でお会いするのをスタッフ一同、楽しみにしています。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/03/post_3.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/03/post_3.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/03/post_3.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/03/post_3.html</guid>
          <category>announcement</category>
          <pubDate>Thu, 16 Mar 2006 18:35:42 +0900</pubDate>
       </item>
@@ -139,14 +139,14 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
          <description><![CDATA[<p>Ruby の作者であるまつもとゆきひろさんが<a href="http://www.rubyist.net/~matz/20060304.html#p01">YAPC::Asia 2006 に参加</a>することが決まりました。</p>
 
 <p>初日か２日目に３０分ほどのトークを予定していますが詳細は未定です。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/03/post_2.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/03/post_2.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/03/post_2.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/03/post_2.html</guid>
          <category>announcement</category>
          <pubDate>Mon, 06 Mar 2006 07:31:53 +0900</pubDate>
       </item>
             <item>
          <title>チケット追加販売は 2/27 (月) 10:00 より</title>
-         <description><![CDATA[<p><a href="http://tokyo.yapcasia.org/blog/ja/2006/02/post_1.html">先日お知らせした</a> チケット販売ですが、<strong>2006/2/27 (Mon) 10:00</strong> より、ローソンチケットにて50枚追加販売することに決定しました。</p>
+         <description><![CDATA[<p><a href="https://tokyo.yapcasia.org/blog/ja/2006/02/post_1.html">先日お知らせした</a> チケット販売ですが、<strong>2006/2/27 (Mon) 10:00</strong> より、ローソンチケットにて50枚追加販売することに決定しました。</p>
 
 <p>イベント: YAPC::Asia 2006 Tokyo (Lコード 36278)<br />
 発売開始: 2006/02/27 (Mon)<br />
@@ -163,8 +163,8 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
 ローソン店内設置の「Loppi」で24時間購入可能</p>
 
 <p>その他ローソンチケット購入についての詳細は <a href="http://www.lawson.co.jp/loppi/service/concert.html">こちら</a>。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/02/_227_1000.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/02/_227_1000.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/02/_227_1000.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/02/_227_1000.html</guid>
          <category>announcement</category>
          <pubDate>Fri, 24 Feb 2006 08:53:25 +0900</pubDate>
       </item>
@@ -174,17 +174,17 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
 
 <p>販売に関する最新情報は本 Blog で2月中に発表予定です。<a href="http://feeds.feedburner.com/Yapcasia2006TokyoJapanese">RSS フィード</a> などで最新情報をチェックしてみてください。</p>
 
-<p><strong>UPDATE:</strong> <a href="http://tokyo.yapcasia.org/blog/ja/2006/02/_227_1000.html">2/27 10:00 より販売します</a>。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/02/post_1.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/02/post_1.html</guid>
+<p><strong>UPDATE:</strong> <a href="https://tokyo.yapcasia.org/blog/ja/2006/02/_227_1000.html">2/27 10:00 より販売します</a>。</p>]]></description>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/02/post_1.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/02/post_1.html</guid>
          <category>announcement</category>
          <pubDate>Tue, 21 Feb 2006 16:35:12 +0900</pubDate>
       </item>
             <item>
          <title>Sessions を公開しました</title>
-         <description><![CDATA[<p>YAPC::Asia 2006 Tokyo の <a href="http://tokyo.yapcasia.org/blog/ja/sessions.html">セッション一覧</a> をアブストラクトとともに公開しました。タイムテーブルやスピーカーのプロフィール公開は3月上旬を予定しています。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/02/sessions.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/02/sessions.html</guid>
+         <description><![CDATA[<p>YAPC::Asia 2006 Tokyo の <a href="https://tokyo.yapcasia.org/blog/ja/sessions.html">セッション一覧</a> をアブストラクトとともに公開しました。タイムテーブルやスピーカーのプロフィール公開は3月上旬を予定しています。</p>]]></description>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/02/sessions.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/02/sessions.html</guid>
          <category>announcement</category>
          <pubDate>Tue, 21 Feb 2006 15:09:17 +0900</pubDate>
       </item>
@@ -193,8 +193,8 @@ php iCalendar: <a href="http://tokyo.yapcasia.org/calendar/day.php?getdate=20060
          <description><![CDATA[<p><a href="http://www.yahoo.co.jp/">Yahoo! JAPAN</a> 様が YAPC::Asia 2006 のスポンサーとなりましたので、お知らせします。</p>
 
 <p>なお、YAPC::Asia では現在スポンサーの追加募集は行っておりませんので、あしからずご了承ください。</p>]]></description>
-         <link>http://tokyo.yapcasia.org/blog/ja/2006/02/yahoo_japan.html</link>
-         <guid>http://tokyo.yapcasia.org/blog/ja/2006/02/yahoo_japan.html</guid>
+         <link>https://tokyo.yapcasia.org/blog/ja/2006/02/yahoo_japan.html</link>
+         <guid>https://tokyo.yapcasia.org/blog/ja/2006/02/yahoo_japan.html</guid>
          <category></category>
          <pubDate>Tue, 21 Feb 2006 13:47:58 +0900</pubDate>
       </item>
